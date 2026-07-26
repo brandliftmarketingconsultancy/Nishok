@@ -1,1159 +1,1184 @@
 <!doctype html>
 <html lang="en">
-  <!--<< Header Area >>-->
-  <head>
-    
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="modinatheme" />
-    <meta
-      name="description"
-      content="Nishok Hospital - Orthopedic & Skin Specialist Hospital "
-    />
-    <!-- ======== Page title ============ -->
-    <title>Nishok Hospital - Orthopedic & Skin Specialist Hospital</title>
-    <!--<< Favicon >>-->
-    <link rel="shortcut icon" href="assets/img/favicon.svg" />
-    <!--<< Bootstrap min.css >>-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!--<< Font Awesome.css >>-->
-    <link rel="stylesheet" href="assets/css/font-awesome.css" />
-    <!--<< Animate.css >>-->
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <!--<< Magnific Popup.css >>-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
-    <!--<< MeanMenu.css >>-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css" />
-    <!--<< Odometer.css >>-->
-    <link rel="stylesheet" href="assets/css/odometer.css" />
-    <!--<< Swiper Bundle.css >>-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-    <!--<< Nice Select.css >>-->
-    <link rel="stylesheet" href="assets/css/nice-select.css" />
-    <!--<< Main.css >>-->
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <style>
-      /* Testimonial avatar — colored circle with initial letter */
-      .testimonial-avatar {
-        width: 80px;
-        height: 80px;
-        border-radius: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 32px;
-        font-weight: 700;
-        color: #fff;
-        flex-shrink: 0;
-      }
+<!--<< Header Area >>-->
 
-      /* Counter strip spacing fix (all devices) */
+<head>
+
+  <!-- ========== Meta Tags ========== -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="modinatheme" />
+  <meta name="description" content="Nishok Hospital - Orthopedic & Skin Specialist Hospital " />
+  <!-- ======== Page title ============ -->
+  <title>Nishok Hospital - Orthopedic & Skin Specialist Hospital</title>
+  <!--<< Favicon >>-->
+  <link rel="shortcut icon" href="assets/img/favicon.svg" />
+  <!--<< Bootstrap min.css >>-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <!--<< Font Awesome.css >>-->
+  <link rel="stylesheet" href="assets/css/font-awesome.css" />
+  <!--<< Animate.css >>-->
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <!--<< Magnific Popup.css >>-->
+  <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+  <!--<< MeanMenu.css >>-->
+  <link rel="stylesheet" href="assets/css/meanmenu.css" />
+  <!--<< Odometer.css >>-->
+  <link rel="stylesheet" href="assets/css/odometer.css" />
+  <!--<< Swiper Bundle.css >>-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+  <!--<< Nice Select.css >>-->
+  <link rel="stylesheet" href="assets/css/nice-select.css" />
+  <!--<< Main.css >>-->
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <style>
+    /* Testimonial avatar — colored circle with initial letter */
+    .testimonial-avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      font-weight: 700;
+      color: #fff;
+      flex-shrink: 0;
+    }
+
+    /* Counter strip spacing fix (all devices) */
+    .page-home .vedio-bg-section .counter-section {
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+
+    .page-home .vedio-bg-section .counter-wrapper {
+      width: 100%;
+      max-width: 100%;
+      padding: 34px 28px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 26px 18px;
+      align-items: stretch;
+    }
+
+    .page-home .vedio-bg-section .counter-items {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .page-home .vedio-bg-section .counter-items .icon {
+      width: 74px;
+      height: 74px;
+      line-height: 74px;
+      flex-shrink: 0;
+    }
+
+    .page-home .vedio-bg-section .counter-items .content h2 {
+      margin: 0 0 8px;
+      line-height: 1;
+      font-size: clamp(2rem, 3.8vw, 3.4rem);
+      display: inline-flex;
+      align-items: baseline;
+      gap: 2px;
+      white-space: nowrap;
+    }
+
+    .page-home .vedio-bg-section .counter-items .content p {
+      margin: 0;
+      color: #fff;
+      font-size: clamp(0.95rem, 1.45vw, 1.1rem);
+      line-height: 1.35;
+      text-transform: capitalize;
+    }
+
+    @media (max-width: 1199px) {
+      .page-home .vedio-bg-section .counter-wrapper {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding: 30px 20px;
+        gap: 20px 16px;
+      }
+    }
+
+    @media (max-width: 767px) {
       .page-home .vedio-bg-section .counter-section {
-        padding-left: 14px;
-        padding-right: 14px;
+        padding-left: 12px;
+        padding-right: 12px;
       }
 
       .page-home .vedio-bg-section .counter-wrapper {
-        width: 100%;
-        max-width: 100%;
-        padding: 34px 28px;
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 26px 18px;
-        align-items: stretch;
+        grid-template-columns: 1fr;
+        padding: 24px 16px;
+        gap: 16px;
+        border-radius: 10px;
       }
 
       .page-home .vedio-bg-section .counter-items {
-        min-width: 0;
-        display: flex;
-        align-items: center;
-        gap: 12px;
-      }
-
-      .page-home .vedio-bg-section .counter-items .icon {
-        width: 74px;
-        height: 74px;
-        line-height: 74px;
-        flex-shrink: 0;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
       }
 
       .page-home .vedio-bg-section .counter-items .content h2 {
-        margin: 0 0 8px;
-        line-height: 1;
-        font-size: clamp(2rem, 3.8vw, 3.4rem);
-        display: inline-flex;
-        align-items: baseline;
-        gap: 2px;
-        white-space: nowrap;
+        justify-content: center;
+        font-size: clamp(2rem, 9vw, 2.6rem);
+        margin-bottom: 6px;
       }
 
       .page-home .vedio-bg-section .counter-items .content p {
-        margin: 0;
-        color: #fff;
-        font-size: clamp(0.95rem, 1.45vw, 1.1rem);
-        line-height: 1.35;
-        text-transform: capitalize;
+        font-size: 0.98rem;
       }
+    }
 
-      @media (max-width: 1199px) {
-        .page-home .vedio-bg-section .counter-wrapper {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-          padding: 30px 20px;
-          gap: 20px 16px;
-        }
-      }
+    /* Compact hero quick-info bar (replaces tall two-tile layout) */
+    .page-home .hero-feature-wrapper.index-hero-quickstat {
+      padding: 10px 12px !important;
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -72px;
+    }
 
-      @media (max-width: 767px) {
-        .page-home .vedio-bg-section .counter-section {
-          padding-left: 12px;
-          padding-right: 12px;
-        }
-
-        .page-home .vedio-bg-section .counter-wrapper {
-          grid-template-columns: 1fr;
-          padding: 24px 16px;
-          gap: 16px;
-          border-radius: 10px;
-        }
-
-        .page-home .vedio-bg-section .counter-items {
-          justify-content: center;
-          text-align: center;
-          flex-direction: column;
-          gap: 10px;
-        }
-
-        .page-home .vedio-bg-section .counter-items .content h2 {
-          justify-content: center;
-          font-size: clamp(2rem, 9vw, 2.6rem);
-          margin-bottom: 6px;
-        }
-
-        .page-home .vedio-bg-section .counter-items .content p {
-          font-size: 0.98rem;
-        }
-      }
-
-      /* Compact hero quick-info bar (replaces tall two-tile layout) */
+    @media (max-width: 1199px) {
       .page-home .hero-feature-wrapper.index-hero-quickstat {
-        padding: 10px 12px !important;
-        max-width: 640px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -72px;
+        margin-top: -44px;
+        max-width: 100%;
       }
+    }
 
-      @media (max-width: 1199px) {
-        .page-home .hero-feature-wrapper.index-hero-quickstat {
-          margin-top: -44px;
-          max-width: 100%;
-        }
+    @media (max-width: 991px) {
+      .page-home .hero-feature-wrapper.index-hero-quickstat {
+        margin-top: -28px;
+        padding: 8px 10px !important;
       }
+    }
 
-      @media (max-width: 991px) {
-        .page-home .hero-feature-wrapper.index-hero-quickstat {
-          margin-top: -28px;
-          padding: 8px 10px !important;
-        }
-      }
+    .page-home .index-hero-quickstat__inner {
+      display: flex;
+      align-items: stretch;
+      gap: 0;
+    }
 
+    .page-home .index-hero-quickstat__item {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 8px 12px;
+      min-width: 0;
+      text-decoration: none;
+      color: inherit;
+      border-radius: 8px;
+      transition: background-color 0.2s ease;
+    }
+
+    .page-home a.index-hero-quickstat__item:hover {
+      background-color: rgba(27, 62, 217, 0.07);
+    }
+
+    .page-home .index-hero-quickstat__ico {
+      width: 36px;
+      height: 36px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    .page-home .index-hero-quickstat__text {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+      min-width: 0;
+      text-align: left;
+    }
+
+    .page-home .index-hero-quickstat__label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #6c7a93;
+      line-height: 1.2;
+    }
+
+    .page-home .index-hero-quickstat__value {
+      font-size: clamp(0.875rem, 2.4vw, 1rem);
+      font-weight: 600;
+      color: #172965;
+      line-height: 1.25;
+      word-break: break-word;
+    }
+
+    .page-home .index-hero-quickstat__chev {
+      margin-left: auto;
+      flex-shrink: 0;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      background: #fff;
+      box-shadow: 0 4px 14px rgba(6, 3, 48, 0.08);
+      color: var(--theme-color, #1b3ed9);
+      font-size: 13px;
+      transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
+    }
+
+    .page-home a.index-hero-quickstat__item:hover .index-hero-quickstat__chev {
+      background-color: var(--theme-color, #1b3ed9);
+      color: #fff;
+    }
+
+    .page-home .index-hero-quickstat__divider {
+      width: 1px;
+      flex-shrink: 0;
+      background: rgba(23, 41, 101, 0.12);
+      margin: 6px 0;
+    }
+
+    @media (max-width: 480px) {
       .page-home .index-hero-quickstat__inner {
-        display: flex;
-        align-items: stretch;
-        gap: 0;
-      }
-
-      .page-home .index-hero-quickstat__item {
-        flex: 1;
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        padding: 8px 12px;
-        min-width: 0;
-        text-decoration: none;
-        color: inherit;
-        border-radius: 8px;
-        transition: background-color 0.2s ease;
-      }
-
-      .page-home a.index-hero-quickstat__item:hover {
-        background-color: rgba(27, 62, 217, 0.07);
-      }
-
-      .page-home .index-hero-quickstat__ico {
-        width: 36px;
-        height: 36px;
-        object-fit: contain;
-        flex-shrink: 0;
-      }
-
-      .page-home .index-hero-quickstat__text {
-        display: flex;
         flex-direction: column;
-        gap: 1px;
-        min-width: 0;
-        text-align: left;
-      }
-
-      .page-home .index-hero-quickstat__label {
-        font-size: 11px;
-        font-weight: 600;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        color: #6c7a93;
-        line-height: 1.2;
-      }
-
-      .page-home .index-hero-quickstat__value {
-        font-size: clamp(0.875rem, 2.4vw, 1rem);
-        font-weight: 600;
-        color: #172965;
-        line-height: 1.25;
-        word-break: break-word;
-      }
-
-      .page-home .index-hero-quickstat__chev {
-        margin-left: auto;
-        flex-shrink: 0;
-        width: 32px;
-        height: 32px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        background: #fff;
-        box-shadow: 0 4px 14px rgba(6, 3, 48, 0.08);
-        color: var(--theme-color, #1b3ed9);
-        font-size: 13px;
-        transition:
-          background-color 0.2s ease,
-          color 0.2s ease;
-      }
-
-      .page-home a.index-hero-quickstat__item:hover .index-hero-quickstat__chev {
-        background-color: var(--theme-color, #1b3ed9);
-        color: #fff;
       }
 
       .page-home .index-hero-quickstat__divider {
-        width: 1px;
-        flex-shrink: 0;
-        background: rgba(23, 41, 101, 0.12);
-        margin: 6px 0;
-      }
-
-      @media (max-width: 480px) {
-        .page-home .index-hero-quickstat__inner {
-          flex-direction: column;
-        }
-
-        .page-home .index-hero-quickstat__divider {
-          width: 100%;
-          height: 1px;
-          margin: 0;
-        }
-
-        .page-home .index-hero-quickstat__chev {
-          display: none;
-        }
-      }
-
-      /* Less bottom padding under hero copy now that the bar is shallow */
-      @media (min-width: 992px) {
-        .page-home .hero-section.hero-1 .hero-content {
-          margin-bottom: 100px;
-        }
-      }
-
-      @media (min-width: 1400px) {
-        .page-home .hero-section.hero-1 .hero-content {
-          margin-bottom: 120px;
-        }
-      }
-      /* ---------- Home index: layout & polish ---------- */
-      .page-home .site-logo-responsive {
-        width: clamp(160px, 55vw, 228px);
-        height: auto;
-        max-width: 100%;
-      }
-
-      .page-home .service-icon-box .index-service-panel-title {
-        margin-top: 20px;
-        margin-bottom: 0;
-        line-height: 1.2;
-      }
-
-      .page-home .service-icon-box .index-service-panel-title a {
-        color: #fff;
-        font-weight: 700;
-        font-size: clamp(1.35rem, 4vw, 2.25rem);
-        text-decoration: none;
-      }
-
-      .page-home .service-icon-box .index-service-panel-title a:hover {
-        color: var(--theme-color, #1b3ed9);
-      }
-
-      .page-home .service-icon-box .index-service-panel-lead {
-        color: rgba(255, 255, 255, 0.92);
-        font-size: clamp(0.95rem, 2.6vw, 1.2rem);
-        line-height: 1.55;
-        margin-top: 12px;
-        margin-bottom: 0;
-      }
-
-      .page-home .service-icon-box .index-service-list-heading {
-        color: #fff;
-        font-weight: 600;
-        font-size: clamp(1rem, 2.4vw, 1.15rem);
-        margin-bottom: 10px;
-        margin-top: 8px;
-      }
-
-      .page-home .service-icon-box .index-service-list {
-        color: rgba(255, 255, 255, 0.95);
-        padding-left: 1.25rem;
+        width: 100%;
+        height: 1px;
         margin: 0;
+      }
+
+      .page-home .index-hero-quickstat__chev {
+        display: none;
+      }
+    }
+
+    /* Less bottom padding under hero copy now that the bar is shallow */
+    @media (min-width: 992px) {
+      .page-home .hero-section.hero-1 .hero-content {
+        margin-bottom: 100px;
+      }
+    }
+
+    @media (min-width: 1400px) {
+      .page-home .hero-section.hero-1 .hero-content {
+        margin-bottom: 120px;
+      }
+    }
+
+    /* ---------- Home index: layout & polish ---------- */
+    .page-home .site-logo-responsive {
+      width: clamp(160px, 55vw, 228px);
+      height: auto;
+      max-width: 100%;
+    }
+
+    .page-home .service-icon-box .index-service-panel-title {
+      margin-top: 20px;
+      margin-bottom: 0;
+      line-height: 1.2;
+    }
+
+    .page-home .service-icon-box .index-service-panel-title a {
+      color: #fff;
+      font-weight: 700;
+      font-size: clamp(1.35rem, 4vw, 2.25rem);
+      text-decoration: none;
+    }
+
+    .page-home .service-icon-box .index-service-panel-title a:hover {
+      color: var(--theme-color, #1b3ed9);
+    }
+
+    .page-home .service-icon-box .index-service-panel-lead {
+      color: rgba(255, 255, 255, 0.92);
+      font-size: clamp(0.95rem, 2.6vw, 1.2rem);
+      line-height: 1.55;
+      margin-top: 12px;
+      margin-bottom: 0;
+    }
+
+    .page-home .service-icon-box .index-service-list-heading {
+      color: #fff;
+      font-weight: 600;
+      font-size: clamp(1rem, 2.4vw, 1.15rem);
+      margin-bottom: 10px;
+      margin-top: 8px;
+    }
+
+    .page-home .service-icon-box .index-service-list {
+      color: rgba(255, 255, 255, 0.95);
+      padding-left: 1.25rem;
+      margin: 0;
+      text-align: left;
+      list-style-type: circle;
+      list-style-position: outside;
+    }
+
+    .page-home .service-icon-box .index-service-list li {
+      margin-bottom: 8px;
+      line-height: 1.45;
+    }
+
+    /* Service tab CTA   inline-block ignores margin auto without block + fit-content */
+    .page-home .service-icon-box>.theme-btn {
+      display: block;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .page-home .feature-treatment-section .feature-icon-box {
+      justify-content: space-between;
+      gap: clamp(12px, 3vw, 56px);
+      flex-wrap: wrap;
+    }
+
+    @media (min-width: 992px) {
+      .page-home .feature-treatment-section .feature-icon-box {
+        flex-wrap: nowrap;
+      }
+    }
+
+    /* Main content headings & paragraphs   scoped so header/offcanvas stay untouched */
+    @media (max-width: 767px) {
+
+      body.page-home section h1,
+      body.page-home section h2,
+      body.page-home section h3,
+      body.page-home section h4,
+      body.page-home section h5,
+      body.page-home section h6,
+      body.page-home section p,
+      body.page-home footer h1,
+      body.page-home footer h2,
+      body.page-home footer h3,
+      body.page-home footer h4,
+      body.page-home footer h5,
+      body.page-home footer h6,
+      body.page-home footer p {
+        text-align: center;
+      }
+
+      body.page-home .faq-section .accordion .accordion-button,
+      body.page-home .faq-section .accordion .accordion-body {
         text-align: left;
-        list-style-type: circle;
-        list-style-position: outside;
       }
 
-      .page-home .service-icon-box .index-service-list li {
-        margin-bottom: 8px;
-        line-height: 1.45;
+      body.page-home .faq-section .faq-content .section-title.text-start {
+        text-align: center !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
       }
 
-      /* Service tab CTA   inline-block ignores margin auto without block + fit-content */
-      .page-home .service-icon-box > .theme-btn {
+      body.page-home .faq-section .faq-content .section-title .subtitle,
+      body.page-home .faq-section .faq-content .section-title span.tx-subTitle,
+      body.page-home .faq-section .faq-content .section-title h2 {
+        text-align: center;
+      }
+
+      body.page-home .faq-section .faq-content .section-title .subtitle {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body.page-home .faq-section .faq-content .faq-button {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      body.page-home .faq-section .faq-content .faq-button .theme-btn {
         display: block;
         width: fit-content;
         margin-left: auto;
         margin-right: auto;
       }
 
-      .page-home .feature-treatment-section .feature-icon-box {
-        justify-content: space-between;
-        gap: clamp(12px, 3vw, 56px);
+      body.page-home .faq-section .faq-content .faq-button .icon-items {
+        justify-content: center;
+      }
+
+      body.page-home .faq-section .faq-content .faq-button .icon-items .content,
+      body.page-home .faq-section .faq-content .faq-button .icon-items .content p,
+      body.page-home .faq-section .faq-content .faq-button .icon-items .content h4,
+      body.page-home .faq-section .faq-content .faq-button .icon-items .content h4 a {
+        text-align: center;
+      }
+
+      body.page-home .about-wrapper .about-content .about-icon-area .about-items {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      body.page-home .footer-section .footer-contect .content p {
+        text-align: left;
+      }
+
+      body.page-home .vedio-bg-section {
+        height: auto;
+        min-height: 520px;
+      }
+
+      /* Center images & icons on mobile */
+      body.page-home .hero-1 .hero-image {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+
+      body.page-home .hero-1 .hero-image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body.page-home .hero-feature .index-hero-quickstat__item {
+        justify-content: center;
+      }
+
+      body.page-home .hero-feature .index-hero-quickstat__text {
+        text-align: center;
+        align-items: center;
+      }
+
+      body.page-home .about-wrapper .about-image {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body.page-home .about-wrapper .about-content .about-icon-area .col-12 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      body.page-home .about-wrapper .about-content .about-icon-area .about-img {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 12px;
+      }
+
+      body.page-home .about-wrapper .about-content .about-icon-area .about-img img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body.page-home .about-wrapper .about-content .about-btn {
+        text-align: center;
+      }
+
+      body.page-home .about-wrapper .about-content .list-box .col-12 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      body.page-home .about-wrapper .about-content .list-box ul {
+        text-align: left;
+        width: 100%;
+      }
+
+      body.page-home .about-wrapper .about-content .list-box ul li {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: left;
+        width: 100%;
+        max-width: 100%;
+      }
+
+      body.page-home .service-icon-box>.icon {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body.page-home .service-icon-box .service-image {
+        text-align: center;
+      }
+
+      body.page-home .service-icon-box .service-image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      /* Service tab panel — fix left offset & center list (mobile only) */
+      body.page-home .service-wrapper .service-box-items {
+        display: block !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding: 20px 16px !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+      }
+
+      body.page-home .service-wrapper .service-box-items>.row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        --bs-gutter-x: 0;
+        width: 100% !important;
+      }
+
+      body.page-home .service-wrapper .tab-content,
+      body.page-home .service-wrapper .tab-content>.tab-pane,
+      body.page-home .service-wrapper .col-lg-8 {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      body.page-home .service-icon-box {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+      }
+
+      body.page-home .service-icon-box>.row {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        --bs-gutter-x: 0;
+        justify-content: center;
+      }
+
+      body.page-home .service-icon-box .col-xl-8,
+      body.page-home .service-icon-box .col-xl-4 {
+        flex: 0 0 100%;
+        max-width: 100% !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      body.page-home .service-icon-box .index-service-list-heading {
+        text-align: center !important;
+        width: 100%;
+      }
+
+      body.page-home .service-icon-box .index-service-list {
+        list-style: none !important;
+        padding: 0 !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+
+      body.page-home .service-icon-box .index-service-list li {
+        list-style: none !important;
+        text-align: center !important;
+        display: block;
+        width: 100%;
+        padding: 0 !important;
+        margin: 0 0 8px !important;
+      }
+
+      body.page-home .cta-wrapper .call-box {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body.page-home .team-box-items .team-image .post-box {
+        left: 50% !important;
+        right: auto;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        max-width: calc(100% - 30px);
+        text-align: center;
+      }
+
+      body.page-home .vedio-bg-section .counter-wrapper {
+        justify-content: center;
+      }
+
+      body.page-home .vedio-bg-section .counter-items {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        flex: 1 1 calc(50% - 15px);
+        min-width: 0;
+      }
+
+      body.page-home .vedio-bg-section .counter-items .icon {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body.page-home .feature-treatment-section .feature-icon-box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 14px;
+        text-align: center;
+      }
+
+      body.page-home .feature-treatment-section .feature-icon-box i {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body.page-home .testimonial-wrapper-1 .testimonial-image {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+
+      body.page-home .testimonial-wrapper-1 .testimonial-image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body.page-home .testimonial-box-item-1 .client-image {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+      }
+
+      body.page-home .testimonial-box-item-1 .client-image img {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body.page-home .testimonial-box-item-1 .info-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      body.page-home .testimonial-box-item-1 .info-item .icon img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+
+      body.page-home .testimonial-box-item-1 .testimonial-content {
+        padding-left: 0;
+        align-items: center;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 575px) {
+      body.page-home {
+        overflow-x: hidden;
+      }
+
+      body.page-home .news-section .news-content h3 br,
+      body.page-home .news-section .section-title h2 br {
+        display: none;
+      }
+
+      body.page-home .service-wrapper .nav .nav-item .nav-link {
+        font-size: 17px;
+        padding-left: 16px;
+        gap: 10px;
+      }
+
+      body.page-home .service-wrapper .nav .nav-item .nav-link i {
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+        flex-shrink: 0;
+        font-size: 15px;
+      }
+
+      body.page-home .team-box-items .team-content {
+        text-align: center;
+      }
+
+      body.page-home .team-content .phone-box {
+        display: flex;
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        row-gap: 6px;
       }
 
-      @media (min-width: 992px) {
-        .page-home .feature-treatment-section .feature-icon-box {
-          flex-wrap: nowrap;
-        }
+      body.page-home .team-content .phone-box span {
+        text-align: center;
       }
 
-      /* Main content headings & paragraphs   scoped so header/offcanvas stay untouched */
-      @media (max-width: 767px) {
-        body.page-home section h1,
-        body.page-home section h2,
-        body.page-home section h3,
-        body.page-home section h4,
-        body.page-home section h5,
-        body.page-home section h6,
-        body.page-home section p,
-        body.page-home footer h1,
-        body.page-home footer h2,
-        body.page-home footer h3,
-        body.page-home footer h4,
-        body.page-home footer h5,
-        body.page-home footer h6,
-        body.page-home footer p {
-          text-align: center;
-        }
-
-        body.page-home .faq-section .accordion .accordion-button,
-        body.page-home .faq-section .accordion .accordion-body {
-          text-align: left;
-        }
-
-        body.page-home .faq-section .faq-content .section-title.text-start {
-          text-align: center !important;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-
-        body.page-home .faq-section .faq-content .section-title .subtitle,
-        body.page-home .faq-section .faq-content .section-title span.tx-subTitle,
-        body.page-home .faq-section .faq-content .section-title h2 {
-          text-align: center;
-        }
-
-        body.page-home .faq-section .faq-content .section-title .subtitle {
-          display: inline-block;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        body.page-home .faq-section .faq-content .faq-button {
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-        }
-
-        body.page-home .faq-section .faq-content .faq-button .theme-btn {
-          display: block;
-          width: fit-content;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        body.page-home .faq-section .faq-content .faq-button .icon-items {
-          justify-content: center;
-        }
-
-        body.page-home .faq-section .faq-content .faq-button .icon-items .content,
-        body.page-home .faq-section .faq-content .faq-button .icon-items .content p,
-        body.page-home .faq-section .faq-content .faq-button .icon-items .content h4,
-        body.page-home .faq-section .faq-content .faq-button .icon-items .content h4 a {
-          text-align: center;
-        }
-
-        body.page-home .about-wrapper .about-content .about-icon-area .about-items {
-          flex-direction: column;
-          text-align: center;
-        }
-
-        body.page-home .footer-section .footer-contect .content p {
-          text-align: left;
-        }
-
-        body.page-home .vedio-bg-section {
-          height: auto;
-          min-height: 520px;
-        }
-
-        /* Center images & icons on mobile */
-        body.page-home .hero-1 .hero-image {
-          margin-left: auto;
-          margin-right: auto;
-          text-align: center;
-        }
-
-        body.page-home .hero-1 .hero-image img {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        body.page-home .hero-feature .index-hero-quickstat__item {
-          justify-content: center;
-        }
-
-        body.page-home .hero-feature .index-hero-quickstat__text {
-          text-align: center;
-          align-items: center;
-        }
-
-        body.page-home .about-wrapper .about-image {
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        body.page-home .about-wrapper .about-content .about-icon-area .col-12 {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-
-        body.page-home .about-wrapper .about-content .about-icon-area .about-img {
-          display: flex;
-          justify-content: center;
-          width: 100%;
-          margin-bottom: 12px;
-        }
-
-        body.page-home .about-wrapper .about-content .about-icon-area .about-img img {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        body.page-home .about-wrapper .about-content .about-btn {
-          text-align: center;
-        }
-
-        body.page-home .about-wrapper .about-content .list-box .col-12 {
-          display: flex;
-          flex-direction: column;
-          align-items: flex-start;
-        }
-
-        body.page-home .about-wrapper .about-content .list-box ul {
-          text-align: left;
-          width: 100%;
-        }
-
-        body.page-home .about-wrapper .about-content .list-box ul li {
-          display: flex;
-          align-items: flex-start;
-          justify-content: flex-start;
-          text-align: left;
-          width: 100%;
-          max-width: 100%;
-        }
-
-        body.page-home .service-icon-box > .icon {
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        body.page-home .service-icon-box .service-image {
-          text-align: center;
-        }
-
-        body.page-home .service-icon-box .service-image img {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        /* Service tab panel — fix left offset & center list (mobile only) */
-        body.page-home .service-wrapper .service-box-items {
-          display: block !important;
-          margin-left: 0 !important;
-          margin-right: 0 !important;
-          padding: 20px 16px !important;
-          width: 100% !important;
-          max-width: 100% !important;
-          box-sizing: border-box !important;
-        }
-
-        body.page-home .service-wrapper .service-box-items > .row {
-          margin-left: 0 !important;
-          margin-right: 0 !important;
-          --bs-gutter-x: 0;
-          width: 100% !important;
-        }
-
-        body.page-home .service-wrapper .tab-content,
-        body.page-home .service-wrapper .tab-content > .tab-pane,
-        body.page-home .service-wrapper .col-lg-8 {
-          width: 100% !important;
-          max-width: 100% !important;
-          padding-left: 0 !important;
-          padding-right: 0 !important;
-        }
-
-        body.page-home .service-icon-box {
-          width: 100%;
-          max-width: 100%;
-          text-align: center;
-        }
-
-        body.page-home .service-icon-box > .row {
-          margin-left: 0 !important;
-          margin-right: 0 !important;
-          --bs-gutter-x: 0;
-          justify-content: center;
-        }
-
-        body.page-home .service-icon-box .col-xl-8,
-        body.page-home .service-icon-box .col-xl-4 {
-          flex: 0 0 100%;
-          max-width: 100% !important;
-          width: 100% !important;
-          padding-left: 0 !important;
-          padding-right: 0 !important;
-        }
-
-        body.page-home .service-icon-box .index-service-list-heading {
-          text-align: center !important;
-          width: 100%;
-        }
-
-        body.page-home .service-icon-box .index-service-list {
-          list-style: none !important;
-          padding: 0 !important;
-          margin: 0 auto !important;
-          text-align: center !important;
-          width: 100% !important;
-          max-width: 100% !important;
-        }
-
-        body.page-home .service-icon-box .index-service-list li {
-          list-style: none !important;
-          text-align: center !important;
-          display: block;
-          width: 100%;
-          padding: 0 !important;
-          margin: 0 0 8px !important;
-        }
-
-        body.page-home .cta-wrapper .call-box {
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        body.page-home .team-box-items .team-image .post-box {
-          left: 50% !important;
-          right: auto;
-          transform: translateX(-50%);
-          white-space: nowrap;
-          max-width: calc(100% - 30px);
-          text-align: center;
-        }
-
-        body.page-home .vedio-bg-section .counter-wrapper {
-          justify-content: center;
-        }
-
-        body.page-home .vedio-bg-section .counter-items {
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-          flex: 1 1 calc(50% - 15px);
-          min-width: 0;
-        }
-
-        body.page-home .vedio-bg-section .counter-items .icon {
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        body.page-home .feature-treatment-section .feature-icon-box {
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          gap: 14px;
-          text-align: center;
-        }
-
-        body.page-home .feature-treatment-section .feature-icon-box i {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        body.page-home .testimonial-wrapper-1 .testimonial-image {
-          margin-left: auto;
-          margin-right: auto;
-          text-align: center;
-        }
-
-        body.page-home .testimonial-wrapper-1 .testimonial-image img {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        body.page-home .testimonial-box-item-1 .client-image {
-          flex-direction: column;
-          align-items: center;
-          gap: 12px;
-        }
-
-        body.page-home .testimonial-box-item-1 .client-image img {
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        body.page-home .testimonial-box-item-1 .info-item {
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-        }
-
-        body.page-home .testimonial-box-item-1 .info-item .icon img {
-          margin-left: auto;
-          margin-right: auto;
-          display: block;
-        }
-
-        body.page-home .testimonial-box-item-1 .testimonial-content {
-          padding-left: 0;
-          align-items: center;
-          text-align: center;
-        }
+      body.page-home .cta-newsletter-wrapper .form-content form {
+        max-width: 100%;
       }
 
-      @media (max-width: 575px) {
-        body.page-home {
-          overflow-x: hidden;
-        }
+      body.page-home .cta-newsletter-wrapper .form-content form input {
+        width: 100%;
+        min-width: 0;
+      }
+    }
 
-        body.page-home .news-section .news-content h3 br,
-        body.page-home .news-section .section-title h2 br {
-          display: none;
-        }
-
-        body.page-home .service-wrapper .nav .nav-item .nav-link {
-          font-size: 17px;
-          padding-left: 16px;
-          gap: 10px;
-        }
-
-        body.page-home .service-wrapper .nav .nav-item .nav-link i {
-          width: 48px;
-          height: 48px;
-          line-height: 48px;
-          flex-shrink: 0;
-          font-size: 15px;
-        }
-
-        body.page-home .team-box-items .team-content {
-          text-align: center;
-        }
-
-        body.page-home .team-content .phone-box {
-          display: flex;
-          flex-wrap: wrap;
-          align-items: center;
-          justify-content: center;
-          text-align: center;
-          width: 100%;
-          row-gap: 6px;
-        }
-
-        body.page-home .team-content .phone-box span {
-          text-align: center;
-        }
-
-        body.page-home .cta-newsletter-wrapper .form-content form {
-          max-width: 100%;
-        }
-
-        body.page-home .cta-newsletter-wrapper .form-content form input {
-          width: 100%;
-          min-width: 0;
-        }
+    /* Theme hides testimonial arrows under 991px   keep slider usable on this page */
+    @media (max-width: 991px) {
+      body.page-home .testimonial-wrapper-1 .section-title-area .array-button-2 {
+        display: inline-flex !important;
+        align-items: center;
+        gap: 10px;
+        margin-top: 8px;
       }
 
-      /* Theme hides testimonial arrows under 991px   keep slider usable on this page */
-      @media (max-width: 991px) {
-        body.page-home .testimonial-wrapper-1 .section-title-area .array-button-2 {
-          display: inline-flex !important;
-          align-items: center;
-          gap: 10px;
-          margin-top: 8px;
-        }
-
-        body.page-home .testimonial-wrapper-1 .section-title-area {
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-        }
-
-        body.page-home .cta-section .cta-wrapper .section-title-area.align-items-end {
-          align-items: center !important;
-        }
+      body.page-home .testimonial-wrapper-1 .section-title-area {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
       }
 
-      /* Counter section — consistent typography & spacing */
-.counter-section { padding: 60px 0; }
+      body.page-home .cta-section .cta-wrapper .section-title-area.align-items-end {
+        align-items: center !important;
+      }
+    }
 
-.counter-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0;
-}
+    /* Counter section — consistent typography & spacing */
+    .counter-section {
+      padding: 60px 0;
+    }
 
-.counter-items {
-  flex: 1 1 200px;
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
-  padding: 32px 24px;
-  border-right: 1px solid rgba(0, 0, 0, 0.08);
-}
-.counter-items:last-child { border-right: none; }
+    .counter-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0;
+    }
 
-/* Icon: uniform 48×48 container */
-.counter-items .icon {
-  flex-shrink: 0;
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.counter-items .icon img {
-  width: 48px;
-  height: 48px;
-  object-fit: contain;
-}
+    .counter-items {
+      flex: 1 1 200px;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 32px 24px;
+      border-right: 1px solid rgba(0, 0, 0, 0.08);
+    }
 
-/* Number: uniform size & weight */
-.counter-items .content h2 {
-  font-size: 40px;
-  font-weight: 700;
-  color: #ffffff;         /* white */
-  line-height: 1;
-  margin: 0 0 8px;
-  letter-spacing: -1px;
-}
+    .counter-items:last-child {
+      border-right: none;
+    }
 
-/* suffix same size as number — no more tiny "k" */
-.counter-items .content h2 .suffix {
-  font-size: 32px;        /* was 26px, now matched */
-  font-weight: 700;       /* was 400, now same weight */
-  color: #ffffff;         /* white */
-}
+    /* Icon: uniform 48×48 container */
+    .counter-items .icon {
+      flex-shrink: 0;
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-/* label slightly muted white */
-.counter-items .content p {
-  font-size: 14px;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.65);
-  margin: 0;
-  line-height: 1.4;
-}
+    .counter-items .icon img {
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+    }
 
-@media (max-width: 768px) {
-  .counter-items {
-    flex: 1 1 45%;
-    border-right: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-  }
-}
-    </style>
-  </head>
-  <body class="page-home">
-    <!-- Preloader Start -->
-    <div id="preloader" class="preloader">
-      <div class="animation-preloader">
-        <div class="spinner"></div>
-        <div class="txt-loading">
-          <span data-text-preloader="N" class="letters-loading"> N </span>
-          <span data-text-preloader="I" class="letters-loading"> I </span>
-          <span data-text-preloader="S" class="letters-loading"> S </span>
-          <span data-text-preloader="H" class="letters-loading"> H </span>
-          <span data-text-preloader="O" class="letters-loading"> O </span>
-          <span data-text-preloader="K" class="letters-loading"> K </span>
-        </div>
-        <p class="text-center">Loading</p>
+    /* Number: uniform size & weight */
+    .counter-items .content h2 {
+      font-size: 40px;
+      font-weight: 700;
+      color: #ffffff;
+      /* white */
+      line-height: 1;
+      margin: 0 0 8px;
+      letter-spacing: -1px;
+    }
+
+    /* suffix same size as number — no more tiny "k" */
+    .counter-items .content h2 .suffix {
+      font-size: 32px;
+      /* was 26px, now matched */
+      font-weight: 700;
+      /* was 400, now same weight */
+      color: #ffffff;
+      /* white */
+    }
+
+    /* label slightly muted white */
+    .counter-items .content p {
+      font-size: 14px;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.65);
+      margin: 0;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 768px) {
+      .counter-items {
+        flex: 1 1 45%;
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      }
+    }
+  </style>
+</head>
+
+<body class="page-home">
+  <!-- Preloader Start -->
+  <div id="preloader" class="preloader">
+    <div class="animation-preloader">
+      <div class="spinner"></div>
+      <div class="txt-loading">
+        <span data-text-preloader="N" class="letters-loading"> N </span>
+        <span data-text-preloader="I" class="letters-loading"> I </span>
+        <span data-text-preloader="S" class="letters-loading"> S </span>
+        <span data-text-preloader="H" class="letters-loading"> H </span>
+        <span data-text-preloader="O" class="letters-loading"> O </span>
+        <span data-text-preloader="K" class="letters-loading"> K </span>
       </div>
-      <div class="loader">
-        <div class="row">
-          <div class="col-3 loader-section section-left">
-            <div class="bg"></div>
-          </div>
-          <div class="col-3 loader-section section-left">
-            <div class="bg"></div>
-          </div>
-          <div class="col-3 loader-section section-right">
-            <div class="bg"></div>
-          </div>
-          <div class="col-3 loader-section section-right">
-            <div class="bg"></div>
-          </div>
+      <p class="text-center">Loading</p>
+    </div>
+    <div class="loader">
+      <div class="row">
+        <div class="col-3 loader-section section-left">
+          <div class="bg"></div>
+        </div>
+        <div class="col-3 loader-section section-left">
+          <div class="bg"></div>
+        </div>
+        <div class="col-3 loader-section section-right">
+          <div class="bg"></div>
+        </div>
+        <div class="col-3 loader-section section-right">
+          <div class="bg"></div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Back To Top start -->
-    <button id="back-top" class="back-to-top">
-      <i class="fas fa-long-arrow-up"></i>
-    </button>
+  <!-- Back To Top start -->
+  <button id="back-top" class="back-to-top">
+    <i class="fas fa-long-arrow-up"></i>
+  </button>
 
-    <!-- Offcanvas Area Start -->
-    <div class="fix-area">
-      <div class="offcanvas__info">
-        <div class="offcanvas__wrapper">
-          <div class="offcanvas__content">
-            <div
-              class="offcanvas__top mb-5 d-flex justify-content-between align-items-center"
-            >
-              <div class="offcanvas__logo">
-                <a href="index.html">
-                  <img src="assets/img/logo/logo.png" alt="logo-img" />
-                </a>
-              </div>
-              <div class="offcanvas__close">
-                <button>
-                  <i class="fas fa-times"></i>
-                </button>
-              </div>
-            </div>
-         
-            <div class="mobile-menu fix mt-3"></div>
-          
-       
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="offcanvas__overlay"></div>
-    <!-- Header Top Section Start -->
-    <div class="header-top-section">
-      <div class="container">
-        <div class="header-top-wrapper">
-          <p>
-            Nishok Hospital - Orthopedic & Skin Specialist Hospital
-            <a href="contact.html">Contact Us</a>.
-          </p>
-          <ul class="top-list">
-            <li>
-              <i class="fal fa-envelope"></i>
-              <a href="mailto:nishokhospital@gmail.com"> nishokhospital@gmail.com </a>
-            </li>
-            <li>
-              <i class="far fa-clock"></i>
-              <p>09:30am - 7:30pm</p>
-            </li>
-            <li>
-              <i class="fal fa-map-pin"></i>
-              <p>Balaghat, Madhya Pradesh </p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <!-- Header Section Start -->
-    <header id="header-sticky" class="header-section header-1">
-      <div class="container">
-        <div class="mega-menu-wrapper">
-          <div class="header-main">
-            <div class="header-left">
-              <a href="index.html" class="header-logo1">
-                <img
-                  class="site-logo-responsive"
-                  src="assets/img/header/logo.png"
-                  alt="Nishok Hospital"
-                  width="228"
-                  height="58"
-                />
+  <!-- Offcanvas Area Start -->
+  <div class="fix-area">
+    <div class="offcanvas__info">
+      <div class="offcanvas__wrapper">
+        <div class="offcanvas__content">
+          <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+            <div class="offcanvas__logo">
+              <a href="index.html">
+                <img src="assets/img/logo/logo.png" alt="logo-img" />
               </a>
             </div>
-            <div
-              class="header-right d-flex justify-content-end align-items-center"
-            >
-              <div class="mean__menu-wrapper">
-                <div class="main-menu">
-                  <nav id="mobile-menu">
-                    <ul>
-                      <li >
-                        <a href="index.html">
-                          Home
-                        
-                        </a>
-                       
-                      </li>
-                      <li>
-                        <a href="about.html">About Us</a>
-                      </li>
-                      <li>
-                        <a href="gallery.html">Gallery</a>
-                      </li>
-                    
-                     
-                      <li>
-                        <a href="#">
-                          Doctors
-                          <i class="fas fa-chevron-down"></i>
-                        </a>
-                        <ul class="submenu">
-                          <li><a href="orthopedic-doctor-balaghat-dr-shrey.html">Dr. Shrey</a></li>
-                          <li><a href="doctor-amisha.html">Dr. Amisha</a></li>
-                        </ul>
-                       
-                      </li>
-                    
-                      
-                      <li>
-                        <a href="service.html">
-                          Services
-                          <i class="fas fa-chevron-down"></i>
-                        </a>
-                       
-                      </li>
-                    
-
-                      <li>
-                        <a href="#">
-                          Blog
-                          <i class="fas fa-chevron-down"></i>
-                        </a>
-                        <ul class="submenu">
-                          <li><a href="#">Blog</a></li>
-                          <li><a href="#">Blog Details</a></li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="contact.html"> Contact Us </a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-           
-              <div class="header-contact-info">
-                <div class="info-items">
-                  <div class="icon">
-                    <i class="flaticon-support"></i>
-                  </div>
-                  <div class="content">
-                    <span>Call Emergency</span>
-                    <h6><a href="tel:+918319569357">+918319569357</a></h6>
-                    
-                  </div>
-                </div>
-                <a href="contact.html" class="theme-btn">
-                  <i class="far fa-chevron-right"></i>
-                  Appointment
-                </a>
-              </div>
-              <div class="header__hamburger d-xl-none my-auto">
-                <div class="sidebar__toggle">
-                  <i class="fal fa-bars"></i>
-                </div>
-              </div>
+            <div class="offcanvas__close">
+              <button>
+                <i class="fas fa-times"></i>
+              </button>
             </div>
           </div>
-        </div>
-      </div>
-    </header>
-    
 
-    <!-- header Search Section Start -->
-    <div class="header-search-bar d-flex align-items-center">
-      <button class="search-close">×</button>
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-12">
-            <div class="search-bar">
-              <div class="contact-form-box contact-search-form-box">
-                <form action="#">
-                  <input type="email" placeholder="Search here..." />
-                  <button type="submit"><i class="far fa-search"></i></button>
-                </form>
-                <p>
-                  Type above and press Enter to search. Press Close to cancel.
-                </p>
-              </div>
-            </div>
-          </div>
+          <div class="mobile-menu fix mt-3"></div>
+
+
         </div>
       </div>
     </div>
-
-    <!-- Hero Section Start -->
-    <section
-      class="hero-section hero-1 bg-cover fix"
-      style="
-        background-image: url(&quot;assets/img/home-1/hero/bg-01.jpg&quot;);
-      "
-    >
-      <div class="container">
-        <div class="row g-4 align-items-center">
-          <div class="col-lg-6">
-            <div class="hero-content">
-              <h1 class="wow fadeInUp" data-wow-delay=".2s">
-                Best Hospital in Balaghat for Bone & Skin Treatment
-              </h1>
-              <p class="wow fadeInUp" data-wow-delay=".3s">
-               Balaghat's most trusted destination for Orthopedic and Dermatology care.
-                 Whether you are suffering from joint pain, fractures, back problems, or skin conditions like acne, 
-                 pigmentation, or hair loss, our specialist doctors are here to help.
-
-              
-              </p>
-              <a
-                href="about.html"
-                class="theme-btn wow fadeInUp"
-                data-wow-delay=".5s"
-              >
-                <i class="fas fa-phone-alt" aria-hidden="true"></i>
-                Book Appointment
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
-            <div class="hero-image">
-              <img
-                class="img-fluid"
-                src="assets/img/home-1/hero/heroimg2.jpeg"
-                alt="Nishok Hospital care team" style="width: 100%; height: 600px; object-fit: cover;"
-              />
-            </div>
-          </div>
-        </div>
+  </div>
+  <div class="offcanvas__overlay"></div>
+  <!-- Header Top Section Start -->
+  <div class="header-top-section">
+    <div class="container">
+      <div class="header-top-wrapper">
+        <p>
+          Nishok Hospital - Orthopedic & Skin Specialist Hospital
+          <a href="contact.html">Contact Us</a>.
+        </p>
+        <ul class="top-list">
+          <li>
+            <i class="fal fa-envelope"></i>
+            <a href="mailto:nishokhospital@gmail.com"> nishokhospital@gmail.com </a>
+          </li>
+          <li>
+            <i class="far fa-clock"></i>
+            <p>09:30am - 7:30pm</p>
+          </li>
+          <li>
+            <i class="fal fa-map-pin"></i>
+            <p>Balaghat, Madhya Pradesh </p>
+          </li>
+        </ul>
       </div>
-    </section>
+    </div>
+  </div>
 
-    <div class="hero-feature" >
-      <div class="container" >
-        <div
-          class="hero-feature-wrapper index-hero-quickstat wow fadeInUp " style="margin-left: 0px;"
-          data-wow-delay=".35s"
-        >
-          <div class="index-hero-quickstat__inner">
-            <a href="about.html" class="index-hero-quickstat__item">
-              <img
-                class="index-hero-quickstat__ico"
-                src="assets/img/home-1/hero/feature-2.png"
-                alt=""
-                width="36"
-                height="36"
-              />
-              <div class="index-hero-quickstat__text">
-                <span class="index-hero-quickstat__label">Hours</span>
-                <span class="index-hero-quickstat__value"
-                  >09:30AM–7:30PM</span
-                >
+  <!-- Header Section Start -->
+  <header id="header-sticky" class="header-section header-1">
+    <div class="container">
+      <div class="mega-menu-wrapper">
+        <div class="header-main">
+          <div class="header-left">
+            <a href="index.html" class="header-logo1">
+              <img class="site-logo-responsive" src="assets/img/header/logo.png" alt="Nishok Hospital" width="228"
+                height="58" />
+            </a>
+          </div>
+          <div class="header-right d-flex justify-content-end align-items-center">
+            <div class="mean__menu-wrapper">
+              <div class="main-menu">
+                <nav id="mobile-menu">
+                  <ul>
+                    <li>
+                      <a href="index.html">
+                        Home
+
+                      </a>
+
+                    </li>
+                    <li>
+                      <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                      <a href="gallery.html">Gallery</a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        Doctors
+                        <i class="fas fa-chevron-down"></i>
+                      </a>
+                      <ul class="submenu">
+                        <li><a href="doctor-amisha.html">Dr. Amisha</a></li>
+                        <li><a href="orthopedic-doctor-balaghat-dr-shrey.html">Dr. Shrey</a></li>
+                      </ul>
+
+                    </li>
+
+
+                    <li>
+                      <a href="service.html">
+                        Services
+                        <i class="fas fa-chevron-down"></i>
+                      </a>
+
+                    </li>
+
+
+                    <!-- <li>
+                      <a href="#">
+                        Blog
+                        <i class="fas fa-chevron-down"></i>
+                      </a>
+                      <ul class="submenu">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Blog Details</a></li>
+                      </ul>
+                    </li> -->
+                    <li>
+                      <a href="contact.html"> Contact Us </a>
+                    </li>
+                  </ul>
+                </nav>
               </div>
-              <span class="index-hero-quickstat__chev" aria-hidden="true">
+            </div>
+
+            <div class="header-contact-info">
+              <div class="info-items">
+                <div class="icon">
+                  <i class="flaticon-support"></i>
+                </div>
+                <div class="content">
+                  <span>Call Emergency</span>
+                  <h6><a href="tel:+918319569357">+918319569357</a></h6>
+
+                </div>
+              </div>
+              <a href="contact.html" class="theme-btn">
                 <i class="far fa-chevron-right"></i>
-              </span>
-            </a>
-            <span class="index-hero-quickstat__divider" role="presentation"></span>
-            <a
-              href="tel:+918319569357"
-              class="index-hero-quickstat__item"
-            >
-              <img
-                class="index-hero-quickstat__ico"
-                src="assets/img/home-1/hero/feature-3.png"
-                alt=""
-                width="36"
-                height="36"
-              />
-              <div class="index-hero-quickstat__text">
-                <span class="index-hero-quickstat__label">Call</span>
-                <span class="index-hero-quickstat__value">+91 83195 69357, 76489 22304</span>
+                Appointment
+              </a>
+            </div>
+            <div class="header__hamburger d-xl-none my-auto">
+              <div class="sidebar__toggle">
+                <i class="fal fa-bars"></i>
               </div>
-            </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </header>
 
-<!-- ============================ -->
+
+  <!-- header Search Section Start -->
+  <div class="header-search-bar d-flex align-items-center">
+    <button class="search-close">×</button>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="search-bar">
+            <div class="contact-form-box contact-search-form-box">
+              <form action="#">
+                <input type="email" placeholder="Search here..." />
+                <button type="submit"><i class="far fa-search"></i></button>
+              </form>
+              <p>
+                Type above and press Enter to search. Press Close to cancel.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section Start -->
+  <section class="hero-section hero-1 bg-cover fix" style="
+        background-image: url(&quot;assets/img/home-1/hero/bg-01.jpg&quot;);
+      ">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-6">
+          <div class="hero-content">
+            <h1 class="wow fadeInUp" data-wow-delay=".2s">
+              Best Hospital in Balaghat for Bone & Skin Treatment
+            </h1>
+            <p class="wow fadeInUp" data-wow-delay=".3s">
+              Balaghat's most trusted destination for Dermatology and Orthopedic care.
+              Whether you are suffering from skin conditions like acne,
+              pigmentation, or hair loss or joint pain, fractures, back problems, our specialist doctors are here to
+              help.
 
 
-<!-- ===== HERO SECTION ===== -->
+            </p>
+            <a href="contact.html" class="theme-btn wow fadeInUp" data-wow-delay=".5s">
+              <i class="fas fa-phone-alt" aria-hidden="true"></i>
+              Book Appointment
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+          <div class="hero-image">
+            <img class="img-fluid" src="assets/img/home-1/hero/heroimg2.jpeg" alt="Nishok Hospital care team"
+              style="width: 100%; height: 600px; object-fit: cover;" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!-- ===== HERO SECTION ===== -->
-<style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: 'Segoe UI', sans-serif; background: #f4f6fb; }
- 
+  <div class="hero-feature">
+    <div class="container">
+      <div class="hero-feature-wrapper index-hero-quickstat wow fadeInUp " style="margin-left: 0px;"
+        data-wow-delay=".35s">
+        <div class="index-hero-quickstat__inner">
+          <a href="about.html" class="index-hero-quickstat__item">
+            <img class="index-hero-quickstat__ico" src="assets/img/home-1/hero/feature-2.png" alt="" width="36"
+              height="36" />
+            <div class="index-hero-quickstat__text">
+              <span class="index-hero-quickstat__label">Hours</span>
+              <span class="index-hero-quickstat__value">09:30AM–7:30PM</span>
+            </div>
+            <span class="index-hero-quickstat__chev" aria-hidden="true">
+              <i class="far fa-chevron-right"></i>
+            </span>
+          </a>
+          <span class="index-hero-quickstat__divider" role="presentation"></span>
+          <a href="tel:+918319569357" class="index-hero-quickstat__item">
+            <img class="index-hero-quickstat__ico" src="assets/img/home-1/hero/feature-3.png" alt="" width="36"
+              height="36" />
+            <div class="index-hero-quickstat__text">
+              <span class="index-hero-quickstat__label">Call</span>
+              <span class="index-hero-quickstat__value">+91 83195 69357, 76489 22304</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================ -->
+
+
+  <!-- ===== HERO SECTION ===== -->
+
+  <!-- ===== HERO SECTION ===== -->
+  <style>
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f6fb;
+    }
+
     @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(28px); }
-      to   { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(28px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
+
     @keyframes fadeInLeft {
-      from { opacity: 0; transform: translateX(-36px); }
-      to   { opacity: 1; transform: translateX(0); }
+      from {
+        opacity: 0;
+        transform: translateX(-36px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
     }
+
     @keyframes fadeInRight {
-      from { opacity: 0; transform: translateX(36px); }
-      to   { opacity: 1; transform: translateX(0); }
+      from {
+        opacity: 0;
+        transform: translateX(36px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
     }
+
     @keyframes floatUD {
-      0%, 100% { transform: translateY(0); }
-      50%       { transform: translateY(-12px); }
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-12px);
+      }
     }
+
     @keyframes badgePop {
-      from { opacity: 0; transform: scale(0.8); }
-      to   { opacity: 1; transform: scale(1); }
+      from {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
     }
- 
+
     /* ── WRAPPER ── */
     .card {
       /* max-width: 1100px; */
@@ -1161,9 +1186,9 @@
       /* background: #a22424; */
       border-radius: 20px;
       overflow: hidden;
-      box-shadow: 0 8px 40px rgba(0,0,0,0.08);
+      box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
     }
- 
+
     /* ── HERO ── */
     .hero {
       display: flex;
@@ -1174,13 +1199,15 @@
       position: relative;
       overflow: hidden;
     }
+
     .hero::before {
       content: '';
-      position: absolute; inset: 0;
-      background: radial-gradient(ellipse at 30% 60%, rgba(0,123,255,.06) 0%, transparent 60%);
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 30% 60%, rgba(0, 123, 255, .06) 0%, transparent 60%);
       pointer-events: none;
     }
- 
+
     /* LEFT */
     .left {
       flex: 1;
@@ -1189,7 +1216,7 @@
       z-index: 2;
       animation: fadeInLeft 0.75s ease both;
     }
- 
+
     .eyebrow {
       display: inline-flex;
       align-items: center;
@@ -1206,7 +1233,7 @@
       margin-bottom: 18px;
       animation: fadeInUp 0.5s ease 0.1s both;
     }
- 
+
     .htitle {
       font-size: 36px;
       font-weight: 800;
@@ -1215,8 +1242,11 @@
       margin-bottom: 14px;
       animation: fadeInUp 0.5s ease 0.2s both;
     }
-    .htitle .acc { color: #007bff; }
- 
+
+    .htitle .acc {
+      color: #007bff;
+    }
+
     .hdesc {
       font-size: 13.5px;
       color: #4a5568;
@@ -1225,7 +1255,7 @@
       max-width: 460px;
       animation: fadeInUp 0.5s ease 0.3s both;
     }
- 
+
     .doc-card {
       display: flex;
       align-items: center;
@@ -1238,25 +1268,40 @@
       margin-bottom: 20px;
       animation: fadeInUp 0.5s ease 0.4s both;
     }
+
     .doc-avatar {
-      width: 44px; height: 44px;
+      width: 44px;
+      height: 44px;
       border-radius: 50%;
       background: #007bff;
       color: #fff;
       font-size: 15px;
       font-weight: 700;
-      display: flex; align-items: center; justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       flex-shrink: 0;
     }
-    .dname { color: #0d1f4e; font-size: 15px; font-weight: 700; }
-    .dqual { color: #6b7a99; font-size: 11.5px; margin-top: 3px; }
- 
+
+    .dname {
+      color: #0d1f4e;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .dqual {
+      color: #6b7a99;
+      font-size: 11.5px;
+      margin-top: 3px;
+    }
+
     .badges {
       display: flex;
       flex-wrap: wrap;
       gap: 9px;
       margin-bottom: 22px;
     }
+
     .b {
       background: #f0f7ff;
       border: 1px solid #cce0ff;
@@ -1268,11 +1313,23 @@
       opacity: 0;
       animation: badgePop 0.4s ease forwards;
     }
-    .b:nth-child(1) { animation-delay: 0.5s; }
-    .b:nth-child(2) { animation-delay: 0.65s; }
-    .b:nth-child(3) { animation-delay: 0.8s; }
-    .b:nth-child(4) { animation-delay: 0.95s; }
- 
+
+    .b:nth-child(1) {
+      animation-delay: 0.5s;
+    }
+
+    .b:nth-child(2) {
+      animation-delay: 0.65s;
+    }
+
+    .b:nth-child(3) {
+      animation-delay: 0.8s;
+    }
+
+    .b:nth-child(4) {
+      animation-delay: 0.95s;
+    }
+
     .ibar {
       display: flex;
       border: 1px solid #e2e8f0;
@@ -1282,6 +1339,7 @@
       background: #fff;
       animation: fadeInUp 0.5s ease 0.9s both;
     }
+
     .ii {
       flex: 1;
       padding: 13px 18px;
@@ -1289,17 +1347,36 @@
       align-items: center;
       gap: 11px;
     }
-    .ii:first-child { border-right: 1px solid #e2e8f0; }
+
+    .ii:first-child {
+      border-right: 1px solid #e2e8f0;
+    }
+
     .ico {
-      width: 36px; height: 36px;
+      width: 36px;
+      height: 36px;
       border-radius: 8px;
-      display: flex; align-items: center; justify-content: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       font-size: 18px;
       flex-shrink: 0;
     }
-    .ilbl { font-size: 10px; color: #9aa5b4; letter-spacing: 1px; text-transform: uppercase; }
-    .ival { font-size: 13px; color: #0d1f4e; font-weight: 700; margin-top: 2px; }
- 
+
+    .ilbl {
+      font-size: 10px;
+      color: #9aa5b4;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    .ival {
+      font-size: 13px;
+      color: #0d1f4e;
+      font-weight: 700;
+      margin-top: 2px;
+    }
+
     /* RIGHT */
     .right {
       width: 380px;
@@ -1311,7 +1388,7 @@
       justify-content: flex-end;
       animation: fadeInRight 0.85s ease 0.3s both;
     }
- 
+
     .misso-badge {
       background: #0d1f4e;
       color: #fff;
@@ -1325,6 +1402,7 @@
       margin-bottom: 14px;
       animation: fadeInUp 0.5s ease 1s both;
     }
+
     .misso-badge span {
       color: #38b6f1;
       display: block;
@@ -1332,7 +1410,7 @@
       letter-spacing: 1.5px;
       font-weight: 600;
     }
- 
+
     .robo-img {
       width: 80%;
       height: auto;
@@ -1341,10 +1419,10 @@
       object-fit: contain;
       object-position: bottom center;
       animation: floatUD 4s ease-in-out 1.2s infinite;
-      filter: drop-shadow(0 20px 30px rgba(0,123,255,0.13));
+      filter: drop-shadow(0 20px 30px rgba(0, 123, 255, 0.13));
       /* margin-right: 200px; */
     }
- 
+
     /* ── STATS STRIP ── */
     .stats {
       display: flex;
@@ -1354,162 +1432,330 @@
       border-top: 1px solid #e2e8f0;
       background: #ffffff;
     }
-    .st { text-align: center; }
-    .st .num  { font-size: 32px; font-weight: 800; color: #007bff; }
-    .st .suf  { font-size: 28px; font-weight: 800; color: #007bff; }
-    .st .lbl  { font-size: 11.5px; color: #6b7a99; margin-top: 4px; letter-spacing: 0.5px; }
-    .sdiv     { width: 1px; height: 50px; background: #e2e8f0; }
- 
+
+    .st {
+      text-align: center;
+    }
+
+    .st .num {
+      font-size: 32px;
+      font-weight: 800;
+      color: #007bff;
+    }
+
+    .st .suf {
+      font-size: 28px;
+      font-weight: 800;
+      color: #007bff;
+    }
+
+    .st .lbl {
+      font-size: 11.5px;
+      color: #6b7a99;
+      margin-top: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .sdiv {
+      width: 1px;
+      height: 50px;
+      background: #e2e8f0;
+    }
+
     /* ── MOBILE ── */
     @media (max-width: 768px) {
-      .card { margin: 0; border-radius: 0; }
- 
+      .card {
+        margin: 0;
+        border-radius: 0;
+      }
+
       .hero {
         flex-direction: column-reverse;
         align-items: center;
         padding: 28px 20px 0;
       }
+
       .left {
         padding-bottom: 28px;
         text-align: center;
         animation: fadeInUp 0.7s ease both;
       }
-      .htitle  { font-size: 26px; }
-      .hdesc   { font-size: 13px; max-width: 100%; }
-      .doc-card { max-width: 100%; }
-      .badges  { justify-content: center; }
-      .ibar    { max-width: 100%; }
- 
+
+      .htitle {
+        font-size: 26px;
+      }
+
+      .hdesc {
+        font-size: 13px;
+        max-width: 100%;
+      }
+
+      .doc-card {
+        max-width: 100%;
+      }
+
+      .badges {
+        justify-content: center;
+      }
+
+      .ibar {
+        max-width: 100%;
+      }
+
       .right {
         width: 100%;
         animation: fadeInUp 0.7s ease 0.2s both;
       }
-      .robo-img { width: 60%; }
- 
+
+      .robo-img {
+        width: 60%;
+      }
+
       .stats {
         flex-wrap: wrap;
         gap: 16px;
         padding: 22px 16px;
       }
-      .sdiv { display: none; }
-      .st   { width: 44%; }
-      .st .num { font-size: 26px; }
-      .st .suf { font-size: 22px; }
+
+      .sdiv {
+        display: none;
+      }
+
+      .st {
+        width: 44%;
+      }
+
+      .st .num {
+        font-size: 26px;
+      }
+
+      .st .suf {
+        font-size: 22px;
+      }
     }
- 
+
     @media (max-width: 420px) {
-      .htitle   { font-size: 22px; }
-      .robo-img { width: 78%; }
-      .st       { width: 100%; }
+      .htitle {
+        font-size: 22px;
+      }
+
+      .robo-img {
+        width: 78%;
+      }
+
+      .st {
+        width: 100%;
+      }
     }
   </style>
-</head>
-<body>
- 
-<div class="card">
- 
-  <!-- ════ HERO ════ -->
-  <section class="hero">
- 
-    <!-- LEFT -->
-    <div class="left">
- 
-      <div class="eyebrow">🤖 Now Available in Balaghat</div>
- 
-      <div class="htitle">
-        Care With<br>
-        <span class="acc">Surgeon Precision</span><br>
-        With World Best
-      </div>
- 
-      <p class="hdesc">
-        Balaghat's most advanced robotic joint replacement surgery — now at Samadhan Hospital.
-        Dr. Shrey Jain brings world-class MISSO robotic technology for permanent solutions
-        to knee and joint problems.
-      </p>
- 
-      <div class="doc-card">
-        <div class="doc-avatar">SJ</div>
-        <div>
-          <div class="dname">Dr. Shrey Jain</div>
-          <div class="dqual">M.S. (Ortho) · Fellowship in Robotic Joint Replacement</div>
-        </div>
-      </div>
- 
-      <div class="badges">
-        <div class="b">🤖 Robotic Precision</div>
-        <div class="b">🩸 Minimal Blood Loss</div>
-        <div class="b">🏃 Quicker Recovery</div>
-        <div class="b">🛡️ Long-Lasting Results</div>
-      </div>
- 
-      <div class="ibar">
-        <div class="ii">
-          <div class="ico" style="background:#e8f4ff;">🕐</div>
-          <div>
-            <div class="ilbl">Hours</div>
-            <div class="ival">09:30AM — 7:30PM</div>
+  </head>
+
+  <body>
+
+    <div class="card">
+
+      <!-- ════ HERO ════ -->
+      <section class="hero">
+
+        <!-- LEFT -->
+        <div class="left">
+
+          <div class="eyebrow">🤖 Now Available in Balaghat</div>
+
+          <div class="htitle">
+            Care With<br>
+            <span class="acc">Surgeon Precision</span><br>
+            With World Best
           </div>
-        </div>
-        <div class="ii">
-          <div class="ico" style="background:#fff0f0;">📞</div>
-          <div>
-            <div class="ilbl">Call</div>
-            <div class="ival">07632-295250</div>
+
+          <p class="hdesc">
+            Balaghat's most advanced robotic joint replacement surgery — now at Samadhan Hospital.
+            Dr. Shrey Jain brings world-class MISSO robotic technology for permanent solutions
+            to knee and joint problems.
+          </p>
+
+          <div class="doc-card">
+            <div class="doc-avatar">SJ</div>
+            <div>
+              <div class="dname">Dr. Shrey Jain</div>
+              <div class="dqual">M.S. (Ortho) · Fellowship in Robotic Joint Replacement</div>
+            </div>
           </div>
+
+          <div class="badges">
+            <div class="b">🤖 Robotic Precision</div>
+            <div class="b">🩸 Minimal Blood Loss</div>
+            <div class="b">🏃 Quicker Recovery</div>
+            <div class="b">🛡️ Long-Lasting Results</div>
+          </div>
+
+          <div class="ibar">
+            <div class="ii">
+              <div class="ico" style="background:#e8f4ff;">🕐</div>
+              <div>
+                <div class="ilbl">Hours</div>
+                <div class="ival">09:30AM — 7:30PM</div>
+              </div>
+            </div>
+            <div class="ii">
+              <div class="ico" style="background:#fff0f0;">📞</div>
+              <div>
+                <div class="ilbl">Call</div>
+                <div class="ival">07632-295250</div>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div>
- 
-    </div>
- 
-    <!-- RIGHT -->
-    <div class="right">
-      <div class="misso-badge">MISSO<span>Robotic System</span></div>
-      <!-- 
+
+        <!-- RIGHT -->
+        <div class="right">
+          <div class="misso-badge">MISSO<span>Robotic System</span></div>
+          <!-- 
         Replace the src below with your actual robot image path.
         Example: src="assets/img/home-1/about/robo-removebg-preview.png"
       -->
-      <img
-        class="robo-img"
-        src="assets/img/home-1/about/BOT.jpeg"
-        alt="Dr. Shrey Jain with MISSO Robotic System"
-        onerror="this.style.display='none'; document.getElementById('robo-fallback').style.display='block';"
-      />
-      <!-- Fallback SVG shown if image is missing -->
-      <svg id="robo-fallback" class="robo-img" style="display:none" viewBox="0 0 260 340" xmlns="http://www.w3.org/2000/svg">
-        <rect x="90" y="20" width="80" height="70" rx="18" fill="#0d1f4e"/>
-        <rect x="105" y="35" width="50" height="30" rx="8" fill="#1a3a7a"/>
-        <circle cx="120" cy="50" r="7" fill="#38b6f1"/><circle cx="140" cy="50" r="7" fill="#38b6f1"/>
-        <circle cx="120" cy="50" r="3" fill="#fff"/><circle cx="140" cy="50" r="3" fill="#fff"/>
-        <rect x="115" y="68" width="30" height="6" rx="3" fill="#38b6f1" opacity=".7"/>
-        <rect x="75" y="95" width="110" height="100" rx="14" fill="#0d1f4e"/>
-        <rect x="85" y="105" width="35" height="25" rx="6" fill="#1a3a7a"/>
-        <rect x="140" y="105" width="35" height="25" rx="6" fill="#1a3a7a"/>
-        <rect x="88" y="108" width="29" height="6" rx="3" fill="#38b6f1" opacity=".8"/>
-        <rect x="143" y="108" width="29" height="6" rx="3" fill="#38b6f1" opacity=".8"/>
-        <circle cx="130" cy="148" r="14" fill="#007bff"/>
-        <circle cx="130" cy="148" r="8" fill="#38b6f1"/>
-        <circle cx="130" cy="148" r="4" fill="#fff"/>
-        <rect x="40" y="100" width="32" height="80" rx="10" fill="#0d1f4e"/>
-        <rect x="44" y="115" width="24" height="50" rx="7" fill="#1a3a7a"/>
-        <rect x="20" y="175" width="55" height="16" rx="8" fill="#0d1f4e"/>
-        <rect x="188" y="100" width="32" height="80" rx="10" fill="#0d1f4e"/>
-        <rect x="192" y="115" width="24" height="50" rx="7" fill="#1a3a7a"/>
-        <rect x="185" y="175" width="55" height="16" rx="8" fill="#0d1f4e"/>
-        <rect x="95" y="198" width="70" height="90" rx="10" fill="#0d1f4e"/>
-        <rect x="75" y="285" width="42" height="55" rx="10" fill="#0d1f4e"/>
-        <rect x="143" y="285" width="42" height="55" rx="10" fill="#0d1f4e"/>
-        <rect x="79" y="310" width="34" height="24" rx="6" fill="#1a3a7a"/>
-        <rect x="147" y="310" width="34" height="24" rx="6" fill="#1a3a7a"/>
-        <rect x="100" y="210" width="60" height="8" rx="4" fill="#38b6f1" opacity=".6"/>
-        <rect x="107" y="225" width="46" height="6" rx="3" fill="#007bff" opacity=".5"/>
-      </svg>
-    </div>
- 
-  </section>
- 
-  <!-- ════ STATS STRIP ════ -->
-  <div class="stats" id="stats-strip">
+          <img class="robo-img" src="assets/img/home-1/about/BOT.jpeg" alt="Dr. Shrey Jain with MISSO Robotic System"
+            onerror="this.style.display='none'; document.getElementById('robo-fallback').style.display='block';" />
+          <!-- Fallback SVG shown if image is missing -->
+          <svg id="robo-fallback" class="robo-img" style="display:none" viewBox="0 0 260 340"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect x="90" y="20" width="80" height="70" rx="18" fill="#0d1f4e" />
+            <rect x="105" y="35" width="50" height="30" rx="8" fill="#1a3a7a" />
+            <circle cx="120" cy="50" r="7" fill="#38b6f1" />
+            <circle cx="140" cy="50" r="7" fill="#38b6f1" />
+            <circle cx="120" cy="50" r="3" fill="#fff" />
+            <circle cx="140" cy="50" r="3" fill="#fff" />
+            <rect x="115" y="68" width="30" height="6" rx="3" fill="#38b6f1" opacity=".7" />
+            <rect x="75" y="95" width="110" height="100" rx="14" fill="#0d1f4e" />
+            <rect x="85" y="105" width="35" height="25" rx="6" fill="#1a3a7a" />
+            <rect x="140" y="105" width="35" height="25" rx="6" fill="#1a3a7a" />
+            <rect x="88" y="108" width="29" height="6" rx="3" fill="#38b6f1" opacity=".8" />
+            <rect x="143" y="108" width="29" height="6" rx="3" fill="#38b6f1" opacity=".8" />
+            <circle cx="130" cy="148" r="14" fill="#007bff" />
+            <circle cx="130" cy="148" r="8" fill="#38b6f1" />
+            <circle cx="130" cy="148" r="4" fill="#fff" />
+            <rect x="40" y="100" width="32" height="80" rx="10" fill="#0d1f4e" />
+            <rect x="44" y="115" width="24" height="50" rx="7" fill="#1a3a7a" />
+            <rect x="20" y="175" width="55" height="16" rx="8" fill="#0d1f4e" />
+            <rect x="188" y="100" width="32" height="80" rx="10" fill="#0d1f4e" />
+            <rect x="192" y="115" width="24" height="50" rx="7" fill="#1a3a7a" />
+            <rect x="185" y="175" width="55" height="16" rx="8" fill="#0d1f4e" />
+            <rect x="95" y="198" width="70" height="90" rx="10" fill="#0d1f4e" />
+            <rect x="75" y="285" width="42" height="55" rx="10" fill="#0d1f4e" />
+            <rect x="143" y="285" width="42" height="55" rx="10" fill="#0d1f4e" />
+            <rect x="79" y="310" width="34" height="24" rx="6" fill="#1a3a7a" />
+            <rect x="147" y="310" width="34" height="24" rx="6" fill="#1a3a7a" />
+            <rect x="100" y="210" width="60" height="8" rx="4" fill="#38b6f1" opacity=".6" />
+            <rect x="107" y="225" width="46" height="6" rx="3" fill="#007bff" opacity=".5" />
+          </svg>
+        </div>
+
+      </section>
+
+
+
+      <section class="hero">
+
+        <!-- LEFT -->
+        <div class="left">
+
+          <div class="eyebrow">🤖 Now Available in Balaghat</div>
+
+          <div class="htitle">
+            Care With<br>
+            <span class="acc">Surgeon Precision</span><br>
+            With World Best
+          </div>
+
+          <p class="hdesc">
+            Balaghat's most advanced robotic joint replacement surgery — now at Samadhan Hospital.
+            Dr. Shrey Jain brings world-class MISSO robotic technology for permanent solutions
+            to knee and joint problems.
+          </p>
+
+          <div class="doc-card">
+            <div class="doc-avatar">SJ</div>
+            <div>
+              <div class="dname">Dr. Shrey Jain</div>
+              <div class="dqual">M.S. (Ortho) · Fellowship in Robotic Joint Replacement</div>
+            </div>
+          </div>
+
+          <div class="badges">
+            <div class="b">🤖 Robotic Precision</div>
+            <div class="b">🩸 Minimal Blood Loss</div>
+            <div class="b">🏃 Quicker Recovery</div>
+            <div class="b">🛡️ Long-Lasting Results</div>
+          </div>
+
+          <div class="ibar">
+            <div class="ii">
+              <div class="ico" style="background:#e8f4ff;">🕐</div>
+              <div>
+                <div class="ilbl">Hours</div>
+                <div class="ival">09:30AM — 7:30PM</div>
+              </div>
+            </div>
+            <div class="ii">
+              <div class="ico" style="background:#fff0f0;">📞</div>
+              <div>
+                <div class="ilbl">Call</div>
+                <div class="ival">07632-295250</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="right">
+          <div class="misso-badge">MISSO<span>Robotic System</span></div>
+          <!-- 
+        Replace the src below with your actual robot image path.
+        Example: src="assets/img/home-1/about/robo-removebg-preview.png"
+      -->
+          <img class="robo-img" src="assets/img/home-1/about/BOT.jpeg" alt="Dr. Shrey Jain with MISSO Robotic System"
+            onerror="this.style.display='none'; document.getElementById('robo-fallback').style.display='block';" />
+          <!-- Fallback SVG shown if image is missing -->
+          <svg id="robo-fallback" class="robo-img" style="display:none" viewBox="0 0 260 340"
+            xmlns="http://www.w3.org/2000/svg">
+            <rect x="90" y="20" width="80" height="70" rx="18" fill="#0d1f4e" />
+            <rect x="105" y="35" width="50" height="30" rx="8" fill="#1a3a7a" />
+            <circle cx="120" cy="50" r="7" fill="#38b6f1" />
+            <circle cx="140" cy="50" r="7" fill="#38b6f1" />
+            <circle cx="120" cy="50" r="3" fill="#fff" />
+            <circle cx="140" cy="50" r="3" fill="#fff" />
+            <rect x="115" y="68" width="30" height="6" rx="3" fill="#38b6f1" opacity=".7" />
+            <rect x="75" y="95" width="110" height="100" rx="14" fill="#0d1f4e" />
+            <rect x="85" y="105" width="35" height="25" rx="6" fill="#1a3a7a" />
+            <rect x="140" y="105" width="35" height="25" rx="6" fill="#1a3a7a" />
+            <rect x="88" y="108" width="29" height="6" rx="3" fill="#38b6f1" opacity=".8" />
+            <rect x="143" y="108" width="29" height="6" rx="3" fill="#38b6f1" opacity=".8" />
+            <circle cx="130" cy="148" r="14" fill="#007bff" />
+            <circle cx="130" cy="148" r="8" fill="#38b6f1" />
+            <circle cx="130" cy="148" r="4" fill="#fff" />
+            <rect x="40" y="100" width="32" height="80" rx="10" fill="#0d1f4e" />
+            <rect x="44" y="115" width="24" height="50" rx="7" fill="#1a3a7a" />
+            <rect x="20" y="175" width="55" height="16" rx="8" fill="#0d1f4e" />
+            <rect x="188" y="100" width="32" height="80" rx="10" fill="#0d1f4e" />
+            <rect x="192" y="115" width="24" height="50" rx="7" fill="#1a3a7a" />
+            <rect x="185" y="175" width="55" height="16" rx="8" fill="#0d1f4e" />
+            <rect x="95" y="198" width="70" height="90" rx="10" fill="#0d1f4e" />
+            <rect x="75" y="285" width="42" height="55" rx="10" fill="#0d1f4e" />
+            <rect x="143" y="285" width="42" height="55" rx="10" fill="#0d1f4e" />
+            <rect x="79" y="310" width="34" height="24" rx="6" fill="#1a3a7a" />
+            <rect x="147" y="310" width="34" height="24" rx="6" fill="#1a3a7a" />
+            <rect x="100" y="210" width="60" height="8" rx="4" fill="#38b6f1" opacity=".6" />
+            <rect x="107" y="225" width="46" height="6" rx="3" fill="#007bff" opacity=".5" />
+          </svg>
+        </div>
+
+      </section>
+
+
+      <!-- ════ STATS STRIP ════ -->
+      <!-- <div class="stats" id="stats-strip">
     <div class="st"><div><span class="num" id="c1">0</span><span class="suf">+</span></div><div class="lbl">Robotic Surgeries</div></div>
     <div class="sdiv"></div>
     <div class="st"><div><span class="num" id="c2">0</span><span class="suf">%</span></div><div class="lbl">Patient Satisfaction</div></div>
@@ -1517,191 +1763,222 @@
     <div class="st"><div><span class="num" id="c3">0</span><span class="suf">+</span></div><div class="lbl">Years Experience</div></div>
     <div class="sdiv"></div>
     <div class="st"><div><span class="num" id="c4">0</span><span class="suf">x</span></div><div class="lbl">Faster Recovery</div></div>
-  </div>
- 
-</div>
- 
-<script>
-  function animCount(id, target, dur) {
-    const el = document.getElementById(id);
-    let s = 0, step = target / (dur / 16);
-    const t = setInterval(() => {
-      s += step;
-      if (s >= target) { el.textContent = target; clearInterval(t); }
-      else { el.textContent = Math.floor(s); }
-    }, 16);
-  }
- 
-  const strip = document.getElementById('stats-strip');
-  const obs = new IntersectionObserver(entries => {
-    if (entries[0].isIntersecting) {
-      animCount('c1', 500, 2000);
-      animCount('c2', 98,  2000);
-      animCount('c3', 10,  2000);
-      animCount('c4', 3,   1500);
-      obs.disconnect();
-    }
-  }, { threshold: 0.3 });
-  obs.observe(strip);
-</script>
- 
+  </div> -->
 
- 
-<!-- ================================== -->
+    </div>
+
+    <script>
+      function animCount(id, target, dur) {
+        const el = document.getElementById(id);
+        let s = 0, step = target / (dur / 16);
+        const t = setInterval(() => {
+          s += step;
+          if (s >= target) { el.textContent = target; clearInterval(t); }
+          else { el.textContent = Math.floor(s); }
+        }, 16);
+      }
+
+      const strip = document.getElementById('stats-strip');
+      const obs = new IntersectionObserver(entries => {
+        if (entries[0].isIntersecting) {
+          animCount('c1', 500, 2000);
+          animCount('c2', 98, 2000);
+          animCount('c3', 10, 2000);
+          animCount('c4', 3, 1500);
+          obs.disconnect();
+        }
+      }, { threshold: 0.3 });
+      obs.observe(strip);
+    </script>
+
+
+
+    <!-- ================================== -->
 
     <!-- About Section Start -->
-<section class="about-section section-padding fix">
-  <div class="container">
-    <div style="font-family: sans-serif; padding: 3rem 1rem; text-align: center; max-width: 900px; margin: 0 auto;">
+    <section class="about-section section-padding fix">
+      <div class="container">
+        <div style="font-family: sans-serif; padding: 3rem 1rem; text-align: center; max-width: 900px; margin: 0 auto;">
 
-      <!-- Subtitle Badge -->
-      <!-- Subtitle -->
-<span style="display: inline-block; background: #d6f5f0; color: #1a9e8f; margin-bottom: 50px; font-size: 12px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; padding: 10px 24px; border-radius: 4px;">
-  Why Choose Nishok Hospital
-</span>
+          <!-- Subtitle Badge -->
+          <!-- Subtitle -->
+          <span
+            style="display: inline-block; background: #d6f5f0; color: #1a9e8f; margin-bottom: 50px; font-size: 12px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; padding: 10px 24px; border-radius: 4px;">
+            Why Choose Nishok Hospital
+          </span>
 
-      <!-- Heading -->
-      <h2 style="font-size: 28px; font-weight: 600; color: #1a1a1a; max-width: 600px; margin: 0 auto 14px; line-height: 1.4;">
-        Trusted Healthcare in the Heart of Balaghat
-      </h2>
+          <!-- Heading -->
+          <h2
+            style="font-size: 28px; font-weight: 600; color: #1a1a1a; max-width: 600px; margin: 0 auto 14px; line-height: 1.4;">
+            Trusted Healthcare in the Heart of Balaghat
+          </h2>
 
-      <!-- Description -->
-      <p style="font-size: 15px; color: #666; max-width: 600px; margin: 0 auto 36px; line-height: 1.8;">
-        At Nishok Hospital, we combine specialist medical expertise with modern technology and a patient-first approach.
-        Our facility provides comfortable, accurate, and effective treatment for orthopedic and dermatological conditions — all under one roof in Balaghat.
-      </p>
-
-      <!-- Doctor Cards -->
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; max-width: 680px; margin: 0 auto 32px;">
-
-        <div style="background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; padding: 28px 20px; text-align: center; transition: border-color 0.2s;">
-          <div style="width: 72px; height: 72px; background: #e8f0fe; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 14px;">
-            <img src="assets/img/home-1/about/dr-removebg-preview.png" alt="Dr. Shrey" style="height: 48px; object-fit: contain;" />
-          </div>
-          <p style="font-size: 15px; font-weight: 600; color: #1a1a1a; margin: 0 0 8px;">Expert Orthopedic Surgeon</p>
-          <p style="font-size: 13px; color: #777; margin: 0; line-height: 1.6;">
-            Dr. Shrey — specialized in fractures, joint replacement &amp; sports injuries
+          <!-- Description -->
+          <p style="font-size: 15px; color: #666; max-width: 600px; margin: 0 auto 36px; line-height: 1.8;">
+            At Nishok Hospital, we combine specialist medical expertise with modern technology and a patient-first
+            approach.
+            Our facility provides comfortable, accurate, and effective treatment for orthopedic and dermatological
+            conditions — all under one roof in Balaghat.
           </p>
-        </div>
 
-        <div style="background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; padding: 28px 20px; text-align: center; transition: border-color 0.2s;">
-          <div style="width: 72px; height: 72px; background: #fff8e1; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 14px;">
-            <img src="assets/img/home-1/about/missdr.png" alt="Dr. Amisha" style="height: 48px; object-fit: contain;" />
+          <!-- Doctor Cards -->
+          <div
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; max-width: 680px; margin: 0 auto 32px;">
+
+            <div
+              style="background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; padding: 28px 20px; text-align: center; transition: border-color 0.2s;">
+              <div style="width: 72px; height: 72px; border-radius: 50%; overflow: hidden; margin: 0 auto 14px;">
+                <img src="assets/img/home-1/team/team-02.png" alt="Dr. Amisha"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+              </div>
+              <p style="font-size: 15px; font-weight: 600; color: #1a1a1a; margin: 0 0 8px;">Leading Dermatologist</p>
+              <p style="font-size: 13px; color: #777; margin: 0; line-height: 1.6;">
+                Dr. Amisha — Skin, Hair, Laser &amp; Advanced Aesthetic Treatments
+              </p>
+            </div>
+
+            <div
+              style="background: #fff; border: 1px solid #e8e8e8; border-radius: 14px; padding: 28px 20px; text-align: center; transition: border-color 0.2s;">
+              <div style="width: 72px; height: 72px; border-radius: 50%; overflow: hidden; margin: 0 auto 14px;">
+                <img src="assets/img/home-1/team/team-01.png" alt="Dr. Shrey"
+                  style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+              </div>
+              <p style="font-size: 15px; font-weight: 600; color: #1a1a1a; margin: 0 0 8px;">Expert Orthopedic Surgeon
+              </p>
+              <p style="font-size: 13px; color: #777; margin: 0; line-height: 1.6;">
+                Dr. Shrey — specialized in fractures, joint replacement &amp; sports injuries
+              </p>
+            </div>
+
+
+
           </div>
-          <p style="font-size: 15px; font-weight: 600; color: #1a1a1a; margin: 0 0 8px;">Leading Dermatologist</p>
-          <p style="font-size: 13px; color: #777; margin: 0; line-height: 1.6;">
-            Dr. Amisha — Skin, Hair, Laser &amp; Advanced Aesthetic Treatments
-          </p>
-        </div>
 
+          <!-- Features List -->
+          <div
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; max-width: 640px; margin: 0 auto 32px; text-align: left;">
+            <div
+              style="display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: #555; line-height: 1.5;">
+              <i class="far fa-check-circle"
+                style="color: #2e7d32; font-size: 16px; margin-top: 2px; flex-shrink: 0;"></i>
+              Serving Balaghat, Gondia, Waraseoni, and Seoni districts
+            </div>
+            <div
+              style="display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: #555; line-height: 1.5;">
+              <i class="far fa-check-circle"
+                style="color: #2e7d32; font-size: 16px; margin-top: 2px; flex-shrink: 0;"></i>
+              Modern diagnostic and treatment equipment
+            </div>
+            <div
+              style="display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: #555; line-height: 1.5;">
+              <i class="far fa-check-circle"
+                style="color: #2e7d32; font-size: 16px; margin-top: 2px; flex-shrink: 0;"></i>
+              Affordable care with transparent pricing
+            </div>
+            <div
+              style="display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: #555; line-height: 1.5;">
+              <i class="far fa-check-circle"
+                style="color: #2e7d32; font-size: 16px; margin-top: 2px; flex-shrink: 0;"></i>
+              Hygienic, patient-friendly environment
+            </div>
+          </div>
+
+          <!-- Button -->
+          <div class="about-btn">
+            <a href="contact.html" class="theme-btn"
+              style="display: inline-flex; align-items: center; gap: 8px; background: #1a73e8; color: #fff; font-size: 14px; font-weight: 500; padding: 12px 28px; border-radius: 8px; text-decoration: none;">
+              <i class="far fa-calendar-plus"></i> Book Appointment
+            </a>
+          </div>
+
+        </div>
       </div>
-
-      <!-- Features List -->
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; max-width: 640px; margin: 0 auto 32px; text-align: left;">
-        <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: #555; line-height: 1.5;">
-          <i class="far fa-check-circle" style="color: #2e7d32; font-size: 16px; margin-top: 2px; flex-shrink: 0;"></i>
-          Serving Balaghat, Gondia, Waraseoni, and Seoni districts
-        </div>
-        <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: #555; line-height: 1.5;">
-          <i class="far fa-check-circle" style="color: #2e7d32; font-size: 16px; margin-top: 2px; flex-shrink: 0;"></i>
-          Modern diagnostic and treatment equipment
-        </div>
-        <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: #555; line-height: 1.5;">
-          <i class="far fa-check-circle" style="color: #2e7d32; font-size: 16px; margin-top: 2px; flex-shrink: 0;"></i>
-          Affordable care with transparent pricing
-        </div>
-        <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: #555; line-height: 1.5;">
-          <i class="far fa-check-circle" style="color: #2e7d32; font-size: 16px; margin-top: 2px; flex-shrink: 0;"></i>
-          Hygienic, patient-friendly environment
-        </div>
-      </div>
-
-      <!-- Button -->
-      <div class="about-btn">
-        <a href="about.html" class="theme-btn" style="display: inline-flex; align-items: center; gap: 8px; background: #1a73e8; color: #fff; font-size: 14px; font-weight: 500; padding: 12px 28px; border-radius: 8px; text-decoration: none;">
-          <i class="far fa-calendar-plus"></i> Book Appointment
-        </a>
-      </div>
-
-    </div>
-  </div>
-</section>
+    </section>
 
     <!-- Service Section Start -->
-<style>
-  .nishok-service-grid {
-    display: grid;
-    grid-template-columns: 1fr 260px;
-    gap: 2rem;
-    align-items: start;
-  }
-  .nishok-sticky-img {
-    position: sticky;
-    top: 100px;
-  }
-  .nishok-sticky-img-ortho {
-    position: sticky;
-    top: 100px;
-    margin-top: 40px;
-  }
+    <style>
+      .nishok-service-grid {
+        display: grid;
+        grid-template-columns: 1fr 260px;
+        gap: 2rem;
+        align-items: start;
+      }
 
-  @media (max-width: 768px) {
-    .nishok-service-grid {
-      grid-template-columns: 1fr;
-      gap: 1.25rem;
-    }
-    .nishok-sticky-img,
-    .nishok-sticky-img-ortho {
-      position: relative;
-      top: auto;
-      margin-top: 0;
-      order: -1;
-      width: 100%;
-    }
-    .nishok-tab-bar {
-      flex-direction: column;
-    }
-    .nishok-tab-bar button {
-      width: 100%;
-      justify-content: center;
-    }
-    .nishok-panel-header {
-      flex-direction: column;
-    }
-    .nishok-panel-title {
-      font-size: 17px !important;
-    }
-    /* Image full width, full natural height on mobile - no crop */
-    .nishok-img-wrapper {
-      width: 100%;
-      border-radius: 12px;
-      overflow: hidden;
-      border: 0.5px solid #e0e0e0;
-    }
-    .nishok-service-img {
-      width: 100% !important;
-      height: auto !important;
-      display: block !important;
-      object-fit: unset !important;
-    }
-  }
-</style>
+      .nishok-sticky-img {
+        position: sticky;
+        top: 100px;
+      }
 
-<section class="service-section section-padding section-bg-2 fix">
-  <div class="service-shape-1"><img src="assets/img/home-1/service/shape-1.png" alt="img" /></div>
-  <div class="service-shape-2"><img src="assets/img/home-1/service/shape-2.png" alt="img" /></div>
-  <div class="service-shape-3"><img src="assets/img/home-1/service/shape-3.png" alt="img" /></div>
-  <div class="container">
-    <div class="section-title text-center">
-      <span class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle">OUR SERVICES</span>
-      <h2 class="text-white tx-title sec_title tz-itm-title tz-itm-anim">
-        Comprehensive Orthopedic &amp; Skin Treatments in Balaghat
-      </h2>
-    </div>
+      .nishok-sticky-img-ortho {
+        position: sticky;
+        top: 100px;
+        margin-top: 40px;
+      }
 
-    <!-- TAB BUTTONS -->
-    <div class="nishok-tab-bar" style="display:flex; gap:8px; margin-bottom:1.5rem; flex-wrap:wrap;">
-      <button
+      @media (max-width: 768px) {
+        .nishok-service-grid {
+          grid-template-columns: 1fr;
+          gap: 1.25rem;
+        }
+
+        .nishok-sticky-img,
+        .nishok-sticky-img-ortho {
+          position: relative;
+          top: auto;
+          margin-top: 0;
+          order: -1;
+          width: 100%;
+        }
+
+        .nishok-tab-bar {
+          flex-direction: column;
+        }
+
+        .nishok-tab-bar button {
+          width: 100%;
+          justify-content: center;
+        }
+
+        .nishok-panel-header {
+          flex-direction: column;
+        }
+
+        .nishok-panel-title {
+          font-size: 17px !important;
+        }
+
+        /* Image full width, full natural height on mobile - no crop */
+        .nishok-img-wrapper {
+          width: 100%;
+          border-radius: 12px;
+          overflow: hidden;
+          border: 0.5px solid #e0e0e0;
+        }
+
+        .nishok-service-img {
+          width: 100% !important;
+          height: auto !important;
+          display: block !important;
+          object-fit: unset !important;
+        }
+      }
+    </style>
+
+    <section class="service-section section-padding section-bg-2 fix">
+      <div class="service-shape-1"><img src="assets/img/home-1/service/shape-1.png" alt="img" /></div>
+      <div class="service-shape-2"><img src="assets/img/home-1/service/shape-2.png" alt="img" /></div>
+      <div class="service-shape-3"><img src="assets/img/home-1/service/shape-3.png" alt="img" /></div>
+      <div class="container">
+        <div class="section-title text-center">
+          <span class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle">OUR SERVICES</span>
+          <h2 class="text-white tx-title sec_title tz-itm-title tz-itm-anim">
+            Comprehensive Orthopedic &amp; Skin Treatments in Balaghat
+          </h2>
+        </div>
+
+        <!-- TAB BUTTONS -->
+        <div class="nishok-tab-bar" style="display:flex; gap:8px; margin-bottom:1.5rem; flex-wrap:wrap;">
+          <!-- <button
         onclick="nishokTab('ortho', this)"
         style="padding:10px 22px; border:none; border-radius:8px; background:#1D9E75; color:#fff; font-size:14px; font-weight:500; cursor:pointer; display:inline-flex; align-items:center; gap:6px;"
         id="nishok-btn-ortho">
@@ -1712,268 +1989,366 @@
         style="padding:10px 22px; border:0.5px solid #ccc; border-radius:8px; background:#f5f5f5; color:#555; font-size:14px; font-weight:500; cursor:pointer; display:inline-flex; align-items:center; gap:6px;"
         id="nishok-btn-derm">
         <i class="far fa-sparkles"></i> Dermatology &amp; Skin Services
-      </button>
-    </div>
+      </button> -->
 
-    <!-- ==================== ORTHOPEDIC PANEL ==================== -->
-    <div id="nishok-panel-ortho" style="display:block;">
 
-      <div class="nishok-panel-header" style="display:flex; align-items:flex-start; gap:12px; margin-bottom:1rem;">
-        <div style="width:44px; height:44px; min-width:44px; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
-          <i class="flaticon-good-heart" style="color:#0F6E56; font-size:20px;"></i>
-        </div>
-        <div>
-          <h3 class="nishok-panel-title" style="font-size:20px; font-weight:600; color:#1a1a1a; margin:0 0 4px;">Orthopedic Care</h3>
-          <p style="font-size:14px; color:#666; margin:0; line-height:1.6;">
-            Our orthopedic specialists provide advanced treatment for bone, joint, and muscle conditions — helping you recover faster and move pain-free.
-          </p>
-        </div>
-      </div>
+          <button onclick="nishokTab('derm', this)"
+            style="padding:10px 22px; border:none; border-radius:8px; background:#1D9E75; color:#fff; font-size:14px; font-weight:500; cursor:pointer; display:inline-flex; align-items:center; gap:6px;"
+            id="nishok-btn-derm">
+            <i class="far fa-sparkles"></i> Dermatology &amp; Skin Services
+          </button>
+          <button onclick="nishokTab('ortho', this)"
+            style="padding:10px 22px; border:0.5px solid #ccc; border-radius:8px; background:#f5f5f5; color:#555; font-size:14px; font-weight:500; cursor:pointer; display:inline-flex; align-items:center; gap:6px;"
+            id="nishok-btn-ortho">
+            <i class="far fa-bone"></i> Orthopedic
+          </button>
 
-      <div class="nishok-service-grid">
-
-        <!-- LEFT: Accordion list -->
-        <div>
-          <p style="font-size:11px; font-weight:600; letter-spacing:0.07em; text-transform:uppercase; color:#888; margin:0 0 10px;">Services List</p>
-          <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px;">
-
-            <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
-              <div onclick="nishokAccordion(this)" style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
-                Complex Fracture &amp; Trauma Surgeries <i class="far fa-chevron-right" style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
-              </div>
-              <ul style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Advanced treatment for road traffic accidents, high-impact injuries, and complicated fractures</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Management of open fractures, multiple fractures, and failed previous surgeries</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Modern fixation techniques using plates, nails, screws, and minimally invasive methods</li>
-              </ul>
-            </li>
-
-            <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
-              <div onclick="nishokAccordion(this)" style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
-                Joint Replacement Surgeries (Knee &amp; Hip) <i class="far fa-chevron-right" style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
-              </div>
-              <ul style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Total and partial knee replacement for severe arthritis and joint damage</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Hip replacement surgeries for fractures, avascular necrosis, and painful arthritis</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Faster recovery protocols focused on early mobilization and pain relief</li>
-              </ul>
-            </li>
-
-            <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
-              <div onclick="nishokAccordion(this)" style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
-                Spine Surgeries &amp; Slip Disc Treatment <i class="far fa-chevron-right" style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
-              </div>
-              <ul style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Treatment for slip disc, sciatica, spinal stenosis, and chronic back pain</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Surgical and non-surgical management of cervical and lumbar spine disorders</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Personalized rehabilitation programs for long-term spine health and recovery</li>
-              </ul>
-            </li>
-
-            <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
-              <div onclick="nishokAccordion(this)" style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
-                Sports Injury &amp; Arthroscopic Surgeries <i class="far fa-chevron-right" style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
-              </div>
-              <ul style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Arthroscopic (keyhole) surgeries for ligament, meniscus, and shoulder injuries</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Specialized care for ACL tears, sports trauma, and joint instability</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Rehabilitation programs designed for faster return to sports and daily activities</li>
-              </ul>
-            </li>
-
-            <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
-              <div onclick="nishokAccordion(this)" style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
-                Rehabilitation &amp; Physiotherapy Guidance <i class="far fa-chevron-right" style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
-              </div>
-              <ul style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Customized rehabilitation plans after fractures, surgeries, and joint problems</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Exercises focused on improving strength, mobility, and functional recovery</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Guidance for posture correction, gait training, and pain management</li>
-              </ul>
-            </li>
-
-            <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
-              <div onclick="nishokAccordion(this)" style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
-                Congenital Bone &amp; Joint Deformity Treatment <i class="far fa-chevron-right" style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
-              </div>
-              <ul style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Evaluation and treatment of congenital deformities in children and adults</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Management of bow legs, knock knees, clubfoot, and limb deformities</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Long-term corrective planning to improve mobility and quality of life</li>
-              </ul>
-            </li>
-
-            <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
-              <div onclick="nishokAccordion(this)" style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
-                Arthritis &amp; Chronic Joint Pain Management <i class="far fa-chevron-right" style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
-              </div>
-              <ul style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Comprehensive treatment for osteoarthritis, rheumatoid arthritis, and joint stiffness</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Non-surgical options including medications, injections, and lifestyle guidance</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Advanced surgical solutions when conservative treatment is not effective</li>
-              </ul>
-            </li>
-
-            <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
-              <div onclick="nishokAccordion(this)" style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
-                Back Pain, Neck Pain &amp; Sciatica Treatment <i class="far fa-chevron-right" style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
-              </div>
-              <ul style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Diagnosis and treatment for chronic back pain, neck pain, and nerve compression</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Management of sciatica, muscle spasms, and posture-related spine problems</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Combination of medications, physiotherapy, and minimally invasive procedures</li>
-              </ul>
-            </li>
-
-            <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
-              <div onclick="nishokAccordion(this)" style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
-                Pediatric Orthopedic Care <i class="far fa-chevron-right" style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
-              </div>
-              <ul style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Specialized orthopedic care for children with bone, joint, and growth-related problems</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Treatment of pediatric fractures, walking abnormalities, and developmental conditions</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Child-friendly approach focused on safe recovery and healthy bone development</li>
-              </ul>
-            </li>
-
-            <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
-              <div onclick="nishokAccordion(this)" style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
-                Osteoporosis &amp; Geriatric Fracture Care <i class="far fa-chevron-right" style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
-              </div>
-              <ul style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Diagnosis and treatment of osteoporosis to reduce fracture risk in elderly patients</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Management of hip, wrist, and spine fractures in senior citizens</li>
-                <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Comprehensive care focused on mobility, fall prevention, and healthy aging</li>
-              </ul>
-            </li>
-
-          </ul>
-
-          <a href="service.html" class="theme-btn mt-5" style="display:inline-flex; align-items:center; gap:6px; margin-top:1.5rem;">
-            <i class="far fa-chevron-right"></i> More Details
-          </a>
         </div>
 
-        <!-- RIGHT: Sticky Image -->
-        <div class="nishok-sticky-img-ortho">
-          <div class="nishok-img-wrapper" style="border-radius:12px; overflow:hidden; border:0.5px solid #e0e0e0;">
-            <img
-              class="img-fluid nishok-service-img"
-              src="assets/img/home-1/service/service-02.png"
-              alt="Orthopedic care at Nishok Hospital"
-              style="width:100%; height:320px; display:block; object-fit:cover; object-position:center; max-width:100%;"
-            />
-            <div style="padding:14px 16px; background:#E1F5EE;">
-              <p style="font-size:13px; font-weight:600; color:#0F6E56; margin:0 0 3px;">Expert Orthopedic Surgeons</p>
-              <p style="font-size:12px; color:#1D9E75; margin:0;">Advanced treatments for bone, joint &amp; spine</p>
+        <!-- ==================== DERMATOLOGY PANEL ==================== -->
+
+        <div id="nishok-panel-derm" style="display:block;">
+
+          <div style="margin-bottom:1rem;">
+            <div style="display:flex; align-items:center; gap:12px; margin-bottom:8px;">
+              <div
+                style="width:44px; height:44px; min-width:44px; flex-shrink:0; border-radius:50%; background:#FAEEDA; display:flex; align-items:center; justify-content:center;">
+                <i class="flaticon-good-heart" style="color:#854F0B; font-size:20px;"></i>
+              </div>
+              <h3 style="font-size:20px; font-weight:600; color:#ffffff; margin:0; line-height:1.3;">
+                Advanced Skin &amp; Hair Care Solutions
+              </h3>
             </div>
+            <p style="font-size:14px; color:rgba(255,255,255,0.75); margin:0 0 0 56px; line-height:1.6;">
+              We offer personalized dermatology treatments to improve skin health, enhance appearance, and restore
+              confidence using modern techniques.
+            </p>
+          </div>
+
+          <div class="nishok-service-grid">
+
+            <!-- LEFT: Services list -->
+            <div>
+              <p
+                style="font-size:11px; font-weight:600; letter-spacing:0.07em; text-transform:uppercase; color:#888; margin:0 0 10px;">
+                Services List</p>
+              <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px;">
+                <li
+                  style="display:flex; align-items:center; gap:10px; padding:10px 14px; border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; font-size:13px; color:#1a1a1a;">
+                  <i class="far fa-check-circle" style="color:#1D9E75; font-size:16px; flex-shrink:0;"></i> Acne &amp;
+                  pimple treatment
+                </li>
+                <li
+                  style="display:flex; align-items:center; gap:10px; padding:10px 14px; border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; font-size:13px; color:#1a1a1a;">
+                  <i class="far fa-check-circle" style="color:#1D9E75; font-size:16px; flex-shrink:0;"></i> Pigmentation
+                  &amp; melasma treatment
+                </li>
+                <li
+                  style="display:flex; align-items:center; gap:10px; padding:10px 14px; border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; font-size:13px; color:#1a1a1a;">
+                  <i class="far fa-check-circle" style="color:#1D9E75; font-size:16px; flex-shrink:0;"></i> PRP hair
+                  loss treatment
+                </li>
+                <li
+                  style="display:flex; align-items:center; gap:10px; padding:10px 14px; border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; font-size:13px; color:#1a1a1a;">
+                  <i class="far fa-check-circle" style="color:#1D9E75; font-size:16px; flex-shrink:0;"></i> HydraFacial
+                  skin treatment
+                </li>
+                <li
+                  style="display:flex; align-items:center; gap:10px; padding:10px 14px; border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; font-size:13px; color:#1a1a1a;">
+                  <i class="far fa-check-circle" style="color:#1D9E75; font-size:16px; flex-shrink:0;"></i> Laser skin
+                  rejuvenation
+                </li>
+              </ul>
+
+              <a href="service.html" class="theme-btn mt-5"
+                style="display:inline-flex; align-items:center; gap:6px; margin-top:1.5rem;">
+                <i class="far fa-chevron-right"></i> More Details
+              </a>
+            </div>
+
+            <!-- RIGHT: Sticky Image -->
+            <div class="nishok-sticky-img">
+              <div class="nishok-img-wrapper" style="border-radius:12px; overflow:hidden; border:0.5px solid #e0e0e0;">
+                <img class="img-fluid nishok-service-img" src="assets/img/home-1/service/service-01.png"
+                  alt="Dermatology services at Nishok Hospital"
+                  style="width:100%; height:320px; display:block; object-fit:cover; object-position:center; max-width:100%;" />
+                <div style="padding:14px 16px; background:#FAEEDA;">
+                  <p style="font-size:13px; font-weight:600; color:#854F0B; margin:0 0 3px;">Skin &amp; Hair Specialists
+                  </p>
+                  <p style="font-size:12px; color:#BA7517; margin:0;">Modern dermatology for all skin types</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+
+
+        <!-- ==================== ORTHOPEDIC PANEL ==================== -->
+        <div id="nishok-panel-ortho" style="display:none;">
+
+          <div style="margin-bottom:1rem;">
+            <div style="display:flex; align-items:center; gap:12px; margin-bottom:8px;">
+              <div
+                style="width:44px; height:44px; min-width:44px; flex-shrink:0; border-radius:50%; background:#E1F5EE; display:flex; align-items:center; justify-content:center;">
+                <i class="flaticon-good-heart" style="color:#0F6E56; font-size:20px;"></i>
+              </div>
+              <h3 style="font-size:20px; font-weight:600; color:#ffffff; margin:0; line-height:1.3;">
+                Orthopedic Care
+              </h3>
+            </div>
+            <p style="font-size:14px; color:rgba(255,255,255,0.75); margin:0 0 0 56px; line-height:1.6;">
+              Our orthopedic specialists provide advanced treatment for bone, joint, and muscle conditions — helping
+              you recover faster and move pain-free.
+            </p>
+          </div>
+
+          <div class="nishok-service-grid">
+
+            <!-- LEFT: Accordion list -->
+            <div>
+              <p
+                style="font-size:11px; font-weight:600; letter-spacing:0.07em; text-transform:uppercase; color:#888; margin:0 0 10px;">
+                Services List</p>
+              <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px;">
+
+                <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
+                  <div onclick="nishokAccordion(this)"
+                    style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
+                    Complex Fracture &amp; Trauma Surgeries <i class="far fa-chevron-right"
+                      style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
+                  </div>
+                  <ul
+                    style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Advanced treatment for road
+                      traffic accidents, high-impact injuries, and complicated fractures</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Management of open
+                      fractures, multiple fractures, and failed previous surgeries</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Modern fixation techniques
+                      using plates, nails, screws, and minimally invasive methods</li>
+                  </ul>
+                </li>
+
+                <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
+                  <div onclick="nishokAccordion(this)"
+                    style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
+                    Joint Replacement Surgeries (Knee &amp; Hip) <i class="far fa-chevron-right"
+                      style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
+                  </div>
+                  <ul
+                    style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Total and partial knee
+                      replacement for severe arthritis and joint damage</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Hip replacement surgeries
+                      for fractures, avascular necrosis, and painful arthritis</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Faster recovery protocols
+                      focused on early mobilization and pain relief</li>
+                  </ul>
+                </li>
+
+                <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
+                  <div onclick="nishokAccordion(this)"
+                    style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
+                    Spine Surgeries &amp; Slip Disc Treatment <i class="far fa-chevron-right"
+                      style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
+                  </div>
+                  <ul
+                    style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Treatment for slip disc,
+                      sciatica, spinal stenosis, and chronic back pain</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Surgical and non-surgical
+                      management of cervical and lumbar spine disorders</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Personalized rehabilitation
+                      programs for long-term spine health and recovery</li>
+                  </ul>
+                </li>
+
+                <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
+                  <div onclick="nishokAccordion(this)"
+                    style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
+                    Sports Injury &amp; Arthroscopic Surgeries <i class="far fa-chevron-right"
+                      style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
+                  </div>
+                  <ul
+                    style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Arthroscopic (keyhole)
+                      surgeries for ligament, meniscus, and shoulder injuries</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Specialized care for ACL
+                      tears, sports trauma, and joint instability</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Rehabilitation programs
+                      designed for faster return to sports and daily activities</li>
+                  </ul>
+                </li>
+
+                <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
+                  <div onclick="nishokAccordion(this)"
+                    style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
+                    Rehabilitation &amp; Physiotherapy Guidance <i class="far fa-chevron-right"
+                      style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
+                  </div>
+                  <ul
+                    style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Customized rehabilitation
+                      plans after fractures, surgeries, and joint problems</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Exercises focused on
+                      improving strength, mobility, and functional recovery</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Guidance for posture
+                      correction, gait training, and pain management</li>
+                  </ul>
+                </li>
+
+                <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
+                  <div onclick="nishokAccordion(this)"
+                    style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
+                    Congenital Bone &amp; Joint Deformity Treatment <i class="far fa-chevron-right"
+                      style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
+                  </div>
+                  <ul
+                    style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Evaluation and treatment of
+                      congenital deformities in children and adults</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Management of bow legs,
+                      knock knees, clubfoot, and limb deformities</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Long-term corrective
+                      planning to improve mobility and quality of life</li>
+                  </ul>
+                </li>
+
+                <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
+                  <div onclick="nishokAccordion(this)"
+                    style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
+                    Arthritis &amp; Chronic Joint Pain Management <i class="far fa-chevron-right"
+                      style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
+                  </div>
+                  <ul
+                    style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Comprehensive treatment for
+                      osteoarthritis, rheumatoid arthritis, and joint stiffness</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Non-surgical options
+                      including medications, injections, and lifestyle guidance</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Advanced surgical solutions
+                      when conservative treatment is not effective</li>
+                  </ul>
+                </li>
+
+                <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
+                  <div onclick="nishokAccordion(this)"
+                    style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
+                    Back Pain, Neck Pain &amp; Sciatica Treatment <i class="far fa-chevron-right"
+                      style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
+                  </div>
+                  <ul
+                    style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Diagnosis and treatment for
+                      chronic back pain, neck pain, and nerve compression</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Management of sciatica,
+                      muscle spasms, and posture-related spine problems</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Combination of medications,
+                      physiotherapy, and minimally invasive procedures</li>
+                  </ul>
+                </li>
+
+                <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
+                  <div onclick="nishokAccordion(this)"
+                    style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
+                    Pediatric Orthopedic Care <i class="far fa-chevron-right"
+                      style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
+                  </div>
+                  <ul
+                    style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Specialized orthopedic care
+                      for children with bone, joint, and growth-related problems</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Treatment of pediatric
+                      fractures, walking abnormalities, and developmental conditions</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Child-friendly approach
+                      focused on safe recovery and healthy bone development</li>
+                  </ul>
+                </li>
+
+                <li style="border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; overflow:hidden;">
+                  <div onclick="nishokAccordion(this)"
+                    style="padding:10px 14px; cursor:pointer; display:flex; align-items:center; justify-content:space-between; font-size:13px; font-weight:600; color:#1a1a1a;">
+                    Osteoporosis &amp; Geriatric Fracture Care <i class="far fa-chevron-right"
+                      style="transition:transform 0.2s; font-size:12px; color:#888; flex-shrink:0; margin-left:8px;"></i>
+                  </div>
+                  <ul
+                    style="display:none; list-style:disc; padding:8px 14px 12px 28px; margin:0; border-top:0.5px solid #f0f0f0; background:#fafafa;">
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Diagnosis and treatment of
+                      osteoporosis to reduce fracture risk in elderly patients</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Management of hip, wrist,
+                      and spine fractures in senior citizens</li>
+                    <li style="font-size:12px; color:#555; line-height:1.7; padding:2px 0;">Comprehensive care focused
+                      on mobility, fall prevention, and healthy aging</li>
+                  </ul>
+                </li>
+
+              </ul>
+
+              <a href="service.html" class="theme-btn mt-5"
+                style="display:inline-flex; align-items:center; gap:6px; margin-top:1.5rem;">
+                <i class="far fa-chevron-right"></i> More Details
+              </a>
+            </div>
+
+            <!-- RIGHT: Sticky Image -->
+            <div class="nishok-sticky-img-ortho">
+              <div class="nishok-img-wrapper" style="border-radius:12px; overflow:hidden; border:0.5px solid #e0e0e0;">
+                <img class="img-fluid nishok-service-img" src="assets/img/home-1/service/service-02.png"
+                  alt="Orthopedic care at Nishok Hospital"
+                  style="width:100%; height:320px; display:block; object-fit:cover; object-position:center; max-width:100%;" />
+                <div style="padding:14px 16px; background:#E1F5EE;">
+                  <p style="font-size:13px; font-weight:600; color:#0F6E56; margin:0 0 3px;">Expert Orthopedic Surgeons
+                  </p>
+                  <p style="font-size:12px; color:#1D9E75; margin:0;">Advanced treatments for bone, joint &amp; spine
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
       </div>
-    </div>
+    </section>
 
-    <!-- ==================== DERMATOLOGY PANEL ==================== -->
-    <div id="nishok-panel-derm" style="display:none;">
+    <script>
+      function nishokTab(tab, btn) {
+        document.getElementById('nishok-panel-ortho').style.display = 'none';
+        document.getElementById('nishok-panel-derm').style.display = 'none';
+        document.getElementById('nishok-panel-' + tab).style.display = 'block';
 
-      <div class="nishok-panel-header" style="display:flex; align-items:flex-start; gap:12px; margin-bottom:1rem;">
-        <div style="width:44px; height:44px; min-width:44px; border-radius:50%; background:#FAEEDA; display:flex; align-items:center; justify-content:center;">
-          <i class="flaticon-good-heart" style="color:#854F0B; font-size:20px;"></i>
-        </div>
-        <div>
-          <h3 class="nishok-panel-title" style="font-size:20px; font-weight:600; color:#1a1a1a; margin:0 0 4px;">Advanced Skin &amp; Hair Care Solutions</h3>
-          <p style="font-size:14px; color:#666; margin:0; line-height:1.6;">
-            We offer personalized dermatology treatments to improve skin health, enhance appearance, and restore confidence using modern techniques.
-          </p>
-        </div>
-      </div>
+        var btns = [document.getElementById('nishok-btn-ortho'), document.getElementById('nishok-btn-derm')];
+        btns.forEach(function (b) {
+          b.style.background = '#f5f5f5';
+          b.style.color = '#555';
+          b.style.border = '0.5px solid #ccc';
+        });
+        btn.style.background = '#1D9E75';
+        btn.style.color = '#fff';
+        btn.style.border = 'none';
+      }
 
-      <div class="nishok-service-grid">
+      function nishokAccordion(header) {
+        var sub = header.nextElementSibling;
+        var icon = header.querySelector('i');
+        var isOpen = sub.style.display === 'block';
 
-        <!-- LEFT: Services list -->
-        <div>
-          <p style="font-size:11px; font-weight:600; letter-spacing:0.07em; text-transform:uppercase; color:#888; margin:0 0 10px;">Services List</p>
-          <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:8px;">
-            <li style="display:flex; align-items:center; gap:10px; padding:10px 14px; border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; font-size:13px; color:#1a1a1a;">
-              <i class="far fa-check-circle" style="color:#1D9E75; font-size:16px; flex-shrink:0;"></i> Acne &amp; pimple treatment
-            </li>
-            <li style="display:flex; align-items:center; gap:10px; padding:10px 14px; border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; font-size:13px; color:#1a1a1a;">
-              <i class="far fa-check-circle" style="color:#1D9E75; font-size:16px; flex-shrink:0;"></i> Pigmentation &amp; melasma treatment
-            </li>
-            <li style="display:flex; align-items:center; gap:10px; padding:10px 14px; border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; font-size:13px; color:#1a1a1a;">
-              <i class="far fa-check-circle" style="color:#1D9E75; font-size:16px; flex-shrink:0;"></i> PRP hair loss treatment
-            </li>
-            <li style="display:flex; align-items:center; gap:10px; padding:10px 14px; border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; font-size:13px; color:#1a1a1a;">
-              <i class="far fa-check-circle" style="color:#1D9E75; font-size:16px; flex-shrink:0;"></i> HydraFacial skin treatment
-            </li>
-            <li style="display:flex; align-items:center; gap:10px; padding:10px 14px; border:0.5px solid #e0e0e0; border-radius:8px; background:#fff; font-size:13px; color:#1a1a1a;">
-              <i class="far fa-check-circle" style="color:#1D9E75; font-size:16px; flex-shrink:0;"></i> Laser skin rejuvenation
-            </li>
-          </ul>
+        document.querySelectorAll('[onclick="nishokAccordion(this)"] + ul').forEach(function (el) {
+          el.style.display = 'none';
+        });
+        document.querySelectorAll('[onclick="nishokAccordion(this)"] i').forEach(function (el) {
+          el.style.transform = 'rotate(0deg)';
+        });
 
-          <a href="service.html" class="theme-btn mt-5" style="display:inline-flex; align-items:center; gap:6px; margin-top:1.5rem;">
-            <i class="far fa-chevron-right"></i> More Details
-          </a>
-        </div>
-
-        <!-- RIGHT: Sticky Image -->
-        <div class="nishok-sticky-img">
-          <div class="nishok-img-wrapper" style="border-radius:12px; overflow:hidden; border:0.5px solid #e0e0e0;">
-            <img
-              class="img-fluid nishok-service-img"
-              src="assets/img/home-1/service/service-01.png"
-              alt="Dermatology services at Nishok Hospital"
-              style="width:100%; height:320px; display:block; object-fit:cover; object-position:center; max-width:100%;"
-            />
-            <div style="padding:14px 16px; background:#FAEEDA;">
-              <p style="font-size:13px; font-weight:600; color:#854F0B; margin:0 0 3px;">Skin &amp; Hair Specialists</p>
-              <p style="font-size:12px; color:#BA7517; margin:0;">Modern dermatology for all skin types</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<script>
-function nishokTab(tab, btn) {
-  document.getElementById('nishok-panel-ortho').style.display = 'none';
-  document.getElementById('nishok-panel-derm').style.display = 'none';
-  document.getElementById('nishok-panel-' + tab).style.display = 'block';
-
-  var btns = [document.getElementById('nishok-btn-ortho'), document.getElementById('nishok-btn-derm')];
-  btns.forEach(function(b) {
-    b.style.background = '#f5f5f5';
-    b.style.color = '#555';
-    b.style.border = '0.5px solid #ccc';
-  });
-  btn.style.background = '#1D9E75';
-  btn.style.color = '#fff';
-  btn.style.border = 'none';
-}
-
-function nishokAccordion(header) {
-  var sub = header.nextElementSibling;
-  var icon = header.querySelector('i');
-  var isOpen = sub.style.display === 'block';
-
-  document.querySelectorAll('[onclick="nishokAccordion(this)"] + ul').forEach(function(el) {
-    el.style.display = 'none';
-  });
-  document.querySelectorAll('[onclick="nishokAccordion(this)"] i').forEach(function(el) {
-    el.style.transform = 'rotate(0deg)';
-  });
-
-  if (!isOpen) {
-    sub.style.display = 'block';
-    icon.style.transform = 'rotate(90deg)';
-  }
-}
-</script>
-<!-- =================================== -->
+        if (!isOpen) {
+          sub.style.display = 'block';
+          icon.style.transform = 'rotate(90deg)';
+        }
+      }
+    </script>
+    <!-- =================================== -->
     <!-- Cta Section Start -->
     <section class="cta-section color-bg-1 section-padding pt-0 fix">
       <div class="team-shape-2">
@@ -1989,12 +2364,9 @@ function nishokAccordion(header) {
           </div>
           <div class="section-title-area align-items-end mb-0  bottom-2">
             <div class="section-title">
-              <span
-                class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle"
-                >MEET WITH DOCTOR</span
-              >
+              <span class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle">MEET WITH DOCTOR</span>
               <h3 class="tx-title sec_title tz-itm-title tz-itm-anim text-white">
-               Our Expert Doctors For Your Health & Beauty
+                Our Expert Doctors For Your Health & Beauty
               </h3>
             </div>
             <div class="call-box wow fadeInUp" data-wow-delay=".3s">
@@ -2011,62 +2383,54 @@ function nishokAccordion(header) {
 
 
 
-        <div
-          class="row g-4 section-padding pb-0 advance-wrap justify-content-center"
-        >
+        <div class="row g-4 section-padding pb-0 advance-wrap justify-content-center">
+
+
           <div class="col-xl-4 col-lg-4 col-md-6">
             <div class="team-box-items mt-0 advance-item">
               <div class="team-image">
-                <img
-                  class="img-fluid"
-                  src="assets/img/home-1/team/team-01.png"
-                  alt="Dr. Shrey, orthopedic surgeon"
-                />
-                <span class="post-box"> Orthopedic Surgeon </span>
-              </div>
-              <div class="team-content">
-                <h3><a href="team-details.html">Dr. Shrey</a></h3>
-                <div class="phone-box">
-                  <i class="fas fa-phone-alt"></i>
-                  <span
-                    ><b>Appointment</b> :
-                    <a href="tel:+38002020900">+918319569357</a></span
-                  >
-                </div>
-                <p>
-                  Specialist in fractures, joint pain, arthritis, slip disc, and sports injuries. Trusted by thousands of patients across Balaghat and Gondia.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-4 col-lg-4 col-md-6">
-            <div class="team-box-items mt-0 advance-item">
-              <div class="team-image">
-                <img
-                  class="img-fluid"
-                  src="assets/img/home-1/team/team-02.png"
-                  alt="Dr. Amisha, dermatologist"
-                />
+                <img class="img-fluid" src="assets/img/home-1/team/team-02.png" alt="Dr. Amisha, dermatologist" />
                 <span class="post-box"> Dermatologist & Skin Specialist</span>
               </div>
               <div class="team-content">
                 <h3><a href="team-details.html">Dr. Amisha</a></h3>
                 <div class="phone-box">
                   <i class="fas fa-phone-alt"></i>
-                  <span
-                    ><b>Appointment</b> :
-                    <a href="tel:+38002020900">+918319569357</a></span
-                  >
+                  <span><b>Appointment</b> :
+                    <a href="tel:+38002020900">+918319569357</a></span>
                 </div>
                 <p>
-                 Expert in Acne Treatment, PRP Therapy, HydraFacial, Laser Skin Treatments, Melasma Management, and Hair Restoration. Recognized as one of Balaghat’s leading Skin & Hair Specialists.
+                  Expert in Acne Treatment, PRP Therapy, HydraFacial, Laser Skin Treatments, Melasma Management, and
+                  Hair Restoration. Recognized as one of Balaghat’s leading Skin & Hair Specialists.
                 </p>
               </div>
             </div>
           </div>
-         
+
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="team-box-items mt-0 advance-item">
+              <div class="team-image">
+                <img class="img-fluid" src="assets/img/home-1/team/team-01.png" alt="Dr. Shrey, orthopedic surgeon" />
+                <span class="post-box"> Orthopedic Surgeon </span>
+              </div>
+              <div class="team-content">
+                <h3><a href="team-details.html">Dr. Shrey</a></h3>
+                <div class="phone-box">
+                  <i class="fas fa-phone-alt"></i>
+                  <span><b>Appointment</b> :
+                    <a href="tel:+38002020900">+918319569357</a></span>
+                </div>
+                <p>
+                  Specialist in fractures, joint pain, arthritis, slip disc, and sports injuries. Trusted by thousands
+                  of patients across Balaghat and Gondia.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-xl-4 col-lg-4 col-md-6"></div> -->
+
         </div>
-     
+
       </div>
     </section>
 
@@ -2075,69 +2439,64 @@ function nishokAccordion(header) {
       <video class="vedio-bg-video" autoplay muted loop playsinline>
         <source src="assets/img/videologo.mp4" type="video/mp4" />
       </video>
-   <!-- Counter Section -->
-<div class="counter-section">
-  <div class="container">
-    <div class="counter-wrapper zoom-effect-style">
+      <!-- Counter Section -->
+      <div class="counter-section">
+        <div class="container">
+          <div class="counter-wrapper zoom-effect-style">
 
-      <!-- Item 1: Satisfied Patients -->
-      <div class="counter-items wow fadeInUp" data-wow-delay=".2s">
-        <div class="icon">
-          <img src="assets/img/home-1/counter/icon-01.png"
-               alt="Satisfied patients icon"
-               width="48" height="48" />
-        </div>
-        <div class="content">
-          <h2><span class="odometer" data-count="20">00</span><span class="suffix">k+</span></h2>
-          <p>Satisfied patients</p>
+            <!-- Item 1: Satisfied Patients -->
+            <div class="counter-items wow fadeInUp" data-wow-delay=".2s">
+              <div class="icon">
+                <img src="assets/img/home-1/counter/icon-01.png" alt="Satisfied patients icon" width="48" height="48" />
+              </div>
+              <div class="content">
+                <h2><span class="odometer" data-count="20">00</span><span class="suffix">k+</span></h2>
+                <p>Satisfied patients</p>
+              </div>
+            </div>
+
+            <!-- Item 2: Successful Surgeries -->
+            <div class="counter-items wow fadeInUp" data-wow-delay=".4s">
+              <div class="icon">
+                <img src="assets/img/home-1/counter/icon-02.png" alt="Successful surgeries icon" width="48"
+                  height="48" />
+              </div>
+              <div class="content">
+                <h2><span class="odometer" data-count="1000">00</span><span class="suffix">+</span></h2>
+                <p>Successful surgeries</p>
+              </div>
+            </div>
+
+            <!-- Item 3: Replacement Surgeries -->
+            <div class="counter-items wow fadeInUp" data-wow-delay=".6s">
+              <div class="icon">
+                <img src="assets/img/home-1/counter/icon-03.png" alt="Replacement surgeries icon" width="48"
+                  height="48" />
+              </div>
+              <div class="content">
+                <h2><span class="odometer" data-count="100">00</span><span class="suffix">+</span></h2>
+                <p>Replacement surgeries</p>
+              </div>
+            </div>
+
+            <!-- Item 4: Laser & Cosmetic Procedures — was .6s (duplicate), now .8s -->
+            <div class="counter-items wow fadeInUp" data-wow-delay=".8s">
+              <div class="icon">
+                <img src="assets/img/home-1/counter/icon-04.png" alt="Laser and cosmetic procedures icon" width="48"
+                  height="48" />
+              </div>
+              <div class="content">
+                <h2><span class="odometer" data-count="1000">00</span><span class="suffix">+</span></h2>
+                <p>Laser &amp; cosmetic procedures</p>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
-
-      <!-- Item 2: Successful Surgeries -->
-      <div class="counter-items wow fadeInUp" data-wow-delay=".4s">
-        <div class="icon">
-          <img src="assets/img/home-1/counter/icon-02.png"
-               alt="Successful surgeries icon"
-               width="48" height="48" />
-        </div>
-        <div class="content">
-          <h2><span class="odometer" data-count="1000">00</span><span class="suffix">+</span></h2>
-          <p>Successful surgeries</p>
-        </div>
-      </div>
-
-      <!-- Item 3: Replacement Surgeries -->
-      <div class="counter-items wow fadeInUp" data-wow-delay=".6s">
-        <div class="icon">
-          <img src="assets/img/home-1/counter/icon-03.png"
-               alt="Replacement surgeries icon"
-               width="48" height="48" />
-        </div>
-        <div class="content">
-          <h2><span class="odometer" data-count="100">00</span><span class="suffix">+</span></h2>
-          <p>Replacement surgeries</p>
-        </div>
-      </div>
-
-      <!-- Item 4: Laser & Cosmetic Procedures — was .6s (duplicate), now .8s -->
-      <div class="counter-items wow fadeInUp" data-wow-delay=".8s">
-        <div class="icon">
-          <img src="assets/img/home-1/counter/icon-04.png"
-               alt="Laser and cosmetic procedures icon"
-               width="48" height="48" />
-        </div>
-        <div class="content">
-          <h2><span class="odometer" data-count="1000">00</span><span class="suffix">+</span></h2>
-          <p>Laser &amp; cosmetic procedures</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</div>
       <div class="vedio-wrapper">
         <div class="video">
-          
+
         </div>
       </div>
     </div>
@@ -2152,16 +2511,17 @@ function nishokAccordion(header) {
       </div>
       <div class="container">
         <div class="section-title text-center">
-          <span
-            class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle"
-            >Who We Are</span
-          >
+          <span class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle">Who We Are</span>
           <h2 class="tx-title sec_title tz-itm-title tz-itm-anim">
             Balaghat's Trusted Specialist Hospital
           </h2>
-          <p>Nishok Hospital is a premier multi-specialty medical facility located in the heart of Balaghat, Madhya Pradesh. Established with a clear vision of bringing world-class medical care to the people of Central India, we have grown to become the most trusted name in Orthopedic and Dermatology healthcare across Balaghat, Gondia, Waraseoni, and Seoni.
-            From complex fracture surgeries to advanced skin treatments, our doctors bring specialist expertise combined with deep compassion   treating every patient with the care and dignity they deserve.
-            </p>
+          <p>Nishok Hospital is a premier multi-specialty medical facility located in the heart of Balaghat, Madhya
+            Pradesh. Established with a clear vision of bringing world-class medical care to the people of Central
+            India, we have grown to become the most trusted name in Orthopedic and Dermatology healthcare across
+            Balaghat, Gondia, Waraseoni, and Seoni.
+            From complex fracture surgeries to advanced skin treatments, our doctors bring specialist expertise combined
+            with deep compassion treating every patient with the care and dignity they deserve.
+          </p>
         </div>
         <div class="row">
           <div class="col-xl-4 col-lg-6 col-md-6">
@@ -2172,7 +2532,7 @@ function nishokAccordion(header) {
               </div>
               <p>
                 To provide accessible, expert, and compassionate medical care to every patient in Balaghat
-                 and surrounding regions   ensuring no one has to travel far for specialist treatment.
+                and surrounding regions ensuring no one has to travel far for specialist treatment.
               </p>
             </div>
           </div>
@@ -2185,7 +2545,8 @@ function nishokAccordion(header) {
                 <i class="flaticon-social-care"></i>
               </div>
               <p>
-                To become Central India's leading destination for orthopedic and dermatological healthcare   where every patient walks out healthier, happier, and confident.
+                To become Central India's leading destination for orthopedic and dermatological healthcare where every
+                patient walks out healthier, happier, and confident.
               </p>
             </div>
           </div>
@@ -2207,11 +2568,8 @@ function nishokAccordion(header) {
     </section>
 
 
-        <!-- Testimonial Section5 Start -->
-    <section
-      class="testimonial-section-1 section-padding pb-0 fix"
-      style="background: #fff;"
-    >
+    <!-- Testimonial Section5 Start -->
+    <section class="testimonial-section-1 section-padding pb-0 fix" style="background: #fff;">
       <div class="shape float-bob-y">
         <!-- <img src="assets/img/home-1/testimonial/vector.png" alt="img" /> -->
       </div>
@@ -2229,10 +2587,7 @@ function nishokAccordion(header) {
             <div class="col-lg-8">
               <div class="section-title-area">
                 <div class="section-title">
-                  <span
-                    class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle"
-                    >GOOGLE REVIEWS</span
-                  >
+                  <span class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle">GOOGLE REVIEWS</span>
                   <h2 class="tx-title sec_title tz-itm-title tz-itm-anim">
                     What Our Patients Say
                   </h2>
@@ -2271,10 +2626,7 @@ function nishokAccordion(header) {
                               <span>Google Review</span>
                             </div>
                             <div class="icon">
-                              <img
-                                src="assets/img/home-5/testimonial/01.svg"
-                                alt="img"
-                              />
+                              <img src="assets/img/home-5/testimonial/01.svg" alt="img" />
                             </div>
                           </div>
                         </div>
@@ -2302,10 +2654,7 @@ function nishokAccordion(header) {
                               <span>Google Review</span>
                             </div>
                             <div class="icon">
-                              <img
-                                src="assets/img/home-5/testimonial/01.svg"
-                                alt="img"
-                              />
+                              <img src="assets/img/home-5/testimonial/01.svg" alt="img" />
                             </div>
                           </div>
                         </div>
@@ -2333,10 +2682,7 @@ function nishokAccordion(header) {
                               <span>Google Review</span>
                             </div>
                             <div class="icon">
-                              <img
-                                src="assets/img/home-5/testimonial/01.svg"
-                                alt="img"
-                              />
+                              <img src="assets/img/home-5/testimonial/01.svg" alt="img" />
                             </div>
                           </div>
                         </div>
@@ -2364,10 +2710,7 @@ function nishokAccordion(header) {
                               <span>Google Review</span>
                             </div>
                             <div class="icon">
-                              <img
-                                src="assets/img/home-5/testimonial/01.svg"
-                                alt="img"
-                              />
+                              <img src="assets/img/home-5/testimonial/01.svg" alt="img" />
                             </div>
                           </div>
                         </div>
@@ -2395,10 +2738,7 @@ function nishokAccordion(header) {
                               <span>Google Review</span>
                             </div>
                             <div class="icon">
-                              <img
-                                src="assets/img/home-5/testimonial/01.svg"
-                                alt="img"
-                              />
+                              <img src="assets/img/home-5/testimonial/01.svg" alt="img" />
                             </div>
                           </div>
                         </div>
@@ -2426,10 +2766,7 @@ function nishokAccordion(header) {
                               <span>Google Review</span>
                             </div>
                             <div class="icon">
-                              <img
-                                src="assets/img/home-5/testimonial/01.svg"
-                                alt="img"
-                              />
+                              <img src="assets/img/home-5/testimonial/01.svg" alt="img" />
                             </div>
                           </div>
                         </div>
@@ -2581,20 +2918,15 @@ function nishokAccordion(header) {
     </section> -->
 
     <!-- Faq Section Start -->
-    <section
-      class="faq-section section-padding bg-cover"
-      style="background-image: url(&quot;assets/img/home-1/faq-bg.jpg&quot;)"
-    >
+    <section class="faq-section section-padding bg-cover"
+      style="background-image: url(&quot;assets/img/home-1/faq-bg.jpg&quot;)">
       <div class="container">
         <div class="faq-wrapper-1">
           <div class="row g-4">
             <div class="col-lg-6">
               <div class="faq-content sticky-style">
                 <div class="section-title mb-0 text-start">
-                  <span
-                    class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle"
-                    >OUR FAQS</span
-                  >
+                  <span class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle">OUR FAQS</span>
                   <h2 class="tx-title sec_title tz-itm-title tz-itm-anim">
                     Most Popular Frequently Asked Questions About Us
                   </h2>
@@ -2610,8 +2942,8 @@ function nishokAccordion(header) {
                     </div>
                     <div class="content">
                       <p>Call Emergency</p>
-                      <h4><a href="tel:63552584250">+91 83195 69357  </a></h4>
-                        <h4><a href="tel:63552584250">+91 76489 22304  </a></h4>
+                      <h4><a href="tel:63552584250">+91 83195 69357 </a></h4>
+                      <h4><a href="tel:63552584250">+91 76489 22304 </a></h4>
                     </div>
                   </div>
                 </div>
@@ -2621,145 +2953,83 @@ function nishokAccordion(header) {
               <div class="faq-items">
                 <div class="faq-accordion">
                   <div class="accordion" id="accordion">
-                    <div
-                      class="accordion-item mb-3 wow fadeInUp"
-                      data-wow-delay=".2s"
-                    >
+                    <div class="accordion-item mb-3 wow fadeInUp" data-wow-delay=".2s">
                       <h5 class="accordion-header" id="headingOne">
-                        <button
-                          class="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapseOne"
-                          aria-expanded="false"
-                          aria-controls="collapseOne"
-                        >
-                        Where is Nishok Hospital located?
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Where is Nishok Hospital located?
                         </button>
                       </h5>
-                      <div
-                        id="collapseOne"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="headingOne"
-                        data-bs-parent="#accordion"
-                      >
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordion">
                         <div class="accordion-body">
-                          Nishok Hospital is centrally located in Balaghat, Madhya Pradesh. It is easily accessible from nearby areas including Gondia, Waraseoni, Seoni, and Mandla.
+                          Nishok Hospital is centrally located in Balaghat, Madhya Pradesh. It is easily accessible from
+                          nearby areas including Gondia, Waraseoni, Seoni, and Mandla.
                         </div>
                       </div>
                     </div>
 
-                    <div
-                      class="accordion-item mb-3 wow fadeInUp"
-                      data-wow-delay=".4s"
-                    >
+                    <div class="accordion-item mb-3 wow fadeInUp" data-wow-delay=".4s">
                       <h5 class="accordion-header" id="headingTwo">
-                        <button
-                          class="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapseTwo"
-                          aria-expanded="false"
-                          aria-controls="collapseTwo"
-                        >
-                        What services are available at Nishok Hospital?
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          What services are available at Nishok Hospital?
                         </button>
                       </h5>
-                      <div
-                        id="collapseTwo"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="headingTwo"
-                        data-bs-parent="#accordion"
-                      >
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordion">
                         <div class="accordion-body">
                           Nishok Hospital provides orthopedic treatments
-                           such as fracture care, knee replacement, arthritis,
-                            and back pain treatment, along with dermatology services 
-                            including acne treatment, pigmentation treatment, PRP hair 
-                            loss treatment, HydraFacial, and laser skin rejuvenation.
+                          such as fracture care, knee replacement, arthritis,
+                          and back pain treatment, along with dermatology services
+                          including acne treatment, pigmentation treatment, PRP hair
+                          loss treatment, HydraFacial, and laser skin rejuvenation.
                         </div>
                       </div>
                     </div>
 
-                    <div
-                      class="accordion-item mb-3 wow fadeInUp"
-                      data-wow-delay=".6s"
-                    >
+                    <div class="accordion-item mb-3 wow fadeInUp" data-wow-delay=".6s">
                       <h5 class="accordion-header" id="headingThree">
-                        <button
-                          class="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapseThree"
-                          aria-expanded="false"
-                          aria-controls="collapseThree"
-                        >
-                        How can I book an appointment at Nishok Hospital?
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          How can I book an appointment at Nishok Hospital?
                         </button>
                       </h5>
-                      <div
-                        id="collapseThree"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="headingThree"
-                        data-bs-parent="#accordion"
-                      >
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordion">
                         <div class="accordion-body">
-                          You can book an appointment by calling the hospital, sending a WhatsApp message, or filling out the appointment form on the contact page. The team will confirm your appointment quickly.
+                          You can book an appointment by calling the hospital, sending a WhatsApp message, or filling
+                          out the appointment form on the contact page. The team will confirm your appointment quickly.
                         </div>
                       </div>
                     </div>
 
-                    <div
-                      class="accordion-item mb-3 wow fadeInUp"
-                      data-wow-delay=".6s"
-                    >
+                    <div class="accordion-item mb-3 wow fadeInUp" data-wow-delay=".6s">
                       <h5 class="accordion-header" id="headingFour">
-                        <button
-                          class="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapseFour"
-                          aria-expanded="false"
-                          aria-controls="collapseFour"
-                        >
-                        Who is the orthopedic doctor at Nishok Hospital?
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          Who is the orthopedic doctor at Nishok Hospital?
                           <!-- Duplicate text can be edited -->
                         </button>
                       </h5>
-                      <div
-                        id="collapseFour"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="headingFour"
-                        data-bs-parent="#accordion"
-                      >
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordion">
                         <div class="accordion-body">
-                          Dr. Shrey is the orthopedic surgeon at Nishok Hospital, specializing in fractures, joint pain, arthritis, slip disc, and sports injuries.
+                          Dr. Shrey is the orthopedic surgeon at Nishok Hospital, specializing in fractures, joint pain,
+                          arthritis, slip disc, and sports injuries.
                         </div>
                       </div>
                     </div>
 
-                    <div
-                      class="accordion-item wow fadeInUp"
-                      data-wow-delay=".9s"
-                    >
+                    <div class="accordion-item wow fadeInUp" data-wow-delay=".9s">
                       <h5 class="accordion-header" id="headingFive">
-                        <button
-                          class="accordion-button"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapseFive"
-                          aria-expanded="true"
-                          aria-controls="collapseFive"
-                        >
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                           Who can benefit from your consulting services?
                         </button>
                       </h5>
-                      <div
-                        id="collapseFive"
-                        class="accordion-collapse collapse show"
-                        aria-labelledby="headingFive"
-                        data-bs-parent="#accordion"
-                      >
+                      <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive"
+                        data-bs-parent="#accordion">
                         <div class="accordion-body">
                           You can easily book through our website using the
                           appointment form or by calling us directly for your
@@ -2837,10 +3107,7 @@ function nishokAccordion(header) {
           <div class="row g-4 align-items-center">
             <div class="col-xl-5">
               <div class="section-title mb-0">
-                <span
-                  class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle"
-                  >OUR Blogs</span
-                >
+                <span class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle">OUR Blogs</span>
                 <h2 class="tx-title sec_title tz-itm-title tz-itm-anim">
                   Join Our Blogs To Never Miss Out On Health Updates.
                 </h2>
@@ -2884,20 +3151,12 @@ function nishokAccordion(header) {
       <div class="container">
         <div class="footer-widget-wrapper">
           <div class="row g-4 footer-widget-row justify-content-center align-items-start">
-            <div
-              class="col-12 col-md-6 col-lg-4 wow fadeInUp"
-              data-wow-delay=".2s"
-            >
+            <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".2s">
               <div class="single-footer-widget style-bg-white">
                 <div class="widget-head">
                   <a href="index.html" class="footer-logo">
-                    <img
-                      class="site-logo-responsive"
-                      src="assets/img/header/logo.png"
-                      alt="Nishok Hospital"
-                      width="228"
-                      height="58"
-                    />
+                    <img class="site-logo-responsive" src="assets/img/header/logo.png" alt="Nishok Hospital" width="228"
+                      height="58" />
                   </a>
                 </div>
                 <div class="footer-content">
@@ -2916,16 +3175,13 @@ function nishokAccordion(header) {
                       <p>For Booking</p>
                       <h4><a href="tel:63552584250">+91 8319569357</a></h4>
                       <h4><a href="tel:63552584250">+91 7648922304</a></h4>
-                      
+
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div
-              class="col-12 col-md-6 col-lg-4 wow fadeInUp"
-              data-wow-delay=".4s"
-            >
+            <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".4s">
               <div class="single-footer-widget-area">
                 <div class="single-footer-widget">
                   <div class="widget-head">
@@ -2935,7 +3191,7 @@ function nishokAccordion(header) {
                     <li>
                       <a href="about.html">About Us</a>
                     </li>
-                
+
                     <li>
                       <a href="contact.html">24/7 Support</a>
                     </li>
@@ -2946,32 +3202,29 @@ function nishokAccordion(header) {
                     <h3>Our Services</h3>
                   </div>
 
-      
+
                   <ul class="list-area">
-                   
+
                     <li>
                       <a href="service.html">Orthopedics</a>
                     </li>
                     <li>
                       <a href="service.html">Dermatology </a>
                     </li>
-                  
-                   
+
+
                   </ul>
                 </div>
               </div>
             </div>
-            <div
-              class="col-12 col-lg-4 wow fadeInUp"
-              data-wow-delay=".6s"
-            >
+            <div class="col-12 col-lg-4 wow fadeInUp" data-wow-delay=".6s">
               <div class="single-footer-widget">
                 <div class="widget-head">
                   <h3>Contact Us</h3>
                 </div>
                 <div class="footer-content">
                   <p class="text-white">
-                   At Nishok Hospital, we are dedicated to providing comprehensive healthcare services to our patients.
+                    At Nishok Hospital, we are dedicated to providing comprehensive healthcare services to our patients.
                   </p>
                   <ul class="footer-contect">
                     <li>
@@ -2980,9 +3233,7 @@ function nishokAccordion(header) {
                       </div>
                       <div class="content">
                         <p>
-                          <a href="mailto:nishokhospital@gmail.com"
-                            >nishokhospital@gmail.com</a
-                          >
+                          <a href="mailto:nishokhospital@gmail.com">nishokhospital@gmail.com</a>
                         </p>
                       </div>
                     </li>
@@ -2991,7 +3242,8 @@ function nishokAccordion(header) {
                         <i class="fas fa-map-marker-alt"></i>
                       </div>
                       <div class="content">
-                        <p>Ward no. 28, IF/8, opposite Kids Cloud School, Mayur nagar, Chitragupt Nagar, Balaghat, Madhya Pradesh 481001</p>
+                        <p>Ward no. 28, IF/8, opposite Kids Cloud School, Mayur nagar, Chitragupt Nagar, Balaghat,
+                          Madhya Pradesh 481001</p>
                       </div>
                     </li>
                   </ul>
@@ -3042,8 +3294,9 @@ function nishokAccordion(header) {
     <script src="assets/js/SplitText.min.js"></script>
     <!--<< splitType Js >>-->
     <script src="assets/js/splitType.js"></script>
-    
+
     <!--<< Main.js >>-->
     <script src="assets/js/main.js"></script>
   </body>
+
 </html>

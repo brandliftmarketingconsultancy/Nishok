@@ -1,619 +1,695 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!--<< Header Area >>-->
-    <head>
-        <!-- ========== Meta Tags ========== -->
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="author" content="modinatheme">
-        <meta name="description" content="Nishok Hospital - Medical & Health Care HTML Template">
-        <!-- ======== Page title ============ -->
-        <title>Nishok Hospital - Orthopedic & Skin Specialist Hospital</title>
-        <!--<< Favicon >>-->
-        <link rel="shortcut icon" href="assets/img/favicon.svg">
-        <!--<< Bootstrap min.css >>-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!--<< Font Awesome.css >>-->
-        <link rel="stylesheet" href="assets/css/font-awesome.css">
-        <!--<< Animate.css >>-->
-        <link rel="stylesheet" href="assets/css/animate.css">
-        <!--<< Magnific Popup.css >>-->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
-        <!--<< MeanMenu.css >>-->
-        <link rel="stylesheet" href="assets/css/meanmenu.css">
-        <!--<< Odometer.css >>-->
-        <link rel="stylesheet" href="assets/css/odometer.css">
-        <!--<< Swiper Bundle.css >>-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        <!--<< Nice Select.css >>-->
-        <link rel="stylesheet" href="assets/css/nice-select.css">
-        <!--<< Main.css >>-->
-        <link rel="stylesheet" href="assets/css/main.css">
-        <style>
-      /* Testimonial avatar — colored circle with initial letter */
-      .testimonial-avatar {
-        width: 80px;
-        height: 80px;
-        border-radius: 12px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 32px;
-        font-weight: 700;
-        color: #fff;
-        flex-shrink: 0;
-      }
+<!--<< Header Area >>-->
 
-      /* Counter strip spacing fix (all devices) */
+<head>
+  <!-- ========== Meta Tags ========== -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="modinatheme">
+  <meta name="description" content="Nishok Hospital - Medical & Health Care HTML Template">
+  <!-- ======== Page title ============ -->
+  <title>Nishok Hospital - Orthopedic & Skin Specialist Hospital</title>
+  <!--<< Favicon >>-->
+  <link rel="shortcut icon" href="assets/img/favicon.svg">
+  <!--<< Bootstrap min.css >>-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!--<< Font Awesome.css >>-->
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <!--<< Animate.css >>-->
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <!--<< Magnific Popup.css >>-->
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <!--<< MeanMenu.css >>-->
+  <link rel="stylesheet" href="assets/css/meanmenu.css">
+  <!--<< Odometer.css >>-->
+  <link rel="stylesheet" href="assets/css/odometer.css">
+  <!--<< Swiper Bundle.css >>-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <!--<< Nice Select.css >>-->
+  <link rel="stylesheet" href="assets/css/nice-select.css">
+  <!--<< Main.css >>-->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <style>
+    /* Testimonial avatar — colored circle with initial letter */
+    .testimonial-avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      font-weight: 700;
+      color: #fff;
+      flex-shrink: 0;
+    }
+
+    /* Counter strip spacing fix (all devices) */
+    body.page-about .vedio-bg-section .counter-section {
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+
+    body.page-about .vedio-bg-section .counter-wrapper {
+      width: 100%;
+      max-width: 100%;
+      padding: 34px 28px;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 26px 18px;
+      align-items: stretch;
+    }
+
+    body.page-about .vedio-bg-section .counter-items {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    body.page-about .vedio-bg-section .counter-items .icon {
+      width: 74px;
+      height: 74px;
+      line-height: 74px;
+      flex-shrink: 0;
+    }
+
+    body.page-about .vedio-bg-section .counter-items .content h2 {
+      margin: 0 0 8px;
+      line-height: 1;
+      font-size: clamp(2rem, 3.8vw, 3.4rem);
+      display: inline-flex;
+      align-items: baseline;
+      gap: 2px;
+      white-space: nowrap;
+    }
+
+    body.page-about .vedio-bg-section .counter-items .content p {
+      margin: 0;
+      color: #fff;
+      font-size: clamp(0.95rem, 1.45vw, 1.1rem);
+      line-height: 1.35;
+      text-transform: capitalize;
+    }
+
+    @media (max-width: 1199px) {
+      body.page-about .vedio-bg-section .counter-wrapper {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding: 30px 20px;
+        gap: 20px 16px;
+      }
+    }
+
+    @media (max-width: 767px) {
       body.page-about .vedio-bg-section .counter-section {
-        padding-left: 14px;
-        padding-right: 14px;
+        padding-left: 12px;
+        padding-right: 12px;
       }
 
       body.page-about .vedio-bg-section .counter-wrapper {
-        width: 100%;
-        max-width: 100%;
-        padding: 34px 28px;
-        display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-        gap: 26px 18px;
-        align-items: stretch;
+        grid-template-columns: 1fr;
+        padding: 24px 16px;
+        gap: 16px;
+        border-radius: 10px;
       }
 
       body.page-about .vedio-bg-section .counter-items {
-        min-width: 0;
-        display: flex;
-        align-items: center;
-        gap: 12px;
-      }
-
-      body.page-about .vedio-bg-section .counter-items .icon {
-        width: 74px;
-        height: 74px;
-        line-height: 74px;
-        flex-shrink: 0;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
       }
 
       body.page-about .vedio-bg-section .counter-items .content h2 {
-        margin: 0 0 8px;
-        line-height: 1;
-        font-size: clamp(2rem, 3.8vw, 3.4rem);
-        display: inline-flex;
-        align-items: baseline;
-        gap: 2px;
-        white-space: nowrap;
+        justify-content: center;
+        font-size: clamp(2rem, 9vw, 2.6rem);
+        margin-bottom: 6px;
       }
 
       body.page-about .vedio-bg-section .counter-items .content p {
-        margin: 0;
-        color: #fff;
-        font-size: clamp(0.95rem, 1.45vw, 1.1rem);
-        line-height: 1.35;
-        text-transform: capitalize;
+        font-size: 0.98rem;
       }
+    }
 
-      @media (max-width: 1199px) {
-        body.page-about .vedio-bg-section .counter-wrapper {
-          grid-template-columns: repeat(2, minmax(0, 1fr));
-          padding: 30px 20px;
-          gap: 20px 16px;
-        }
-      }
-
-      @media (max-width: 767px) {
-        body.page-about .vedio-bg-section .counter-section {
-          padding-left: 12px;
-          padding-right: 12px;
-        }
-
-        body.page-about .vedio-bg-section .counter-wrapper {
-          grid-template-columns: 1fr;
-          padding: 24px 16px;
-          gap: 16px;
-          border-radius: 10px;
-        }
-
-        body.page-about .vedio-bg-section .counter-items {
-          justify-content: center;
-          text-align: center;
-          flex-direction: column;
-          gap: 10px;
-        }
-
-        body.page-about .vedio-bg-section .counter-items .content h2 {
-          justify-content: center;
-          font-size: clamp(2rem, 9vw, 2.6rem);
-          margin-bottom: 6px;
-        }
-
-        body.page-about .vedio-bg-section .counter-items .content p {
-          font-size: 0.98rem;
-        }
-      }
-
-      @media (max-width: 767px) {
-        body.page-about .about-section-3 .about-wrapper-3 .about-content .section-title {
-          text-align: center !important;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-        }
-
-        body.page-about .about-section-3 .about-wrapper-3 .about-content .section-title .subtitle {
-          display: inline-block;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        body.page-about .about-section-3 .about-wrapper-3 .about-content .section-title h2 {
-          text-align: center;
-        }
-
-        body.page-about .about-section-3 .about-wrapper-3 .about-content .about-text {
-          text-align: center;
-          margin-left: auto;
-          margin-right: auto;
-        }
-
-        body.page-about .about-section-3 .about-wrapper-3 .about-content .about-button {
-          justify-content: center;
-        }
-
-        body.page-about .about-section-3 .about-wrapper-3 .about-content .about-button .theme-btn {
-          display: block;
-          width: fit-content;
-          margin-left: auto;
-          margin-right: auto;
-        }
-      }
-
-      /* Facilities card   centered button & even spacing */
-      body.page-about .pricing-section-5 .pricing-card-item .pricing-list {
-        margin-top: 20px;
-        margin-bottom: 32px;
-      }
-
-      body.page-about .pricing-section-5 .pricing-card-item .pricing-button {
+    @media (max-width: 767px) {
+      body.page-about .about-section-3 .about-wrapper-3 .about-content .section-title {
+        text-align: center !important;
         display: flex;
-        justify-content: center;
-        padding-top: 4px;
-        padding-bottom: 4px;
+        flex-direction: column;
+        align-items: center;
       }
 
-      body.page-about .pricing-section-5 .pricing-card-item .pricing-button .theme-btn {
+      body.page-about .about-section-3 .about-wrapper-3 .about-content .section-title .subtitle {
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body.page-about .about-section-3 .about-wrapper-3 .about-content .section-title h2 {
+        text-align: center;
+      }
+
+      body.page-about .about-section-3 .about-wrapper-3 .about-content .about-text {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      body.page-about .about-section-3 .about-wrapper-3 .about-content .about-button {
+        justify-content: center;
+      }
+
+      body.page-about .about-section-3 .about-wrapper-3 .about-content .about-button .theme-btn {
         display: block;
         width: fit-content;
         margin-left: auto;
         margin-right: auto;
       }
+    }
 
-      @media (max-width: 575px) {
-        body.page-about .pricing-section-5 .pricing-main-card .pricing-card-item {
-          padding-bottom: 24px;
-        }
+    /* Facilities card   centered button & even spacing */
+    body.page-about .pricing-section-5 .pricing-card-item .pricing-list {
+      margin-top: 20px;
+      margin-bottom: 32px;
+    }
+
+    body.page-about .pricing-section-5 .pricing-card-item .pricing-button {
+      display: flex;
+      justify-content: center;
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+
+    body.page-about .pricing-section-5 .pricing-card-item .pricing-button .theme-btn {
+      display: block;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @media (max-width: 575px) {
+      body.page-about .pricing-section-5 .pricing-main-card .pricing-card-item {
+        padding-bottom: 24px;
       }
+    }
 
-      @media (max-width: 767px) {
-        body.page-about .team-box-items .team-image .post-box {
-          left: 50% !important;
-          right: auto;
-          transform: translateX(-50%);
-          white-space: nowrap;
-          max-width: calc(100% - 30px);
-          text-align: center;
-        }
+    @media (max-width: 767px) {
+      body.page-about .team-box-items .team-image .post-box {
+        left: 50% !important;
+        right: auto;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        max-width: calc(100% - 30px);
+        text-align: center;
       }
-    </style>
- 
-    </head>
-    <body class="page-about">
+    }
+  </style>
 
-         <!-- Preloader Start -->
-    <div id="preloader" class="preloader">
-        <div class="animation-preloader">
-          <div class="spinner"></div>
-          <div class="txt-loading">
-            <span data-text-preloader="N" class="letters-loading"> N </span>
-            <span data-text-preloader="I" class="letters-loading"> I </span>
-            <span data-text-preloader="S" class="letters-loading"> S </span>
-            <span data-text-preloader="H" class="letters-loading"> H </span>
-            <span data-text-preloader="O" class="letters-loading"> O </span>
-            <span data-text-preloader="K" class="letters-loading"> K </span>
-          </div>
-          <p class="text-center">Loading</p>
+</head>
+
+<body class="page-about">
+
+  <!-- Preloader Start -->
+  <div id="preloader" class="preloader">
+    <div class="animation-preloader">
+      <div class="spinner"></div>
+      <div class="txt-loading">
+        <span data-text-preloader="N" class="letters-loading"> N </span>
+        <span data-text-preloader="I" class="letters-loading"> I </span>
+        <span data-text-preloader="S" class="letters-loading"> S </span>
+        <span data-text-preloader="H" class="letters-loading"> H </span>
+        <span data-text-preloader="O" class="letters-loading"> O </span>
+        <span data-text-preloader="K" class="letters-loading"> K </span>
+      </div>
+      <p class="text-center">Loading</p>
+    </div>
+    <div class="loader">
+      <div class="row">
+        <div class="col-3 loader-section section-left">
+          <div class="bg"></div>
         </div>
-        <div class="loader">
-          <div class="row">
-            <div class="col-3 loader-section section-left">
-              <div class="bg"></div>
-            </div>
-            <div class="col-3 loader-section section-left">
-              <div class="bg"></div>
-            </div>
-            <div class="col-3 loader-section section-right">
-              <div class="bg"></div>
-            </div>
-            <div class="col-3 loader-section section-right">
-              <div class="bg"></div>
-            </div>
-          </div>
+        <div class="col-3 loader-section section-left">
+          <div class="bg"></div>
+        </div>
+        <div class="col-3 loader-section section-right">
+          <div class="bg"></div>
+        </div>
+        <div class="col-3 loader-section section-right">
+          <div class="bg"></div>
         </div>
       </div>
+    </div>
+  </div>
 
-        <!-- Back To Top start -->
-        <button id="back-top" class="back-to-top">
-            <i class="fas fa-long-arrow-up"></i>
-        </button>
+  <!-- Back To Top start -->
+  <button id="back-top" class="back-to-top">
+    <i class="fas fa-long-arrow-up"></i>
+  </button>
 
-        <!-- Offcanvas Area Start -->
-        <div class="fix-area">
-          <div class="offcanvas__info">
-            <div class="offcanvas__wrapper">
-              <div class="offcanvas__content">
-                <div
-                  class="offcanvas__top mb-5 d-flex justify-content-between align-items-center"
-                >
-                  <div class="offcanvas__logo">
-                    <a href="index.html">
-                      <img src="assets/img/logo/logo.png" alt="logo-img" />
-                    </a>
-                  </div>
-                  <div class="offcanvas__close">
-                    <button>
-                      <i class="fas fa-times"></i>
-                    </button>
-                  </div>
-                </div>
-             
-                <div class="mobile-menu fix mt-3"></div>
-              
-           
-              </div>
+  <!-- Offcanvas Area Start -->
+  <div class="fix-area">
+    <div class="offcanvas__info">
+      <div class="offcanvas__wrapper">
+        <div class="offcanvas__content">
+          <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+            <div class="offcanvas__logo">
+              <a href="index.html">
+                <img src="assets/img/logo/logo.png" alt="logo-img" />
+              </a>
+            </div>
+            <div class="offcanvas__close">
+              <button>
+                <i class="fas fa-times"></i>
+              </button>
             </div>
           </div>
-        </div>
-        <div class="offcanvas__overlay"></div>
 
-      <!-- Header Top Section Start -->
-    <div class="header-top-section">
-        <div class="container">
-          <div class="header-top-wrapper">
-            <p>
-              Nishok Hospital - Orthopedic & Skin Specialist Hospital
-              <a href="contact.html">Contact Us</a>.
-            </p>
-            <ul class="top-list">
-              <li>
-                <i class="fal fa-envelope"></i>
-                <a href="mailto:nishokhospital@gmail.com"> nishokhospital@gmail.com </a>
-              </li>
-              <li>
-                <i class="far fa-clock"></i>
-                <p>Mon - Fri: 09:30am - 7:30pm</p>
-              </li>
-              <li>
-                <i class="fal fa-map-pin"></i>
-                <p>Balaghat, Madhya Pradesh </p>
-              </li>
-            </ul>
-          </div>
+          <div class="mobile-menu fix mt-3"></div>
+
+
         </div>
       </div>
+    </div>
+  </div>
+  <div class="offcanvas__overlay"></div>
 
-       <!-- Header Section Start -->
-       <header id="header-sticky" class="header-section header-1">
-        <div class="container">
-          <div class="mega-menu-wrapper">
-            <div class="header-main">
-              <div class="header-left">
-                <a href="index.html" class="header-logo1">
-                  <img src="assets/img/header/logo.png" alt="logo-img" style="width: 228px; height: 58px;" />
-                </a>
-              </div>
-              <div
-                class="header-right d-flex justify-content-end align-items-center"
-              >
-                <div class="mean__menu-wrapper">
-                  <div class="main-menu">
-                    <nav id="mobile-menu">
-                      <ul>
-                        <li >
-                          <a href="index.html">
-                            Home
-                          
-                          </a>
-                         
-                        </li>
-                        <li>
-                          <a href="about.html">About Us</a>
-                        </li>
-                        <li>
-                          <a href="gallery.html">Gallery</a>
-                        </li>
-                      
-                       
-                        <li>
-                          <a href="#">
-                            Doctors
-                            <i class="fas fa-chevron-down"></i>
-                          </a>
-                          <ul class="submenu">
-                            <li><a href="orthopedic-doctor-balaghat-dr-shrey.html">Dr. Shrey</a></li>
-                            <li><a href="doctor-amisha.html">Dr. Amisha</a></li>
-                          </ul>
-                         
-                        </li>
-                      
-                        
-                        <li>
-                          <a href="service.html">
-                            Services
-                            <i class="fas fa-chevron-down"></i>
-                          </a>
-                         
-                        </li>
-                      
-  
-                        <li>
-                          <a href="#">
-                            Blog
-                            <i class="fas fa-chevron-down"></i>
-                          </a>
-                          <ul class="submenu">
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Blog Details</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a href="contact.html"> Contact Us </a>
-                        </li>
+  <!-- Header Top Section Start -->
+  <div class="header-top-section">
+    <div class="container">
+      <div class="header-top-wrapper">
+        <p>
+          Nishok Hospital - Orthopedic & Skin Specialist Hospital
+          <a href="contact.html">Contact Us</a>.
+        </p>
+        <ul class="top-list">
+          <li>
+            <i class="fal fa-envelope"></i>
+            <a href="mailto:nishokhospital@gmail.com"> nishokhospital@gmail.com </a>
+          </li>
+          <li>
+            <i class="far fa-clock"></i>
+            <p>Mon - Fri: 09:30am - 7:30pm</p>
+          </li>
+          <li>
+            <i class="fal fa-map-pin"></i>
+            <p>Balaghat, Madhya Pradesh </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header Section Start -->
+  <header id="header-sticky" class="header-section header-1">
+    <div class="container">
+      <div class="mega-menu-wrapper">
+        <div class="header-main">
+          <div class="header-left">
+            <a href="index.html" class="header-logo1">
+              <img src="assets/img/header/logo.png" alt="logo-img" style="width: 228px; height: 58px;" />
+            </a>
+          </div>
+          <div class="header-right d-flex justify-content-end align-items-center">
+            <div class="mean__menu-wrapper">
+              <div class="main-menu">
+                <nav id="mobile-menu">
+                  <ul>
+                    <li>
+                      <a href="index.html">
+                        Home
+
+                      </a>
+
+                    </li>
+                    <li>
+                      <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                      <a href="gallery.html">Gallery</a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        Doctors
+                        <i class="fas fa-chevron-down"></i>
+                      </a>
+                      <ul class="submenu">
+                        <li><a href="doctor-amisha.html">Dr. Amisha</a></li>
+                        <li><a href="orthopedic-doctor-balaghat-dr-shrey.html">Dr. Shrey</a></li>
                       </ul>
-                    </nav>
-                  </div>
+
+                    </li>
+
+
+                    <li>
+                      <a href="service.html">
+                        Services
+                        <i class="fas fa-chevron-down"></i>
+                      </a>
+
+                    </li>
+
+
+                    <!-- <li>
+                      <a href="#">
+                        Blog
+                        <i class="fas fa-chevron-down"></i>
+                      </a>
+                      <ul class="submenu">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Blog Details</a></li>
+                      </ul>
+                    </li> -->
+                    <li>
+                      <a href="contact.html"> Contact Us </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+
+            <div class="header-contact-info">
+              <div class="info-items">
+                <div class="icon">
+                  <i class="flaticon-support"></i>
                 </div>
-             
-                <div class="header-contact-info">
-                  <div class="info-items">
-                    <div class="icon">
-                      <i class="flaticon-support"></i>
-                    </div>
-                    <div class="content">
-                      <span>Call Emergency</span>
-                      <h6><a href="tel:+918319569357">+918319569357</a></h6>
-                    </div>
-                  </div>
-                  <a href="contact.html" class="theme-btn">
-                    <i class="far fa-chevron-right"></i>
-                    Appointment
-                  </a>
+                <div class="content">
+                  <span>Call Emergency</span>
+                  <h6><a href="tel:+918319569357">+918319569357</a></h6>
                 </div>
-                <div class="header__hamburger d-xl-none my-auto">
-                  <div class="sidebar__toggle">
-                    <i class="fal fa-bars"></i>
-                  </div>
-                </div>
+              </div>
+              <a href="contact.html" class="theme-btn">
+                <i class="far fa-chevron-right"></i>
+                Appointment
+              </a>
+            </div>
+            <div class="header__hamburger d-xl-none my-auto">
+              <div class="sidebar__toggle">
+                <i class="fal fa-bars"></i>
               </div>
             </div>
           </div>
         </div>
-      </header>
-  
-        <!-- header Search Section Start -->
-        <div class="header-search-bar d-flex align-items-center">
-            <button class="search-close">×</button>
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                        <div class="search-bar">
-                            <div class="contact-form-box contact-search-form-box">
-                                <form action="#">
-                                    <input type="email" placeholder="Search here...">
-                                    <button type="submit"><i class="far fa-search"></i></button>
-                                </form>
-                                <p>Type above and press Enter to search. Press Close to cancel.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- header Search Section Start -->
+  <div class="header-search-bar d-flex align-items-center">
+    <button class="search-close">×</button>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="search-bar">
+            <div class="contact-form-box contact-search-form-box">
+              <form action="#">
+                <input type="email" placeholder="Search here...">
+                <button type="submit"><i class="far fa-search"></i></button>
+              </form>
+              <p>Type above and press Enter to search. Press Close to cancel.</p>
             </div>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
 
-     
 
-        <!-- Breadcrumb Section Start -->
-        <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/inner/sergeri\ img.jpeg');">
-            <div class="container">
-                <div class="page-heading">
-                   <div class="breadcrumb-items-area">
-                         <div class="breadcrumb-sub-title">
-                            <h1 class="text-white wow fadeInUp" data-wow-delay=".3s">About Us</h1>
-                        </div>
-                        <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
-                            <li>
-                                <a href="index.html">
-                                Home
-                                </a>
-                            </li>
-                            <li>
-                                //
-                            </li>
-                            <li>
-                                About Us
-                            </li>
-                        </ul>
-                   </div>
-                </div>
-            </div>
-        </div>
 
-        <!-- About Section3 Start -->
-        <section class="about-section-3 section-padding fix">
-            <div class="left-shape float-bob-y">
-                <img src="assets/img/home-3/about/hand.png" alt="img">
-            </div>
-            <!-- <div class="right-shape float-bob-y">
+  <!-- Breadcrumb Section Start -->
+ <div class="nishok-page-header bg-cover" style="background-image: url('assets/img/inner/sergeri img.jpeg');">
+  <div class="nishok-page-header__scrim"></div>
+  <div class="container">
+    <div class="nishok-page-header__content">
+      <h1 class="nishok-page-header__title wow fadeInUp" data-wow-delay=".3s">About Us</h1>
+      <ul class="nishok-page-header__crumbs wow fadeInUp" data-wow-delay=".5s">
+        <li><a href="index.html">Home</a></li>
+        <li class="sep">/</li>
+        <li class="current">About Us</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<style>
+.nishok-page-header{
+  position: relative;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  background-position: center 55%;   /* was 25% — now shows middle/bottom, crops the top */
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  width: 100%;
+  overflow: hidden;
+}
+
+.nishok-page-header__scrim{
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    100deg,
+    rgba(8,18,38,0.88) 0%,
+    rgba(8,18,38,0.72) 30%,
+    rgba(8,18,38,0.25) 55%,
+    rgba(8,18,38,0) 68%
+  );
+  pointer-events: none;
+}
+
+.nishok-page-header .container{
+  position: relative;
+  z-index: 2;
+}
+
+.nishok-page-header__content{
+  max-width: 480px;
+}
+
+.nishok-page-header__title{
+  color: #ffffff;
+  font-size: clamp(1.9rem, 2.8vw + 1rem, 2.6rem);
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 16px;
+}
+
+.nishok-page-header__crumbs{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nishok-page-header__crumbs li{
+  font-size: 13px;
+  font-weight: 600;
+}
+.nishok-page-header__crumbs a{
+  color: rgba(255,255,255,0.85);
+  text-decoration: none;
+}
+.nishok-page-header__crumbs a:hover{
+  color: #ffffff;
+}
+.nishok-page-header__crumbs .sep{
+  color: rgba(255,255,255,0.45);
+}
+.nishok-page-header__crumbs .current{
+  color: #6FE3C4;
+}
+
+@media (max-width: 768px){
+  .nishok-page-header{ min-height: 360px; }
+  .nishok-page-header__scrim{
+    background: linear-gradient(
+      180deg,
+      rgba(8,18,38,0.35) 0%,
+      rgba(8,18,38,0.85) 70%,
+      rgba(8,18,38,0.9) 100%
+    );
+  }
+  .nishok-page-header__content{ max-width: 100%; }
+}
+</style>
+
+  <!-- About Section3 Start -->
+  <section class="about-section-3 section-padding fix">
+    <div class="left-shape float-bob-y">
+      <img src="assets/img/home-3/about/hand.png" alt="img">
+    </div>
+    <!-- <div class="right-shape float-bob-y">
                 <img src="assets/img/home-3/about/teeth.png" alt="img">
             </div> -->
-            <div class="container">
-                <div class="about-wrapper-3">
-                    <div class="row g-4">
-                        <div class="col-lg-6">
-                            <div class="about-left-item">
-                                <div class="about-image wow fadeInUp" data-wow-delay=".3s">
-                                    <img src="assets/img/home-1/about/sergeri img 2.jpeg" alt="img" style="height: 550px;">
-                                </div>
-                                <h5 class="wow fadeInUp" data-wow-delay=".4s">
-                                    Balaghat's Trusted Specialist Hospital
-                                </h5>
-                                <div class="about-list-item wow fadeInUp" data-wow-delay=".5s">
-                                    <ul class="list">
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Specialized in two high-demand medical fields: Orthopedics and Dermatology
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Led by Dr. Shrey (Orthopedic Surgeon) and Dr. Amisha (Dermatologist)
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Modern, hygienic operation theater and procedure rooms 
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Fully equipped OPD for daily consultations
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Advanced diagnostic equipment for accurate diagnosis
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Comfortable patient waiting areas and recovery rooms
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Friendly, trained support staff and nursing team
-                                        </li>
-                                        <li>
-                                            <i class="far fa-check"></i>
-                                            Conveniently accessible from Gondia (approx. 35 km), Waraseoni (approx. 30 km), and Seoni
-                                        </li>
+    <div class="container">
+      <div class="about-wrapper-3">
+        <div class="row g-4">
+          <div class="col-lg-6">
+            <div class="about-left-item">
+              <div class="about-image wow fadeInUp" data-wow-delay=".3s">
+                <img src="assets/img/home-1/about/dr-amisha-1.jpeg" alt="img" style="height: 550px;">
+              </div>
+              <h5 class="wow fadeInUp" data-wow-delay=".4s">
+                Balaghat's Trusted Specialist Hospital
+              </h5>
+              <div class="about-list-item wow fadeInUp" data-wow-delay=".5s">
+                <ul class="list">
+                  <li>
+                    <i class="far fa-check"></i>
+                    Specialized in two high-demand medical fields: Orthopedics and Dermatology
+                  </li>
+                  <li>
+                    <i class="far fa-check"></i>
+                    Led by Dr. Shrey (Orthopedic Surgeon) and Dr. Amisha (Dermatologist)
+                  </li>
+                  <li>
+                    <i class="far fa-check"></i>
+                    Modern, hygienic operation theater and procedure rooms
+                  </li>
+                  <li>
+                    <i class="far fa-check"></i>
+                    Fully equipped OPD for daily consultations
+                  </li>
+                  <li>
+                    <i class="far fa-check"></i>
+                    Advanced diagnostic equipment for accurate diagnosis
+                  </li>
+                  <li>
+                    <i class="far fa-check"></i>
+                    Comfortable patient waiting areas and recovery rooms
+                  </li>
+                  <li>
+                    <i class="far fa-check"></i>
+                    Friendly, trained support staff and nursing team
+                  </li>
+                  <li>
+                    <i class="far fa-check"></i>
+                    Conveniently accessible from Gondia (approx. 35 km), Waraseoni (approx. 30 km), and Seoni
+                  </li>
 
-                                       
-                                    </ul>
-                                    <ul class="list">
-                                       
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="about-content">
-                                <div class="section-title mb-0">
-                                    <span class="subtitle tz-sub-tilte tz-sub-anim  text-uppercase tx-subTitle">ABOUT US</span>
-                                    <h2 class="tx-title sec_title  tz-itm-title tz-itm-anim">
-                                        Balaghat's Trusted Specialist Hospital
-                                    </h2>
-                                </div>
-                                <p class="about-text wow fadeInUp" data-wow-delay=".2s">
-                                    Nishok Hospital is a premier multi-specialty medical facility located in the heart of Balaghat, Madhya Pradesh. Established with a clear vision of bringing world-class medical care to the people of Central India, we have grown to become the most trusted name in Orthopedic and Dermatology healthcare across Balaghat, Gondia, Waraseoni, and Seoni.
-                                <br>    From complex fracture surgeries to advanced skin treatments, our doctors bring specialist expertise combined with deep compassion   treating every patient with the care and dignity they deserve.
-                                    
-                                </p>
-                            <br />
-                                <div class="about-button wow fadeInUp" data-wow-delay=".5s">
-                                   
-                                    <a href="about.html" class="theme-btn style-2">
-                                        <i class="far fa-chevron-right"></i>
-                                        Make Appointment
-                                    </a>
-                                </div>
-                                <div class="about-image-2 wow fadeInUp" data-wow-delay=".7s">
-                                    <img src="assets/img/home-3/about/about-2.png" alt="img">
-                                    <div class="circle-image">
-                                        <img src="assets/img/home-3/about/text.png" alt="img">
-                                        <a href="about.html" class="arrow-icon">
-                                            <i class="fal fa-long-arrow-up"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+                </ul>
+                <ul class="list">
+
+                </ul>
+              </div>
             </div>
-        </section>
-
-         <!-- Feature Section Start -->
-    <section class="feature-treatment-section section-padding fix section-bg-3">
-        <div class="feature-shape-1">
-          
-        </div>
-        <div class="feature-shape-2">
-       
-        </div>
-        <div class="container">
-          <div class="section-title text-center">
-            <span
-              class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle"
-              > Serving Our Community</span
-            >
-            <h2 class="tx-title sec_title tz-itm-title tz-itm-anim">
-                Healthcare for Balaghat, Gondia, Waraseoni & Beyond
-
-            </h2>
-            <p>Nishok Hospital is proud to serve the medical needs of patients not just from Balaghat city, but also from the wider Balaghat district and neighboring regions including Gondia (Maharashtra), Waraseoni, and Seoni. Many patients from rural areas of Madhya Pradesh travel to Nishok Hospital for specialist care they cannot find locally.
-                We understand the trust patients place in us when they choose Nishok Hospital. That trust is the foundation of everything we do   and we work every day to deserve it.
-                 </p>
           </div>
-          <div class="row">
-            <div class="col-xl-4 col-lg-6 col-md-6">
-              <div class="feature-treatment-items item_right_1">
-                <div class="feature-icon-box" style="justify-content: space-between;">
-                  <h3>Our Mission</h3>
-                  <i class="flaticon-heartbeat"></i>
-                </div>
-                <p>
-                  To provide accessible, expert, and compassionate medical care to every patient in Balaghat
-                   and surrounding regions   ensuring no one has to travel far for specialist treatment.
-                </p>
+          <div class="col-lg-6">
+            <div class="about-content">
+              <div class="section-title mb-0">
+                <span class="subtitle tz-sub-tilte tz-sub-anim  text-uppercase tx-subTitle">ABOUT US</span>
+                <h2 class="tx-title sec_title  tz-itm-title tz-itm-anim">
+                  Balaghat's Trusted Specialist Hospital
+                </h2>
               </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6">
-              <div class="feature-treatment-items">
-                <div class="feature-icon-box" style="justify-content: space-between;">
-                  <h3>
-                    Our Vision
-                  </h3>
-                  <i class="flaticon-social-care"></i>
-                </div>
-                <p>
-                  To become Central India's leading destination for orthopedic and dermatological healthcare   where every patient walks out healthier, happier, and confident.
-                </p>
+              <p class="about-text wow fadeInUp" data-wow-delay=".2s">
+                Nishok Hospital is a premier multi-specialty medical facility located in the heart of Balaghat, Madhya
+                Pradesh. Established with a clear vision of bringing world-class medical care to the people of Central
+                India, we have grown to become the most trusted name in Orthopedic and Dermatology healthcare across
+                Balaghat, Gondia, Waraseoni, and Seoni.
+                <br> From complex fracture surgeries to advanced skin treatments, our doctors bring specialist expertise
+                combined with deep compassion treating every patient with the care and dignity they deserve.
+
+              </p>
+              <br />
+              <div class="about-button wow fadeInUp" data-wow-delay=".5s">
+
+                <a href="about.html" class="theme-btn style-2">
+                  <i class="far fa-chevron-right"></i>
+                  Make Appointment
+                </a>
               </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6">
-              <div class="feature-treatment-items item_left_1">
-                <div class="feature-icon-box" style="justify-content: space-between;">
-                  <h3>
-                    Our Values
-                  </h3>
-                  <i class="flaticon-health-insurance-1"></i>
+              <div class="about-image-2 wow fadeInUp" data-wow-delay=".7s">
+                <img src="assets/img/home-3/about/about-2.png" alt="img">
+                <div class="circle-image">
+                  <!-- <img src="assets/img/home-3/about/text.png" alt="img"> -->
+                  <a href="about.html" class="arrow-icon">
+                    <i class="fal fa-long-arrow-up"></i>
+                  </a>
                 </div>
-                <p>
-                  Integrity · Compassion · Excellence · Innovation · Patient-First Care
-                </p>
               </div>
             </div>
           </div>
         </div>
-      </section>
-      <br>
+      </div>
+    </div>
+  </section>
 
-        <!-- Marquee Section Start -->
-        <!-- <div class="marquee-section-2 fix my-5">
+  <!-- Feature Section Start -->
+  <section class="feature-treatment-section section-padding fix section-bg-3">
+    <div class="feature-shape-1">
+
+    </div>
+    <div class="feature-shape-2">
+
+    </div>
+    <div class="container">
+      <div class="section-title text-center">
+        <span class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle"> Serving Our Community</span>
+        <h2 class="tx-title sec_title tz-itm-title tz-itm-anim">
+          Healthcare for Balaghat, Gondia, Waraseoni & Beyond
+
+        </h2>
+        <p>Nishok Hospital is proud to serve the medical needs of patients not just from Balaghat city, but also from
+          the wider Balaghat district and neighboring regions including Gondia (Maharashtra), Waraseoni, and Seoni. Many
+          patients from rural areas of Madhya Pradesh travel to Nishok Hospital for specialist care they cannot find
+          locally.
+          We understand the trust patients place in us when they choose Nishok Hospital. That trust is the foundation of
+          everything we do and we work every day to deserve it.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-xl-4 col-lg-6 col-md-6">
+          <div class="feature-treatment-items item_right_1">
+            <div class="feature-icon-box" style="justify-content: space-between;">
+              <h3>Our Mission</h3>
+              <i class="flaticon-heartbeat"></i>
+            </div>
+            <p>
+              To provide accessible, expert, and compassionate medical care to every patient in Balaghat
+              and surrounding regions ensuring no one has to travel far for specialist treatment.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-6">
+          <div class="feature-treatment-items">
+            <div class="feature-icon-box" style="justify-content: space-between;">
+              <h3>
+                Our Vision
+              </h3>
+              <i class="flaticon-social-care"></i>
+            </div>
+            <p>
+              To become Central India's leading destination for orthopedic and dermatological healthcare where every
+              patient walks out healthier, happier, and confident.
+            </p>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 col-md-6">
+          <div class="feature-treatment-items item_left_1">
+            <div class="feature-icon-box" style="justify-content: space-between;">
+              <h3>
+                Our Values
+              </h3>
+              <i class="flaticon-health-insurance-1"></i>
+            </div>
+            <p>
+              Integrity · Compassion · Excellence · Innovation · Patient-First Care
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+
+  <!-- Marquee Section Start -->
+  <!-- <div class="marquee-section-2 fix my-5">
             <div class="mycustom-marque">
               <div class="scrolling-wrap style-2">
                <div class="comm">
@@ -641,473 +717,443 @@
          </div>
         </div> -->
 
-      <!-- <br> -->
+  <!-- <br> -->
 
-        <!-- Video Section Start -->
-    <div class="vedio-bg-section fix bg-cover">
-      <video class="vedio-bg-video" autoplay muted loop playsinline>
-        <source src="assets/img/videologo.mp4" type="video/mp4" />
-      </video>
-   <!-- Counter Section -->
-<div class="counter-section">
-  <div class="container">
-    <div class="counter-wrapper zoom-effect-style">
+  <!-- Video Section Start -->
+  <div class="vedio-bg-section fix bg-cover">
+    <video class="vedio-bg-video" autoplay muted loop playsinline>
+      <source src="assets/img/videologo.mp4" type="video/mp4" />
+    </video>
+    <!-- Counter Section -->
+    <div class="counter-section">
+      <div class="container">
+        <div class="counter-wrapper zoom-effect-style">
 
-      <!-- Item 1: Satisfied Patients -->
-      <div class="counter-items wow fadeInUp" data-wow-delay=".2s">
-        <div class="icon">
-          <img src="assets/img/home-1/counter/icon-01.png"
-               alt="Satisfied patients icon"
-               width="48" height="48" />
-        </div>
-        <div class="content">
-          <h2><span class="odometer" data-count="20">00</span><span class="suffix">k+</span></h2>
-          <p>Satisfied patients</p>
+          <!-- Item 1: Satisfied Patients -->
+          <div class="counter-items wow fadeInUp" data-wow-delay=".2s">
+            <div class="icon">
+              <img src="assets/img/home-1/counter/icon-01.png" alt="Satisfied patients icon" width="48" height="48" />
+            </div>
+            <div class="content">
+              <h2><span class="odometer" data-count="20">00</span><span class="suffix">k+</span></h2>
+              <p>Satisfied patients</p>
+            </div>
+          </div>
+
+          <!-- Item 2: Successful Surgeries -->
+          <div class="counter-items wow fadeInUp" data-wow-delay=".4s">
+            <div class="icon">
+              <img src="assets/img/home-1/counter/icon-02.png" alt="Successful surgeries icon" width="48" height="48" />
+            </div>
+            <div class="content">
+              <h2><span class="odometer" data-count="1000">00</span><span class="suffix">+</span></h2>
+              <p>Successful surgeries</p>
+            </div>
+          </div>
+
+          <!-- Item 3: Replacement Surgeries -->
+          <div class="counter-items wow fadeInUp" data-wow-delay=".6s">
+            <div class="icon">
+              <img src="assets/img/home-1/counter/icon-03.png" alt="Replacement surgeries icon" width="48"
+                height="48" />
+            </div>
+            <div class="content">
+              <h2><span class="odometer" data-count="100">00</span><span class="suffix">+</span></h2>
+              <p>Replacement surgeries</p>
+            </div>
+          </div>
+
+          <!-- Item 4: Laser & Cosmetic Procedures — was .6s (duplicate), now .8s -->
+          <div class="counter-items wow fadeInUp" data-wow-delay=".8s">
+            <div class="icon">
+              <img src="assets/img/home-1/counter/icon-04.png" alt="Laser and cosmetic procedures icon" width="48"
+                height="48" />
+            </div>
+            <div class="content">
+              <h2><span class="odometer" data-count="1000">00</span><span class="suffix">+</span></h2>
+              <p>Laser &amp; cosmetic procedures</p>
+            </div>
+          </div>
+
         </div>
       </div>
+    </div>
+    <div class="vedio-wrapper">
+      <div class="video">
 
-      <!-- Item 2: Successful Surgeries -->
-      <div class="counter-items wow fadeInUp" data-wow-delay=".4s">
-        <div class="icon">
-          <img src="assets/img/home-1/counter/icon-02.png"
-               alt="Successful surgeries icon"
-               width="48" height="48" />
-        </div>
-        <div class="content">
-          <h2><span class="odometer" data-count="1000">00</span><span class="suffix">+</span></h2>
-          <p>Successful surgeries</p>
-        </div>
       </div>
-
-      <!-- Item 3: Replacement Surgeries -->
-      <div class="counter-items wow fadeInUp" data-wow-delay=".6s">
-        <div class="icon">
-          <img src="assets/img/home-1/counter/icon-03.png"
-               alt="Replacement surgeries icon"
-               width="48" height="48" />
-        </div>
-        <div class="content">
-          <h2><span class="odometer" data-count="100">00</span><span class="suffix">+</span></h2>
-          <p>Replacement surgeries</p>
-        </div>
-      </div>
-
-      <!-- Item 4: Laser & Cosmetic Procedures — was .6s (duplicate), now .8s -->
-      <div class="counter-items wow fadeInUp" data-wow-delay=".8s">
-        <div class="icon">
-          <img src="assets/img/home-1/counter/icon-04.png"
-               alt="Laser and cosmetic procedures icon"
-               width="48" height="48" />
-        </div>
-        <div class="content">
-          <h2><span class="odometer" data-count="1000">00</span><span class="suffix">+</span></h2>
-          <p>Laser &amp; cosmetic procedures</p>
-        </div>
-      </div>
-
     </div>
   </div>
-</div>
-      <div class="vedio-wrapper">
-        <div class="video">
-          
-        </div>
-      </div>
-    </div>
 
-        <!-- Pricing Section5 Start -->
-        <section class="pricing-section-5 section-padding fix">
-            <!-- <div class="shape-1">
+  <!-- Pricing Section5 Start -->
+  <section class="pricing-section-5 section-padding fix">
+    <!-- <div class="shape-1">
                 <img src="assets/img/home-5/teeth-2.png" alt="img">
             </div>
             <div class="shape-2 float-bob-y">
                 <img src="assets/img/home-5/teeth.png" alt="img">
             </div> -->
-            <div class="container">
-                <div class="pricing-wrapper-5">
-                    <div class="row g-4">
-                      <div class="col-xl-5 col-lg-6 col-md-6">
-                        <div class="pricing-content">
-                            <div class="section-title mb-0">
-                            <span 
-                            class="subtitle tz-sub-tilte tz-sub-anim  text-uppercase tx-subTitle">
-                            OUR FACILITIES</span>
-                            <h2 class="tx-title sec_title  tz-itm-title tz-itm-anim">
-                                Facilities & Equipment
-                            </h2>
+    <div class="container">
+      <div class="pricing-wrapper-5">
+        <div class="row g-4">
+          <div class="col-xl-5 col-lg-6 col-md-6">
+            <div class="pricing-content">
+              <div class="section-title mb-0">
+                <span class="subtitle tz-sub-tilte tz-sub-anim  text-uppercase tx-subTitle">
+                  OUR FACILITIES</span>
+                <h2 class="tx-title sec_title  tz-itm-title tz-itm-anim">
+                  Facilities & Equipment
+                </h2>
+              </div>
+              <p class="text wow fadeInUp" data-wow-delay=".5s">
+                At Nishok Hospital, we are equipped with modern medical infrastructure to provide accurate diagnosis,
+                effective treatment, and comfortable patient care in Balaghat.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-7 wow fadeInUp" data-wow-delay=".3s">
+            <div class="pricing-main-card">
+              <div class="row g-0">
+                <div class="col-lg-12 ">
+                  <div class="pricing-card-item">
+                    <div class="pricing-top">
+                      <h4>Our Facility Features:</h4>
+                    </div>
+                    <ul class="pricing-list">
+
+                      <li>
+                        <i class="far fa-check"></i>
+                        Orthopedic Operation Theater with modern surgical equipment
+                      </li>
+                      <li>
+                        <i class="far fa-check"></i>
+                        Dermatology Procedure Room equipped for laser, PRP, HydraFacial & more
+                      </li>
+                      <li>
+                        <i class="far fa-check"></i>
+                        Digital X-Ray & Imaging Facility
+                      </li>
+                      <li>
+                        <i class="far fa-check"></i>
+                        Pharmacy stocked with prescribed medications on-site
+                      </li>
+                      <li>
+                        <i class="far fa-check"></i>
+                        Clean, air-conditioned patient waiting area
+                      </li>
+                      <li>
+                        <i class="far fa-check"></i>
+                        24x7 emergency support for orthopedic injuries
+                      </li>
+                      <li>
+                        <i class="far fa-check"></i>
+                        Private consultation rooms for patient privacy
+                      </li>
+                    </ul>
+                    <div class="pricing-button">
+                      <a href="pricing.html" class="theme-btn">
+                        <i class="far fa-chevron-right"></i>
+                        Book Appointment
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section Start -->
+  <section class="team-section section-padding section-bg  fix">
+    <div class="container">
+      <div class="section-title-area align-items-end">
+        <div class="section-title">
+          <span class="subtitle tz-sub-tilte tz-sub-anim  text-uppercase tx-subTitle">MEET WITH DOCTOR</span>
+          <h2 class="tx-title sec_title  tz-itm-title tz-itm-anim">
+            Our Expert Doctors For Your Health & Beauty</h2>
+        </div>
+        <div class="call-box wow fadeInUp" data-wow-delay=".3s">
+          <div class="call-icon">
+            <img src="assets/img/home-1/cta/call-icon.png" alt="img">
+          </div>
+          <div class="content"
+            style="display:flex; flex-direction:column; justify-content:center; align-items:flex-start;">
+
+            <p style="margin:0 0 8px; font-size:14px; font-weight:500; color:#666;">
+              Call Emergency
+            </p>
+
+            <a href="tel:+918319569357"
+              style="display:block; text-decoration:none; color:#000; font-size:clamp(15px,2vw,20px); font-weight:700; line-height:1.6; white-space:nowrap;">
+              +91 83195 69357
+            </a>
+
+            <a href="tel:+917648922304"
+              style="display:block; text-decoration:none; color:#000; font-size:clamp(15px,2vw,20px); font-weight:700; line-height:1.6; white-space:nowrap;">
+              +91 76489 22304
+            </a>
+
+          </div>
+        </div>
+      </div>
+      <div class="row gx-4 section-padding pb-0 advance-wrap mt-0 pt-4" style="justify-content: center;">
+
+
+
+         <div class="col-xl-4 col-lg-4 col-md-6">
+          <div class="team-box-items mt-0 advance-item">
+            <div class="team-image">
+              <img src="assets/img/home-1/about/Dr. Amisha.jpg" alt="img" style="height: 440px; object-fit: cover;" />
+              <span class="post-box"> Dermatologist & Skin Specialist</span>
+            </div>
+            <div class="team-content">
+              <h3><a href="team-details.html">Dr. Amisha</a></h3>
+              <div class="phone-box">
+                <i class="fas fa-phone-alt"></i>
+                <span><b>Appointment</b> :
+                  <a href="tel:+38002020900">+918319569357</a></span>
+              </div>
+              <p>
+                Expert in acne treatment, PRP therapy, HydraFacial,
+                laser skin treatments, melasma & hair restoration. Balaghat's leading charma rog specialist.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-4 col-lg-4 col-md-6">
+          <div class="team-box-items mt-0 advance-item">
+            <div class="team-image">
+              <img src="assets/img/home-1/about/Dr. Shrey.jpg" alt="img" style="height: 440px; object-fit: cover;" />
+              <span class="post-box"> Orthopedic Surgeon </span>
+            </div>
+            <div class="team-content">
+              <h3><a href="team-details.html">Dr. Shrey</a></h3>
+              <div class="phone-box">
+                <i class="fas fa-phone-alt"></i>
+                <span><b>Appointment</b> :
+                  <a href="tel:+38002020900">+918319569357</a></span>
+              </div>
+              <p>
+                Specialist in fractures, joint pain, arthritis, slip disc, and sports injuries. Trusted by thousands of
+                patients across Balaghat and Gondia.
+              </p>
+            </div>
+          </div>
+        </div>
+
+       
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+  <section class="testimonial-section-1 section-padding pb-0 fix" style="background: #fff;">
+    <div class="shape float-bob-y">
+      <img src="assets/img/home-1/testimonial/vector.png" alt="img" />
+    </div>
+    <div class="shape-2 float-bob-y">
+      <img src="assets/img/home-1/testimonial/hand.png" alt="img" />
+    </div>
+    <div class="container">
+      <div class="testimonial-wrapper-1">
+        <div class="row g-4">
+          <div class="col-lg-4 wow fadeInUp" data-wow-delay=".2s">
+            <div class="testimonial-image">
+              <img src="assets/img/home-1/testimonial/girl.png" alt="img" />
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="section-title-area">
+              <div class="section-title">
+                <span class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle">GOOGLE REVIEWS</span>
+                <h2 class="tx-title sec_title tz-itm-title tz-itm-anim">
+                  What Our Patients Say
+                </h2>
+              </div>
+              <div class="array-button-2">
+                <button class="array-prev">
+                  <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="array-next">
+                  <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+            </div>
+            <div class="testimonial-right-item">
+              <div class="swiper testimonial-slider-1">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="testimonial-box-item-1">
+                      <div class="client-image">
+                        <div class="testimonial-avatar" style="background:#2490EB;">A</div>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
                         </div>
-                        <p class="text wow fadeInUp" data-wow-delay=".5s">
-                            At Nishok Hospital, we are equipped with modern medical infrastructure to provide accurate diagnosis,
-                             effective treatment, and comfortable patient care in Balaghat.
+                      </div>
+                      <div class="testimonial-content">
+                        <p>
+                          “Mam treatment is very nice..staff is well behaved and polite overall satisfied”
                         </p>
-                    </div>
-                    </div>
-                    <div class="col-xl-7 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="pricing-main-card">
-                            <div class="row g-0">
-                                <div class="col-lg-12 ">
-                                    <div class="pricing-card-item">
-                                        <div class="pricing-top">
-                                            <h4>Our Facility Features:</h4>
-                                        </div>
-                                        <ul class="pricing-list">
-                        
-                                            <li>
-                                                <i class="far fa-check"></i>
-                                                Orthopedic Operation Theater   with modern surgical equipment
-                                            </li>
-                                            <li>
-                                                <i class="far fa-check"></i>
-                                                Dermatology Procedure Room   equipped for laser, PRP, HydraFacial & more
-                                            </li>
-                                            <li>
-                                                <i class="far fa-check"></i>
-                                                Digital X-Ray & Imaging Facility
-                                            </li>
-                                            <li>
-                                                <i class="far fa-check"></i>
-                                                Pharmacy   stocked with prescribed medications on-site
-                                            </li>
-                                            <li>
-                                                <i class="far fa-check"></i>
-                                                Clean, air-conditioned patient waiting area
-                                            </li>
-                                            <li>
-                                                <i class="far fa-check"></i>
-                                                24x7 emergency support for orthopedic injuries
-                                            </li>
-                                            <li>
-                                                <i class="far fa-check"></i>
-                                                Private consultation rooms for patient privacy
-                                            </li>
-                                        </ul>
-                                        <div class="pricing-button">
-                                        <a href="pricing.html" class="theme-btn">
-                                            <i class="far fa-chevron-right"></i>
-                                            Book Appointment
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            
-                            </div>
+                        <div class="info-item">
+                          <div class="info-content">
+                            <h5>Anisha Singh</h5>
+                            <span>Google Review</span>
+                          </div>
+                          <div class="icon">
+                            <img src="assets/img/home-5/testimonial/01.svg" alt="img" />
+                          </div>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-box-item-1">
+                      <div class="client-image">
+                        <div class="testimonial-avatar" style="background:#02C9B8;">K</div>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="testimonial-content">
+                        <p>
+                          “Excellent diagnosis and treatment also good nature of the doctor. Got Satisfied Results..”
+                        </p>
+                        <div class="info-item">
+                          <div class="info-content">
+                            <h5>Kekte Laykishor</h5>
+                            <span>Google Review</span>
+                          </div>
+                          <div class="icon">
+                            <img src="assets/img/home-5/testimonial/01.svg" alt="img" />
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Team Section Start -->
-        <section class="team-section section-padding section-bg  fix">
-            <div class="container">
-                <div class="section-title-area align-items-end">
-                    <div class="section-title">
-                        <span class="subtitle tz-sub-tilte tz-sub-anim  text-uppercase tx-subTitle">MEET WITH DOCTOR</span>
-                        <h2 class="tx-title sec_title  tz-itm-title tz-itm-anim">
-                          Our Expert Doctors For Your Health & Beauty</h2>
-                    </div>
-                    <div class="call-box wow fadeInUp" data-wow-delay=".3s">
-                        <div class="call-icon">
-                            <img src="assets/img/home-1/cta/call-icon.png" alt="img">
+                  <div class="swiper-slide">
+                    <div class="testimonial-box-item-1">
+                      <div class="client-image">
+                        <div class="testimonial-avatar" style="background:#F59E0B;">H</div>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
                         </div>
-                      <div class="content" 
-     style="display:flex; flex-direction:column; justify-content:center; align-items:flex-start;">
-
-    <p style="margin:0 0 8px; font-size:14px; font-weight:500; color:#666;">
-        Call Emergency
-    </p>
-
-    <a href="tel:+918319569357"
-       style="display:block; text-decoration:none; color:#000; font-size:clamp(15px,2vw,20px); font-weight:700; line-height:1.6; white-space:nowrap;">
-        +91 83195 69357
-    </a>
-
-    <a href="tel:+917648922304"
-       style="display:block; text-decoration:none; color:#000; font-size:clamp(15px,2vw,20px); font-weight:700; line-height:1.6; white-space:nowrap;">
-        +91 76489 22304
-    </a>
-
-</div>
-                    </div>
-                </div>
-                <div class="row gx-4 section-padding pb-0 advance-wrap mt-0 pt-4" style="justify-content: center;">
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                      <div class="team-box-items mt-0 advance-item">
-                        <div class="team-image">
-                          <img src="assets/img/home-1/about/Dr. Shrey.jpg" alt="img" style="height: 440px; object-fit: cover;" />
-                          <span class="post-box"> Orthopedic Surgeon </span>
-                        </div>
-                        <div class="team-content">
-                          <h3><a href="team-details.html">Dr. Shrey</a></h3>
-                          <div class="phone-box">
-                            <i class="fas fa-phone-alt"></i>
-                            <span
-                              ><b>Appointment</b> :
-                              <a href="tel:+38002020900">+918319569357</a></span
-                            >
+                      </div>
+                      <div class="testimonial-content">
+                        <p>
+                          “Meko mam ka ilaj bhut acha lga bhut jaldi aram mil gya”
+                        </p>
+                        <div class="info-item">
+                          <div class="info-content">
+                            <h5>Hiraji Karkade</h5>
+                            <span>Google Review</span>
                           </div>
-                          <p>
-                            Specialist in fractures, joint pain, arthritis, slip disc, and sports injuries. Trusted by thousands of patients across Balaghat and Gondia.
-                          </p>
+                          <div class="icon">
+                            <img src="assets/img/home-5/testimonial/01.svg" alt="img" />
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6">
-                      <div class="team-box-items mt-0 advance-item">
-                        <div class="team-image">
-                          <img src="assets/img/home-1/about/Dr. Amisha.jpg" alt="img" style="height: 440px; object-fit: cover;" />
-                          <span class="post-box"> Dermatologist & Skin Specialist</span>
-                        </div>
-                        <div class="team-content">
-                          <h3><a href="team-details.html">Dr. Amisha</a></h3>
-                          <div class="phone-box">
-                            <i class="fas fa-phone-alt"></i>
-                            <span
-                              ><b>Appointment</b> :
-                              <a href="tel:+38002020900">+918319569357</a></span
-                            >
-                          </div>
-                          <p>
-                            Expert in acne treatment, PRP therapy, HydraFacial, 
-                  laser skin treatments, melasma & hair restoration. Balaghat's leading charma rog specialist.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                   
                   </div>
-                
-            </div>
-        </section>
-
-       
-
-
-        <section
-        class="testimonial-section-1 section-padding pb-0 fix"
-        style="background: #fff;"
-      >
-        <div class="shape float-bob-y">
-          <img src="assets/img/home-1/testimonial/vector.png" alt="img" />
-        </div>
-        <div class="shape-2 float-bob-y">
-          <img src="assets/img/home-1/testimonial/hand.png" alt="img" />
-        </div>
-        <div class="container">
-          <div class="testimonial-wrapper-1">
-            <div class="row g-4">
-              <div class="col-lg-4 wow fadeInUp" data-wow-delay=".2s">
-                <div class="testimonial-image">
-                  <img src="assets/img/home-1/testimonial/girl.png" alt="img" />
-                </div>
-              </div>
-              <div class="col-lg-8">
-                <div class="section-title-area">
-                  <div class="section-title">
-                    <span
-                      class="subtitle tz-sub-tilte tz-sub-anim text-uppercase tx-subTitle"
-                      >GOOGLE REVIEWS</span
-                    >
-                    <h2 class="tx-title sec_title tz-itm-title tz-itm-anim">
-                      What Our Patients Say
-                    </h2>
+                  <div class="swiper-slide">
+                    <div class="testimonial-box-item-1">
+                      <div class="client-image">
+                        <div class="testimonial-avatar" style="background:#8B5CF6;">A</div>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="testimonial-content">
+                        <p>
+                          “Very good rha medam ka treatment”
+                        </p>
+                        <div class="info-item">
+                          <div class="info-content">
+                            <h5>Ankush Kamde</h5>
+                            <span>Google Review</span>
+                          </div>
+                          <div class="icon">
+                            <img src="assets/img/home-5/testimonial/01.svg" alt="img" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="array-button-2">
-                    <button class="array-prev">
-                      <i class="fas fa-chevron-left"></i>
-                    </button>
-                    <button class="array-next">
-                      <i class="fas fa-chevron-right"></i>
-                    </button>
+                  <div class="swiper-slide">
+                    <div class="testimonial-box-item-1">
+                      <div class="client-image">
+                        <div class="testimonial-avatar" style="background:#EF4444;">J</div>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                      </div>
+                      <div class="testimonial-content">
+                        <p>
+                          “Mujhe mam ka ilaaj bhut hi acha lga”
+                        </p>
+                        <div class="info-item">
+                          <div class="info-content">
+                            <h5>Jitendra Bahe</h5>
+                            <span>Google Review</span>
+                          </div>
+                          <div class="icon">
+                            <img src="assets/img/home-5/testimonial/01.svg" alt="img" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="testimonial-right-item">
-                  <div class="swiper testimonial-slider-1">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <div class="testimonial-box-item-1">
-                          <div class="client-image">
-                            <div class="testimonial-avatar" style="background:#2490EB;">A</div>
-                            <div class="star">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                          </div>
-                          <div class="testimonial-content">
-                            <p>
-                              “Mam treatment is very nice..staff is well behaved and polite overall satisfied”
-                            </p>
-                            <div class="info-item">
-                              <div class="info-content">
-                                <h5>Anisha Singh</h5>
-                                <span>Google Review</span>
-                              </div>
-                              <div class="icon">
-                                <img
-                                  src="assets/img/home-5/testimonial/01.svg"
-                                  alt="img"
-                                />
-                              </div>
-                            </div>
-                          </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-box-item-1">
+                      <div class="client-image">
+                        <div class="testimonial-avatar" style="background:#10B981;">T</div>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
                         </div>
                       </div>
-                      <div class="swiper-slide">
-                        <div class="testimonial-box-item-1">
-                          <div class="client-image">
-                            <div class="testimonial-avatar" style="background:#02C9B8;">K</div>
-                            <div class="star">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
+                      <div class="testimonial-content">
+                        <p>
+                          “Mam ka treatment bhot acha lga mam bhot ache h”
+                        </p>
+                        <div class="info-item">
+                          <div class="info-content">
+                            <h5>Teams Online</h5>
+                            <span>Google Review</span>
                           </div>
-                          <div class="testimonial-content">
-                            <p>
-                              “Excellent diagnosis and treatment also good nature of the doctor. Got Satisfied Results..”
-                            </p>
-                            <div class="info-item">
-                              <div class="info-content">
-                                <h5>Kekte Laykishor</h5>
-                                <span>Google Review</span>
-                              </div>
-                              <div class="icon">
-                                <img
-                                  src="assets/img/home-5/testimonial/01.svg"
-                                  alt="img"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="testimonial-box-item-1">
-                          <div class="client-image">
-                            <div class="testimonial-avatar" style="background:#F59E0B;">H</div>
-                            <div class="star">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                          </div>
-                          <div class="testimonial-content">
-                            <p>
-                              “Meko mam ka ilaj bhut acha lga bhut jaldi aram mil gya”
-                            </p>
-                            <div class="info-item">
-                              <div class="info-content">
-                                <h5>Hiraji Karkade</h5>
-                                <span>Google Review</span>
-                              </div>
-                              <div class="icon">
-                                <img
-                                  src="assets/img/home-5/testimonial/01.svg"
-                                  alt="img"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="testimonial-box-item-1">
-                          <div class="client-image">
-                            <div class="testimonial-avatar" style="background:#8B5CF6;">A</div>
-                            <div class="star">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                          </div>
-                          <div class="testimonial-content">
-                            <p>
-                              “Very good rha medam ka treatment”
-                            </p>
-                            <div class="info-item">
-                              <div class="info-content">
-                                <h5>Ankush Kamde</h5>
-                                <span>Google Review</span>
-                              </div>
-                              <div class="icon">
-                                <img
-                                  src="assets/img/home-5/testimonial/01.svg"
-                                  alt="img"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="testimonial-box-item-1">
-                          <div class="client-image">
-                            <div class="testimonial-avatar" style="background:#EF4444;">J</div>
-                            <div class="star">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                          </div>
-                          <div class="testimonial-content">
-                            <p>
-                              “Mujhe mam ka ilaaj bhut hi acha lga”
-                            </p>
-                            <div class="info-item">
-                              <div class="info-content">
-                                <h5>Jitendra Bahe</h5>
-                                <span>Google Review</span>
-                              </div>
-                              <div class="icon">
-                                <img
-                                  src="assets/img/home-5/testimonial/01.svg"
-                                  alt="img"
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="testimonial-box-item-1">
-                          <div class="client-image">
-                            <div class="testimonial-avatar" style="background:#10B981;">T</div>
-                            <div class="star">
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                              <i class="fas fa-star"></i>
-                            </div>
-                          </div>
-                          <div class="testimonial-content">
-                            <p>
-                              “Mam ka treatment bhot acha lga mam bhot ache h”
-                            </p>
-                            <div class="info-item">
-                              <div class="info-content">
-                                <h5>Teams Online</h5>
-                                <span>Google Review</span>
-                              </div>
-                              <div class="icon">
-                                <img
-                                  src="assets/img/home-5/testimonial/01.svg"
-                                  alt="img"
-                                />
-                              </div>
-                            </div>
+                          <div class="icon">
+                            <img src="assets/img/home-5/testimonial/01.svg" alt="img" />
                           </div>
                         </div>
                       </div>
@@ -1118,178 +1164,171 @@
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
 
-     
-<br>
-<br>
-       
-       <!-- Footer Section Start -->
-       <footer class="footer-section section-bg-2 fix">
-        <div class="left-shape float-bob-y">
-          <img src="assets/img/home-1/footer/left-shape.png" alt="img" />
-        </div>
-        <div class="right-shape float-bob-x">
-          <img src="assets/img/home-1/footer/right-shape.png" alt="img" />
-        </div>
-        <div class="top-shape float-bob-y">
-       
-        </div>
-        <div class="container">
-          <div class="footer-widget-wrapper">
-            <div class="row g-4 footer-widget-row justify-content-center align-items-start">
-              <div
-                class="col-12 col-md-6 col-lg-4 wow fadeInUp"
-                data-wow-delay=".2s"
-              >
-                <div class="single-footer-widget style-bg-white">
-                  <div class="widget-head">
-                    <a href="index.html" class="footer-logo">
-                      <img src="assets/img/header/logo.png" alt="img" style="width: 228px; height: 58px;" />
-                    </a>
-                  </div>
-                  <div class="footer-content">
-                    <p>
-                      We dedicated to providing flexible & accessible healthcare
-                      services.
-                    </p>
-                    <ul>
-                      <li>Monday - Sunday <span>9:30AM - 7:30PM</span></li>
-                      <!-- <li>Saturday <span>9:30AM - 7:30PM</span></li>
+
+  <br>
+  <br>
+
+  <!-- Footer Section Start -->
+  <footer class="footer-section section-bg-2 fix">
+    <div class="left-shape float-bob-y">
+      <img src="assets/img/home-1/footer/left-shape.png" alt="img" />
+    </div>
+    <div class="right-shape float-bob-x">
+      <img src="assets/img/home-1/footer/right-shape.png" alt="img" />
+    </div>
+    <div class="top-shape float-bob-y">
+
+    </div>
+    <div class="container">
+      <div class="footer-widget-wrapper">
+        <div class="row g-4 footer-widget-row justify-content-center align-items-start">
+          <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".2s">
+            <div class="single-footer-widget style-bg-white">
+              <div class="widget-head">
+                <a href="index.html" class="footer-logo">
+                  <img src="assets/img/header/logo.png" alt="img" style="width: 228px; height: 58px;" />
+                </a>
+              </div>
+              <div class="footer-content">
+                <p>
+                  We dedicated to providing flexible & accessible healthcare
+                  services.
+                </p>
+                <ul>
+                  <li>Monday - Sunday <span>9:30AM - 7:30PM</span></li>
+                  <!-- <li>Saturday <span>9:30AM - 7:30PM</span></li>
                       <li>Sunday <span>9:30AM - 7:30PM</span></li> -->
-                    </ul>
-                    <div class="icon">
-                      <img src="assets/img/home-1/hero/feature-3.png" alt="img" />
-                      <div class="content">
-                        <p>For Booking</p>
-                        <h4><a href="tel:63552584250">+91 8319569357</a></h4>
-                        <h4><a href="tel:63552584250">+91 7648922304</a></h4>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-12 col-md-6 col-lg-4 wow fadeInUp"
-                data-wow-delay=".4s"
-              >
-                <div class="single-footer-widget-area">
-                  <div class="single-footer-widget">
-                    <div class="widget-head">
-                      <h3>Quick Links</h3>
-                    </div>
-                    <ul class="list-area">
-                      <li>
-                        <a href="about.html">About Us</a>
-                      </li>
-                     
-                      <li>
-                        <a href="contact.html">24/7 Support</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="single-footer-widget">
-                    <div class="widget-head">
-                      <h3>Our Services</h3>
-                    </div>
-                    <ul class="list-area">
-                     
-                      <li>
-                        <a href="service.html">Orthopedics</a>
-                      </li>
-                      <li>
-                        <a href="service.html">Dermatology </a>
-                      </li>
-                     
-                     
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="col-12 col-lg-4 wow fadeInUp"
-                data-wow-delay=".6s"
-              >
-                <div class="single-footer-widget">
-                  <div class="widget-head">
-                    <h3>Contact Us</h3>
-                  </div>
-                  <div class="footer-content">
-                    <p class="text-white">
-                     At Nishok Hospital, we are dedicated to providing comprehensive healthcare services to our patients.
-                    </p>
-                    <ul class="footer-contect">
-                      <li>
-                        <div class="icon">
-                          <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="content">
-                          <p>
-                            <a href="mailto:nishokhospital@gmail.com"
-                              >nishokhospital@gmail.com</a
-                            >
-                          </p>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="icon">
-                          <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="content">
-                          <p>Ward no. 28, IF/8, opposite Kids Cloud School, Mayur nagar, Chitragupt Nagar, Balaghat, Madhya Pradesh 481001</p>
-                        </div>
-                      </li>
-                    </ul>
+                </ul>
+                <div class="icon">
+                  <img src="assets/img/home-1/hero/feature-3.png" alt="img" />
+                  <div class="content">
+                    <p>For Booking</p>
+                    <h4><a href="tel:63552584250">+91 8319569357</a></h4>
+                    <h4><a href="tel:63552584250">+91 7648922304</a></h4>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="footer-bottom wow fadeInUp">
-          <div class="container">
-            <div class="footer-bottom-wrapper">
-              <p>Copyright © 2026 All Rights Reserved.</p>
-              <div class="social-icon d-flex align-items-center">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-  
+          <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".4s">
+            <div class="single-footer-widget-area">
+              <div class="single-footer-widget">
+                <div class="widget-head">
+                  <h3>Quick Links</h3>
+                </div>
+                <ul class="list-area">
+                  <li>
+                    <a href="about.html">About Us</a>
+                  </li>
 
-        <!--<< All JS Plugins >>-->
-        <script src="assets/js/jquery-3.7.1.min.js"></script>
-        <!--<< Bootstrap Js >>-->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <!--<< Nice Select Js >>-->
-        <script src="assets/js/jquery.nice-select.min.js"></script>
-        <!--<< Odometer Js >>-->
-        <script src="assets/js/odometer.min.js"></script>
-        <!--<< Appear Js >>-->
-        <script src="assets/js/jquery.appear.min.js"></script>
-        <!--<< Swiper Slider Js >>-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-        <!--<< MeanMenu Js >>-->
-        <script src="assets/js/jquery.meanmenu.min.js"></script>
-        <!--<< Magnific Popup Js >>-->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <!--<< Wow Animation Js >>-->
-        <script src="assets/js/wow.min.js"></script>
-        <!--<< Gsap Animation Js >>-->
-        <script src="assets/js/gsap.min.js"></script>
-        <!--<< ScrollTrigger Js >>-->
-        <script src="assets/js/ScrollTrigger.min.js"></script>
-        <!--<< SplitText Js >>-->
-        <script src="assets/js/SplitText.min.js"></script>
-        <!--<< splitType Js >>-->
-        <script src="assets/js/splitType.js"></script>
-        <!--<< Main.js >>-->
-        <script src="assets/js/main.js"></script>
-    </body>
+                  <li>
+                    <a href="contact.html">24/7 Support</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="single-footer-widget">
+                <div class="widget-head">
+                  <h3>Our Services</h3>
+                </div>
+                <ul class="list-area">
+
+                  <li>
+                    <a href="service.html">Orthopedics</a>
+                  </li>
+                  <li>
+                    <a href="service.html">Dermatology </a>
+                  </li>
+
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 wow fadeInUp" data-wow-delay=".6s">
+            <div class="single-footer-widget">
+              <div class="widget-head">
+                <h3>Contact Us</h3>
+              </div>
+              <div class="footer-content">
+                <p class="text-white">
+                  At Nishok Hospital, we are dedicated to providing comprehensive healthcare services to our patients.
+                </p>
+                <ul class="footer-contect">
+                  <li>
+                    <div class="icon">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="content">
+                      <p>
+                        <a href="mailto:nishokhospital@gmail.com">nishokhospital@gmail.com</a>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon">
+                      <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="content">
+                      <p>Ward no. 28, IF/8, opposite Kids Cloud School, Mayur nagar, Chitragupt Nagar, Balaghat, Madhya
+                        Pradesh 481001</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom wow fadeInUp">
+      <div class="container">
+        <div class="footer-bottom-wrapper">
+          <p>Copyright © 2026 All Rights Reserved.</p>
+          <div class="social-icon d-flex align-items-center">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--<< All JS Plugins >>-->
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <!--<< Bootstrap Js >>-->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <!--<< Nice Select Js >>-->
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+  <!--<< Odometer Js >>-->
+  <script src="assets/js/odometer.min.js"></script>
+  <!--<< Appear Js >>-->
+  <script src="assets/js/jquery.appear.min.js"></script>
+  <!--<< Swiper Slider Js >>-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <!--<< MeanMenu Js >>-->
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
+  <!--<< Magnific Popup Js >>-->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!--<< Wow Animation Js >>-->
+  <script src="assets/js/wow.min.js"></script>
+  <!--<< Gsap Animation Js >>-->
+  <script src="assets/js/gsap.min.js"></script>
+  <!--<< ScrollTrigger Js >>-->
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <!--<< SplitText Js >>-->
+  <script src="assets/js/SplitText.min.js"></script>
+  <!--<< splitType Js >>-->
+  <script src="assets/js/splitType.js"></script>
+  <!--<< Main.js >>-->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
