@@ -359,7 +359,7 @@
                     
 
         <!-- Contact-Appointment Section5 Start -->
-        <section class="contact-appointment-section section-padding fix">
+        <!-- <section class="contact-appointment-section section-padding fix">
             <div class="container">
                 <div class="contact-appointment-wrapper-5">
                     <div class="row g-4">
@@ -452,7 +452,139 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+
+
+        <!-- Contact-Appointment Section5 Start -->
+<section class="contact-appointment-section section-padding fix">
+    <div class="container">
+        <div class="contact-appointment-wrapper-5">
+            <div class="row g-4">
+                <div class="col-12 col-lg-6">
+                    <div class="contact-appointment-left-item">
+                        <div class="contact-appointment-image wow img-custom-anim-left" data-wow-duration="1.3s" data-wow-delay="0.3s">
+                            <img src="assets/img/inner/contact/01.png" alt="Nishok Hospital contact" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="contact-appointment-box">
+                       <h3>Book An Appointment</h3>
+
+                       <form id="nishokAppointmentForm">
+                         <div class="row g-4">
+                            <div class="col-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                                <div class="form-clt">
+                                    <span>Name</span>
+                                    <input type="text" name="name" id="nishokName" placeholder="Your Name" required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                <div class="form-clt">
+                                    <span>Email</span>
+                                    <input type="email" name="email" id="nishokEmail" placeholder="Your email">
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                                <div class="form-clt">
+                                    <span>Phone</span>
+                                    <input type="tel" name="phone" id="nishokPhone" placeholder="Your phone" required>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay=".3s">
+                                <div class="form-clt">
+                                    <span>City / Village</span>
+                                    <input type="text" name="city" id="nishokCity" placeholder="Your City / Village">
+                                </div>
+                            </div>
+                            <div class="col-lg-12 wow fadeInUp" data-wow-delay=".3s">
+                                <div class="form-clt">
+                                    <span>Preferred Date</span>
+                                    <input type="date" name="preferred_date" id="nishokDate">
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                <div class="form-clt">
+                                    <span>Preferred Time</span>
+                                        <div class="form">
+                                        <select class="single-select w-100" name="preferred_time">
+                                            <option>Select Time</option>
+                                            <option>Morning</option>
+                                            <option>Afternoon</option>
+                                            <option>Evening</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-6 wow fadeInUp" data-wow-delay=".5s">
+                                <div class="form-clt">
+                                    <span>Department</span>
+                                        <div class="form">
+                                        <select class="single-select w-100" name="department">
+                                            <option>Select Department</option>
+                                            <option>Orthopedic — Dr. Shrey</option>
+                                            <option>Dermatology — Dr. Amisha</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 wow fadeInUp" data-wow-delay=".3s">
+                                <div class="form-clt">
+                                    <span>Brief Description of Your Concern (optional)</span>
+                                    <textarea name="message" id="nishokMessage" placeholder="Write your message..."></textarea>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 wow fadeInUp" data-wow-delay=".3s">
+                                <button type="submit" class="theme-btn">
+                                    <i class="far fa-chevron-right"></i>
+                                    Book My Appointment
+                                </button>
+                                <p id="nishokFormStatus" style="margin-top:12px; font-size:14px;"></p>
+                            </div>
+                        </div>
+                    </form>
+
+                    <script>
+                        const NISHOK_SHEET_URL = "https://script.google.com/macros/s/AKfycbxJ-RNZ1Wr7Y3iH39OgmLTS2JQhAX4S53a2RtKK0h0ESgr1mA3iScmnatXoHGnF1PAWFA/exec";
+
+                        document.getElementById('nishokAppointmentForm').addEventListener('submit', function(e){
+                            e.preventDefault();
+                            const form = e.target;
+                            const status = document.getElementById('nishokFormStatus');
+                            const btn = form.querySelector('button[type="submit"]');
+
+                            status.textContent = 'Sending...';
+                            status.style.color = '#666';
+                            btn.disabled = true;
+
+                            fetch(NISHOK_SHEET_URL, {
+                                method: 'POST',
+                                mode: 'no-cors',
+                                body: new FormData(form)
+                            })
+                            .then(function(){
+                                status.textContent = '✓ Appointment request sent! We will contact you shortly.';
+                                status.style.color = '#0F6E56';
+                                form.reset();
+                            })
+                            .catch(function(){
+                                status.textContent = 'Something went wrong. Please call us directly.';
+                                status.style.color = '#c0392b';
+                            })
+                            .finally(function(){
+                                btn.disabled = false;
+                            });
+                        });
+                    </script>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
         <!-- Contact-info Section Start -->
         <section class="contact-info-section section-padding pt-0">
