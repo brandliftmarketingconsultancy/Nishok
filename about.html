@@ -9,6 +9,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="modinatheme">
   <meta name="description" content="Nishok Hospital - Medical & Health Care HTML Template">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-34GX2229ZB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-34GX2229ZB');
+  </script>
+
   <!-- ======== Page title ============ -->
   <title>Nishok Hospital - Orthopedic & Skin Specialist Hospital</title>
   <!--<< Favicon >>-->
@@ -255,7 +265,7 @@
         <div class="offcanvas__content">
           <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
             <div class="offcanvas__logo">
-              <a href="index.html">
+              <a href="/">
                 <img src="assets/img/logo/logo.png" alt="logo-img" />
               </a>
             </div>
@@ -307,7 +317,7 @@
       <div class="mega-menu-wrapper">
         <div class="header-main">
           <div class="header-left">
-            <a href="index.html" class="header-logo1">
+            <a href="/" class="header-logo1">
               <img src="assets/img/header/logo.png" alt="logo-img" style="width: 228px; height: 58px;" />
             </a>
           </div>
@@ -317,7 +327,7 @@
                 <nav id="mobile-menu">
                   <ul>
                     <li>
-                      <a href="index.html">
+                      <a href="/">
                         Home
 
                       </a>
@@ -420,102 +430,111 @@
 
 
   <!-- Breadcrumb Section Start -->
- <div class="nishok-page-header bg-cover object-fit-cover  object-position: center 50%;" style="background-image: url('assets/img/home-1/hero/heroimg2.jpeg');">
-  <div class="nishok-page-header__scrim"></div>
-  <div class="container">
-    <div class="nishok-page-header__content">
-      <h1 class="nishok-page-header__title wow fadeInUp" data-wow-delay=".3s">About Us</h1>
-      <ul class="nishok-page-header__crumbs wow fadeInUp" data-wow-delay=".5s">
-        <li><a href="index.html">Home</a></li>
-        <li class="sep">/</li>
-        <li class="current">About Us</li>
-      </ul>
+  <div class="nishok-page-header bg-cover object-fit-cover  object-position: center 50%;"
+    style="background-image: url('assets/img/home-1/hero/heroimg2.jpeg');">
+    <div class="nishok-page-header__scrim"></div>
+    <div class="container">
+      <div class="nishok-page-header__content">
+        <h1 class="nishok-page-header__title wow fadeInUp" data-wow-delay=".3s">About Us</h1>
+        <ul class="nishok-page-header__crumbs wow fadeInUp" data-wow-delay=".5s">
+          <li><a href="/">Home</a></li>
+          <li class="sep">/</li>
+          <li class="current">About Us</li>
+        </ul>
+      </div>
     </div>
   </div>
-</div>
 
-<style>
-.nishok-page-header{
-  position: relative;
-  min-height: 600px;
-  display: flex;
-  align-items: center;
-  background-position: center 55%;   /* was 25% — now shows middle/bottom, crops the top */
-  background-size: cover !important;
-  background-repeat: no-repeat !important;
-  width: 100%;
-  overflow: hidden;
-}
+  <style>
+    .nishok-page-header {
+      position: relative;
+      min-height: 600px;
+      display: flex;
+      align-items: center;
+      background-position: center 55%;
+      /* was 25% — now shows middle/bottom, crops the top */
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      width: 100%;
+      overflow: hidden;
+    }
 
-.nishok-page-header__scrim{
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    100deg,
-    rgba(8,18,38,0.88) 0%,
-    rgba(8,18,38,0.72) 30%,
-    rgba(8,18,38,0.25) 55%,
-    rgba(8,18,38,0) 68%
-  );
-  pointer-events: none;
-}
+    .nishok-page-header__scrim {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(100deg,
+          rgba(8, 18, 38, 0.88) 0%,
+          rgba(8, 18, 38, 0.72) 30%,
+          rgba(8, 18, 38, 0.25) 55%,
+          rgba(8, 18, 38, 0) 68%);
+      pointer-events: none;
+    }
 
-.nishok-page-header .container{
-  position: relative;
-  z-index: 2;
-}
+    .nishok-page-header .container {
+      position: relative;
+      z-index: 2;
+    }
 
-.nishok-page-header__content{
-  max-width: 480px;
-}
+    .nishok-page-header__content {
+      max-width: 480px;
+    }
 
-.nishok-page-header__title{
-  color: #ffffff;
-  font-size: clamp(1.9rem, 2.8vw + 1rem, 2.6rem);
-  font-weight: 700;
-  line-height: 1.15;
-  margin: 0 0 16px;
-}
+    .nishok-page-header__title {
+      color: #ffffff;
+      font-size: clamp(1.9rem, 2.8vw + 1rem, 2.6rem);
+      font-weight: 700;
+      line-height: 1.15;
+      margin: 0 0 16px;
+    }
 
-.nishok-page-header__crumbs{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.nishok-page-header__crumbs li{
-  font-size: 13px;
-  font-weight: 600;
-}
-.nishok-page-header__crumbs a{
-  color: rgba(255,255,255,0.85);
-  text-decoration: none;
-}
-.nishok-page-header__crumbs a:hover{
-  color: #ffffff;
-}
-.nishok-page-header__crumbs .sep{
-  color: rgba(255,255,255,0.45);
-}
-.nishok-page-header__crumbs .current{
-  color: #6FE3C4;
-}
+    .nishok-page-header__crumbs {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
 
-@media (max-width: 768px){
-  .nishok-page-header{ min-height: 360px; }
-  .nishok-page-header__scrim{
-    background: linear-gradient(
-      180deg,
-      rgba(8,18,38,0.35) 0%,
-      rgba(8,18,38,0.85) 70%,
-      rgba(8,18,38,0.9) 100%
-    );
-  }
-  .nishok-page-header__content{ max-width: 100%; }
-}
-</style>
+    .nishok-page-header__crumbs li {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .nishok-page-header__crumbs a {
+      color: rgba(255, 255, 255, 0.85);
+      text-decoration: none;
+    }
+
+    .nishok-page-header__crumbs a:hover {
+      color: #ffffff;
+    }
+
+    .nishok-page-header__crumbs .sep {
+      color: rgba(255, 255, 255, 0.45);
+    }
+
+    .nishok-page-header__crumbs .current {
+      color: #6FE3C4;
+    }
+
+    @media (max-width: 768px) {
+      .nishok-page-header {
+        min-height: 360px;
+      }
+
+      .nishok-page-header__scrim {
+        background: linear-gradient(180deg,
+            rgba(8, 18, 38, 0.35) 0%,
+            rgba(8, 18, 38, 0.85) 70%,
+            rgba(8, 18, 38, 0.9) 100%);
+      }
+
+      .nishok-page-header__content {
+        max-width: 100%;
+      }
+    }
+  </style>
 
   <!-- About Section3 Start -->
   <section class="about-section-3 section-padding fix">
@@ -531,9 +550,9 @@
           <div class="col-lg-6">
             <div class="about-left-item">
               <div class="about-image wow fadeInUp" data-wow-delay=".3s">
-  <img src="assets/img/home-1/about/dr-amisha-1.jpeg" alt="img"
-    style="height: 650px; width: 100%; object-fit: cover; object-position: center 30%; display: block;">
-</div>
+                <img src="assets/img/home-1/about/dr-amisha-1.jpeg" alt="img"
+                  style="height: 650px; width: 100%; object-fit: cover; object-position: center 30%; display: block;">
+              </div>
               <h5 class="wow fadeInUp" data-wow-delay=".4s">
                 Balaghat's Trusted Specialist Hospital
               </h5>
@@ -905,7 +924,7 @@
 
 
 
-         <div class="col-xl-4 col-lg-4 col-md-6">
+        <div class="col-xl-4 col-lg-4 col-md-6">
           <div class="team-box-items mt-0 advance-item">
             <div class="team-image">
               <img src="assets/img/home-1/about/Dr. Amisha.jpg" alt="img" style="height: 440px; object-fit: cover;" />
@@ -947,7 +966,7 @@
           </div>
         </div>
 
-       
+
 
       </div>
 
@@ -1191,7 +1210,7 @@
           <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".2s">
             <div class="single-footer-widget style-bg-white">
               <div class="widget-head">
-                <a href="index.html" class="footer-logo">
+                <a href="/" class="footer-logo">
                   <img src="assets/img/header/logo.png" alt="img" style="width: 228px; height: 58px;" />
                 </a>
               </div>
