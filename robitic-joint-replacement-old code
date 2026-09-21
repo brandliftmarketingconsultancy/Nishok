@@ -1,0 +1,860 @@
+````
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="modinatheme">
+  <meta name="description" content="Robotic-assisted knee replacement with Dr. Shrey Jain at Nishok Hospital, Balaghat.">
+  <title>Robotic Joint Replacement | Nishok Hospital, Balaghat</title>
+  <link rel="shortcut icon" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/font-awesome.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/meanmenu.css">
+  <link rel="stylesheet" href="assets/css/odometer.css">
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="assets/css/nice-select.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  
+<style>
+  body.page-robotic-joint { overflow-x:hidden; background:#fff; }
+  .robotic-page-header {
+    background-image:url('assets/img/inner/sergeri img.jpeg');
+    min-height:420px !important;
+    background-position:center 55% !important;
+  }
+  .robotic-section { padding:90px 0; }
+  .robotic-section:nth-of-type(even) { background:#f7f9fc; }
+  .robotic-section > div { max-width:1200px; margin:auto; padding-left:15px; padding-right:15px; }
+
+  .robotic-section h1,.robotic-section h2,.robotic-section h3,.robotic-section h4 {
+    color:#172965;
+    font-weight:700;
+  }
+  .robotic-section h1 { font-size:48px; line-height:1.15; }
+  .robotic-section h2 { font-size:38px; margin-top:12px; }
+  .robotic-section h3 { font-size:24px; }
+  .robotic-section p,.robotic-section li {
+    color:#68758b;
+    font-size:16px;
+    line-height:1.8;
+  }
+
+  .robotic-section > div > div { margin-bottom:24px; }
+  .robotic-section section { margin:0; }
+
+  /* Hero */
+  .section-robotics:first-child,
+  .robotic-section:first-child { padding-top:85px; }
+  .section-robotics:first-child > div,
+  .robotic-section:first-child > div { max-width:1200px; }
+  .section-robotics:first-child > div > div:first-child {
+    padding:55px;
+    border-radius:24px;
+    background:linear-gradient(135deg,#f5f8ff,#fff);
+  }
+  .section-robotics:first-child h1 { max-width:800px; }
+  .section-robotics:first-child p { max-width:760px; font-size:19px; }
+
+  /* Client sections */
+  .section-about > div,
+  .section-robotics > div,
+  .section-journey > div { max-width:1200px; }
+  .section-about .border-dashed,
+  .section-robotics .border-dashed { min-height:380px; }
+
+  .robotic-section .bg-navy {
+    background:#172965 !important;
+    color:#fff;
+    border-radius:24px;
+  }
+  .robotic-section .bg-navy h2,
+  .robotic-section .bg-navy p { color:#fff; }
+
+  .robotic-section .bg-mint-soft { background:#e9f8f5 !important; }
+  .robotic-section .bg-pastel-blue { background:#edf4ff !important; }
+  .robotic-section .bg-pastel-pink { background:#fff0f3 !important; }
+  .robotic-section .bg-pastel-yellow { background:#fff9df !important; }
+
+  .robotic-section .rounded-2xl,
+  .robotic-section .rounded-3xl {
+    border-radius:18px !important;
+  }
+  .robotic-section .shadow-soft {
+    box-shadow:0 12px 35px rgba(6,3,48,.08);
+  }
+  .robotic-section .btn-hospital {
+    background:#1b3ed9;
+    color:#fff;
+    border-radius:5px;
+    padding:15px 25px;
+    display:inline-flex;
+    font-weight:700;
+    text-decoration:none;
+  }
+  .robotic-section table { border-collapse:collapse; }
+  .robotic-section th { color:#172965; }
+  .robotic-section thead th { color:#fff; background:#172965; }
+  .robotic-section .faq-item {
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 8px 25px rgba(6,3,48,.06);
+    margin-bottom:12px;
+    padding:0 20px;
+  }
+  .robotic-section .faq-toggle {
+    border:0;
+    background:none;
+    width:100%;
+    padding:20px 0;
+    color:#172965;
+  }
+  .robotic-section .faq-answer { display:none; padding:0 0 20px; }
+  .robotic-section .faq-item.open .faq-answer { display:block; }
+  .robotic-section .faq-chevron { transition:transform .2s ease; }
+  .robotic-section .faq-item.open .faq-chevron { transform:rotate(180deg); }
+  .robotic-section .bg-cta {
+    background:linear-gradient(135deg,#1b3ed9,#28b6a5);
+    border-radius:24px;
+  }
+  .robotic-section a { transition:all .2s ease; }
+
+  @media(max-width:991px) {
+    .robotic-section { padding:65px 0; }
+    .robotic-section h1 { font-size:38px; }
+    .robotic-section h2 { font-size:32px; }
+    .section-robotics:first-child > div > div:first-child { padding:35px 25px; }
+  }
+  @media(max-width:575px) {
+    .robotic-section { padding:50px 0; }
+    .robotic-section h1 { font-size:32px; }
+    .robotic-section h2 { font-size:28px; }
+    .robotic-section p,.robotic-section li { font-size:15px; }
+    .robotic-page-header { min-height:300px !important; }
+  }
+</style>
+
+</head>
+<body class="page-robotic-joint">
+  <div id="preloader" class="preloader">
+    <div class="animation-preloader">
+      <div class="spinner"></div>
+      <div class="txt-loading">
+        <span data-text-preloader="N" class="letters-loading"> N </span>
+        <span data-text-preloader="I" class="letters-loading"> I </span>
+        <span data-text-preloader="S" class="letters-loading"> S </span>
+        <span data-text-preloader="H" class="letters-loading"> H </span>
+        <span data-text-preloader="O" class="letters-loading"> O </span>
+        <span data-text-preloader="K" class="letters-loading"> K </span>
+      </div>
+      <p class="text-center">Loading</p>
+    </div>
+    <div class="loader"><div class="row">
+      <div class="col-3 loader-section section-left"><div class="bg"></div></div>
+      <div class="col-3 loader-section section-left"><div class="bg"></div></div>
+      <div class="col-3 loader-section section-right"><div class="bg"></div></div>
+      <div class="col-3 loader-section section-right"><div class="bg"></div></div>
+    </div></div>
+  </div>
+
+  <button id="back-top" class="back-to-top"><i class="fas fa-long-arrow-up"></i></button>
+
+  <div class="fix-area">
+    <div class="offcanvas__info">
+      <div class="offcanvas__wrapper">
+        <div class="offcanvas__content">
+          <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+            <div class="offcanvas__logo"><a href="/"><img src="assets/img/logo/logo.png" alt="logo-img"></a></div>
+            <div class="offcanvas__close"><button><i class="fas fa-times"></i></button></div>
+          </div>
+          <div class="mobile-menu fix mt-3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="offcanvas__overlay"></div>
+
+  
+<div class="header-top-section">
+  <div class="container">
+    <div class="header-top-wrapper">
+      <p>Nishok Hospital - Orthopedic & Skin Specialist Hospital <a href="contact.html">Contact Us</a>.</p>
+      <ul class="top-list">
+        <li><i class="fal fa-envelope"></i><a href="mailto:nishokhospital@gmail.com"> nishokhospital@gmail.com </a></li>
+        <li><i class="far fa-clock"></i><p>Mon - Fri: 09:30am - 7:30pm</p></li>
+        <li><i class="fal fa-map-pin"></i><p>Balaghat, Madhya Pradesh</p></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<header id="header-sticky" class="header-section header-1">
+    <div class="container">
+      <div class="mega-menu-wrapper">
+        <div class="header-main">
+          <div class="header-left">
+            <a href="/" class="header-logo1">
+              <img src="assets/img/header/logo.png" alt="logo-img" style="width: 228px; height: 58px;" />
+            </a>
+          </div>
+          <div class="header-right d-flex justify-content-end align-items-center">
+            <div class="mean__menu-wrapper">
+              <div class="main-menu">
+                <nav id="mobile-menu">
+                  <ul>
+                    <li>
+                      <a href="/">
+                        Home
+
+                      </a>
+
+                    </li>
+                    <li>
+                      <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                      <a href="gallery.html">Gallery</a>
+                    </li>
+
+
+                    <li>
+                      <a href="#">
+                        Doctors
+                        <i class="fas fa-chevron-down"></i>
+                      </a>
+                      <ul class="submenu">
+                        <li><a href="doctor-amisha.html">Dr. Amisha</a></li>
+                        <li><a href="orthopedic-doctor-balaghat-dr-shrey.html">Dr. Shrey</a></li>
+                      </ul>
+
+                    </li>
+
+
+                    <li>
+                      <a href="service.html">
+                        Services
+                        <i class="fas fa-chevron-down"></i>
+                      </a>
+
+                    </li>
+
+                    <li>
+                      <a href="robotic-joint-replacement.html">
+                        Robotic Joint Replacement
+                        <i class="fas fa-chevron-down"></i>
+                      </a>
+
+                    </li>
+
+
+                    <!-- <li>
+                      <a href="#">
+                        Blog
+                        <i class="fas fa-chevron-down"></i>
+                      </a>
+                      <ul class="submenu">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Blog Details</a></li>
+                      </ul>
+                    </li> -->
+                    <li>
+                      <a href="contact.html"> Contact Us </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+
+            <div class="header-contact-info">
+              <div class="info-items">
+                <div class="icon">
+                  <i class="flaticon-support"></i>
+                </div>
+                <div class="content">
+                  <span>Call Emergency</span>
+                  <h6><a href="tel:+918319569357">+918319569357</a></h6>
+                </div>
+              </div>
+              <a href="contact.html" class="theme-btn">
+                <i class="far fa-chevron-right"></i>
+                Appointment
+              </a>
+            </div>
+            <div class="header__hamburger d-xl-none my-auto">
+              <div class="sidebar__toggle">
+                <i class="fal fa-bars"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+ <div class="nishok-page-header bg-cover" style="background-image: url('assets/img/inner/sergeri img.jpeg');">
+    <div class="nishok-page-header__scrim"></div>
+    <div class="container">
+      <div class="nishok-page-header__content">
+        <h1 class="nishok-page-header__title wow fadeInUp" data-wow-delay=".3s">Dr. Shrey Jain</h1>
+        <ul class="nishok-page-header__crumbs wow fadeInUp" data-wow-delay=".5s">
+          <li><a href="/">Home</a></li>
+          <li class="sep">/</li>
+          <li class="current">Team Details</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .nishok-page-header {
+      position: relative;
+      min-height: 600px;
+      display: flex;
+      align-items: center;
+      background-position: center 55%;
+      /* was 25% — now shows middle/bottom, crops the top */
+      background-size: cover !important;
+      background-repeat: no-repeat !important;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .nishok-page-header__scrim {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(100deg,
+          rgba(8, 18, 38, 0.88) 0%,
+          rgba(8, 18, 38, 0.72) 30%,
+          rgba(8, 18, 38, 0.25) 55%,
+          rgba(8, 18, 38, 0) 68%);
+      pointer-events: none;
+    }
+
+    .nishok-page-header .container {
+      position: relative;
+      z-index: 2;
+    }
+
+    .nishok-page-header__content {
+      max-width: 480px;
+    }
+
+    .nishok-page-header__title {
+      color: #ffffff;
+      font-size: clamp(1.9rem, 2.8vw + 1rem, 2.6rem);
+      font-weight: 700;
+      line-height: 1.15;
+      margin: 0 0 16px;
+    }
+
+    .nishok-page-header__crumbs {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nishok-page-header__crumbs li {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .nishok-page-header__crumbs a {
+      color: rgba(255, 255, 255, 0.85);
+      text-decoration: none;
+    }
+
+    .nishok-page-header__crumbs a:hover {
+      color: #ffffff;
+    }
+
+    .nishok-page-header__crumbs .sep {
+      color: rgba(255, 255, 255, 0.45);
+    }
+
+    .nishok-page-header__crumbs .current {
+      color: #6FE3C4;
+    }
+
+    @media (max-width: 768px) {
+      .nishok-page-header {
+        min-height: 360px;
+      }
+
+      .nishok-page-header__scrim {
+        background: linear-gradient(180deg,
+            rgba(8, 18, 38, 0.35) 0%,
+            rgba(8, 18, 38, 0.85) 70%,
+            rgba(8, 18, 38, 0.9) 100%);
+      }
+
+      .nishok-page-header__content {
+        max-width: 100%;
+      }
+    }
+  </style>
+
+
+  <main>
+<!-- HERO -->
+<section class="robotic-section">
+<div class="mx-auto grid min-h-[680px] max-w-7xl items-center gap-12 px-5 py-16 lg:grid-cols-[1fr_.9fr] lg:py-20">
+<div>
+<span class="inline-flex items-center gap-2 rounded-full bg-mint-soft px-4 py-2 text-xs font-extrabold uppercase text-navy"><i class="size-3.5 text-mint" data-lucide="sparkles"></i>Robotic Joint Replacement</span>
+<h1 class="mt-6 max-w-3xl text-4xl font-extrabold leading-[1.15] text-navy sm:text-5xl lg:text-6xl">Robotic Joint Replacement, Now Available in Balaghat</h1>
+<p class="mt-6 max-w-2xl text-lg text-muted-foreground">Advanced, precise, and personalised knee replacement surgery — led by Dr. Shrey Jain, Balaghat's robotic joint replacement surgeon.</p>
+<a class="btn-hospital mt-8" href="tel:+918319569357"><i class="size-4" data-lucide="phone"></i>Book a Consultation</a>
+</div>
+<div class="grid w-full min-h-[480px] place-items-center rounded-3xl border border-dashed border-border bg-section text-center text-muted-foreground">
+<div style="width: 100%; max-width: 450px; margin: 0 auto;">
+    <img
+        src="assets/img/home-1/about/Dr. Shrey.jpg"
+        alt="Dr. Shrey Jain"
+        style="
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            height: 420px;
+            object-fit: cover;
+            border-radius: 15px;
+        "
+    >
+</div>
+</div>
+</div>
+</section>
+<!-- ABOUT -->
+<section class="robotic-section section-about" id="about">
+<div class="mx-auto grid max-w-7xl gap-14 px-5 lg:grid-cols-[1.15fr_.75fr] lg:items-center">
+<div>
+<span class="inline-flex items-center gap-2 rounded-full bg-mint-soft px-4 py-2 text-xs font-extrabold uppercase text-navy"><i class="size-3.5 text-mint" data-lucide="sparkles"></i>Meet Your Surgeon</span>
+<h2 class="mt-5 text-3xl font-bold text-navy sm:text-4xl">About Dr. Shrey Jain</h2>
+<div class="mt-6 space-y-5 text-muted-foreground">
+<p>Dr. Shrey Jain is an orthopaedic surgeon based in Balaghat, with expertise in joint replacement, pediatric orthopaedics, spine surgery, and complex trauma care. He completed his MBBS from Government Medical College, Nagpur, and his MS in Orthopaedics from Jawaharlal Nehru Medical College. He also holds FJRS and FIPPP (IAOS) qualifications, along with a Diploma in FIFA (Swiss). Before returning to Balaghat, he worked as a lecturer at Mahatma Gandhi Institute of Medical Sciences, Sevagram, Wardha.</p>
+<p>Dr. Shrey Jain is a robotic joint replacement surgeon, experienced in performing robotic-assisted knee replacement using the MISSO Robotic System.</p>
+<p>Since joining Shaheed Bhagat Singh District Hospital, Balaghat in September 2024, Dr. Shrey has gone on to perform 100+ joint replacement surgeries overall, with 30+ completed in Balaghat itself — including several milestone "firsts" for the district.</p>
+<p>Today, Dr. Shrey brings this same expertise and robotic-assisted precision to patients at Nishok Hospital, Balaghat.</p>
+</div>
+</div>
+<div>
+<div class="grid w-full min-h-[480px] place-items-center rounded-3xl border border-dashed border-border bg-section text-center text-muted-foreground">
+<div><i class="mx-auto mb-3 size-12 text-primary/40" data-lucide="user-round"></i><p class="text-sm font-bold">Photo coming soon</p><p class="mt-1 max-w-56 mx-auto text-xs">Professional photo of Dr. Shrey with the robotic equipment</p></div>
+</div>
+<span class="-mt-14 ml-5 inline-flex relative rounded-full bg-primary px-5 py-2 text-sm font-bold text-primary-foreground">Orthopaedic &amp; Joint Replacement Surgeon</span>
+</div>
+</div>
+</section>
+<!-- MILESTONES -->
+<section class="robotic-section">
+<i class="absolute -left-16 top-14 size-64 rotate-12 opacity-[.035]" data-lucide="bone"></i>
+<i class="absolute -right-10 bottom-8 size-64 opacity-[.035]" data-lucide="heart-pulse"></i>
+<div class="relative mx-auto max-w-5xl px-5">
+<span class="inline-flex items-center gap-2 rounded-full bg-mint-soft px-4 py-2 text-xs font-extrabold uppercase text-navy"><i class="size-3.5 text-mint" data-lucide="sparkles"></i>Milestones</span>
+<h2 class="mt-5 text-3xl font-bold sm:text-4xl">Balaghat's Firsts</h2>
+<p class="mt-4 max-w-3xl text-primary-foreground/70">Dr. Shrey has led several landmark surgeries for Balaghat, including a number of "firsts" for the district:</p>
+<div class="mt-10 grid gap-4">
+<div class="grid gap-3 rounded-2xl bg-background p-5 text-foreground shadow-soft sm:grid-cols-[140px_1fr] sm:items-center">
+<div class="flex items-center gap-3 font-display font-bold text-primary"><span class="grid size-8 place-items-center rounded-full bg-mint-soft text-xs text-navy"></span>29 Jan 2025</div>
+<p class="font-semibold text-navy">First knee replacement surgery at a government facility in Balaghat (District Hospital Balaghat)</p>
+</div>
+<div class="grid gap-3 rounded-2xl bg-background p-5 text-foreground shadow-soft sm:grid-cols-[140px_1fr] sm:items-center">
+<div class="flex items-center gap-3 font-display font-bold text-primary"><span class="grid size-8 place-items-center rounded-full bg-mint-soft text-xs text-navy"></span>20 Feb 2025</div>
+<p class="font-semibold text-navy">First hip replacement surgery at a government facility in Balaghat (District Hospital Balaghat)</p>
+</div>
+<div class="grid gap-3 rounded-2xl bg-background p-5 text-foreground shadow-soft sm:grid-cols-[140px_1fr] sm:items-center">
+<div class="flex items-center gap-3 font-display font-bold text-primary"><span class="grid size-8 place-items-center rounded-full bg-mint-soft text-xs text-navy"></span>27 May 2025</div>
+<p class="font-semibold text-navy">First bilateral knee replacement surgery in Balaghat</p>
+</div>
+<div class="grid gap-3 rounded-2xl bg-background p-5 text-foreground shadow-soft sm:grid-cols-[140px_1fr] sm:items-center">
+<div class="flex items-center gap-3 font-display font-bold text-primary"><span class="grid size-8 place-items-center rounded-full bg-mint-soft text-xs text-navy"></span>2 Jul 2026</div>
+<p class="font-semibold text-navy">First robotic knee replacement surgery in Balaghat</p>
+</div>
+</div>
+<p class="mt-7 text-sm text-primary-foreground/65">These milestones were covered by local media, including Divya Express, Patrika, and Balaghat Jabalpur Express.</p>
+</div>
+</section>
+<!-- ROBOTICS -->
+<section class="robotic-section section-robotics" id="robotics">
+<div class="mx-auto max-w-7xl px-5">
+<div class="grid gap-12 lg:grid-cols-2">
+<div>
+<span class="inline-flex items-center gap-2 rounded-full bg-mint-soft px-4 py-2 text-xs font-extrabold uppercase text-navy"><i class="size-3.5 text-mint" data-lucide="sparkles"></i>Understanding the Technology</span>
+<h2 class="mt-5 text-3xl font-bold text-navy sm:text-4xl">What Is Robotic Joint Replacement?</h2>
+<p class="mt-5 text-muted-foreground">Robotic-assisted joint replacement combines a surgeon's skill and judgement with advanced 3D imaging and real-time guidance. Instead of relying only on manual instruments, the surgeon uses a personalised surgical plan built from the patient's own CT scan — and a robotic arm that helps carry out that plan with a high level of consistency and accuracy.</p>
+</div>
+<div class="relative overflow-hidden rounded-3xl bg-gradient-to-br from-navy via-navy to-blue-900 p-8 text-primary-foreground shadow-soft">
+  <!-- decorative glow rings (optional, mimics the tech backdrop) -->
+  <div class="pointer-events-none absolute -right-10 top-1/2 h-64 w-64 -translate-y-1/2 rounded-full border border-mint/20"></div>
+  <div class="pointer-events-none absolute -right-24 top-1/2 h-80 w-80 -translate-y-1/2 rounded-full border border-mint/10"></div>
+
+  <div class="relative z-10">
+    <span class="inline-flex items-center gap-2 rounded-full bg-mint/10 px-3 py-1 font-display text-xs font-bold tracking-wide text-mint">
+      <span class="h-px w-4 bg-mint"></span>
+      MISSO — ROBOTIC SYSTEM
+    </span>
+
+    <h2 class="mt-5 text-3xl font-bold">
+      The <span class="text-mint">MISSO</span> Robotic System
+    </h2>
+
+    <p class="mt-4 max-w-xl text-primary-foreground/70">
+      Nishok Hospital uses the MISSO Robotic System (by Meril) for robotic-assisted total knee replacement. Some of its key capabilities:
+    </p>
+
+    <span class="mt-5 block h-0.5 w-8 bg-mint"></span>
+  </div>
+</div>
+</div>
+<div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+<div class="rounded-2xl p-6 bg-mint-soft"><span class="grid size-11 place-items-center rounded-full bg-background text-primary"><i class="size-5" data-lucide="target"></i></span><p class="mt-5 text-sm font-bold leading-relaxed text-navy">Personalised 3D surgical planning based on the patient's own CT scan</p></div>
+<div class="rounded-2xl p-6 bg-pastel-blue"><span class="grid size-11 place-items-center rounded-full bg-background text-primary"><i class="size-5" data-lucide="sparkles"></i></span><p class="mt-5 text-sm font-bold leading-relaxed text-navy">Real-time, computer-guided precision during bone cutting and implant alignment</p></div>
+<div class="rounded-2xl p-6 bg-pastel-pink"><span class="grid size-11 place-items-center rounded-full bg-background text-primary"><i class="size-5" data-lucide="shield-check"></i></span><p class="mt-5 text-sm font-bold leading-relaxed text-navy">Built-in safety mechanisms, including automatic stoppage if bone movement exceeds a safe limit</p></div>
+<div class="rounded-2xl p-6 bg-pastel-yellow"><span class="grid size-11 place-items-center rounded-full bg-background text-primary"><i class="size-5" data-lucide="activity"></i></span><p class="mt-5 text-sm font-bold leading-relaxed text-navy">Designed to support sub-millimetre accuracy in implant positioning</p></div>
+</div>
+<blockquote class="mt-8 rounded-2xl border-l-4 border-mint bg-background p-6 text-sm italic text-muted-foreground shadow-soft">Importantly, the robot does not perform the surgery on its own — Dr. Shrey remains in full control throughout the procedure. The robotic arm simply helps execute the pre-planned surgical plan with greater precision than manual technique alone.</blockquote>
+</div>
+</section>
+<!-- BENEFITS -->
+<section class="robotic-section">
+<div class="mx-auto max-w-7xl px-5">
+<div class="max-w-3xl">
+<span class="inline-flex items-center gap-2 rounded-full bg-mint-soft px-4 py-2 text-xs font-extrabold uppercase text-navy"><i class="size-3.5 text-mint" data-lucide="sparkles"></i>Patient Benefits</span>
+<h2 class="mt-5 text-3xl font-bold text-navy sm:text-4xl">Why Robotic-Assisted Knee Replacement?</h2>
+<p class="mt-4 text-muted-foreground">Robotic assistance changes several things for the patient, compared to conventional knee replacement:</p>
+</div>
+<div class="mt-10 overflow-x-auto rounded-2xl border border-border shadow-soft">
+<table class="w-full min-w-[720px] text-left text-sm">
+<thead class="bg-navy text-primary-foreground"><tr><th class="p-5">Comparison</th><th class="p-5">Conventional</th><th class="p-5">Robotic-Assisted</th></tr></thead>
+<tbody class="divide-y divide-border">
+<tr class="bg-background"><th class="p-5 font-bold text-navy">Surgical Planning</th><td class="p-5 text-muted-foreground">Based on 2D X-rays and standard sizing</td><td class="p-5 font-semibold text-navy">Personalised 3D model from the patient's own CT scan</td></tr>
+<tr class="bg-background"><th class="p-5 font-bold text-navy">Alignment Accuracy</th><td class="p-5 text-muted-foreground">Depends on manual instruments and technique</td><td class="p-5 font-semibold text-navy">Guided in real time, kept within the planned boundaries</td></tr>
+<tr class="bg-background"><th class="p-5 font-bold text-navy">Tissue Handling</th><td class="p-5 text-muted-foreground">Wider margins often used for safety</td><td class="p-5 font-semibold text-navy">Tissue-sparing cuts guided by the pre-op plan</td></tr>
+<tr class="bg-background"><th class="p-5 font-bold text-navy">Recovery Experience</th><td class="p-5 text-muted-foreground">Standard post-op recovery timeline</td><td class="p-5 font-semibold text-navy">Often smoother, more predictable early recovery</td></tr>
+</tbody>
+</table>
+</div>
+
+
+<div class="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+  <div class="flex items-center gap-3 rounded-xl border border-border bg-background px-4 py-3 shadow-soft">
+    <span class="grid size-9 shrink-0 place-items-center rounded-full bg-mint-soft text-primary">
+      <i class="size-4" data-lucide="target"></i>
+    </span>
+    <p class="text-sm font-bold leading-snug text-navy">
+      Greater precision in bone cutting and implant alignment
+    </p>
+  </div>
+
+  <div class="flex items-center gap-3 rounded-xl border border-border bg-background px-4 py-3 shadow-soft">
+    <span class="grid size-9 shrink-0 place-items-center rounded-full bg-mint-soft text-primary">
+      <i class="size-4" data-lucide="bone"></i>
+    </span>
+    <p class="text-sm font-bold leading-snug text-navy">
+      Less tissue damage and reduced blood loss during surgery
+    </p>
+  </div>
+
+  <div class="flex items-center gap-3 rounded-xl border border-border bg-background px-4 py-3 shadow-soft">
+    <span class="grid size-9 shrink-0 place-items-center rounded-full bg-mint-soft text-primary">
+      <i class="size-4" data-lucide="heart-pulse"></i>
+    </span>
+    <p class="text-sm font-bold leading-snug text-navy">
+      Less pain and discomfort after surgery
+    </p>
+  </div>
+
+  <div class="flex items-center gap-3 rounded-xl border border-border bg-background px-4 py-3 shadow-soft">
+    <span class="grid size-9 shrink-0 place-items-center rounded-full bg-mint-soft text-primary">
+      <i class="size-4" data-lucide="activity"></i>
+    </span>
+    <p class="text-sm font-bold leading-snug text-navy">
+      Faster early recovery and quicker return to walking
+    </p>
+  </div>
+
+  <div class="flex items-center gap-3 rounded-xl border border-border bg-background px-4 py-3 shadow-soft">
+    <span class="grid size-9 shrink-0 place-items-center rounded-full bg-mint-soft text-primary">
+      <i class="size-4" data-lucide="award"></i>
+    </span>
+    <p class="text-sm font-bold leading-snug text-navy">
+      Better implant fit, which can support longer implant life
+    </p>
+  </div>
+</div>
+
+</div>
+</section>
+<!-- CONDITIONS & PROCEDURES -->
+<section class="robotic-section">
+<div class="mx-auto max-w-7xl px-5">
+<h2 class="text-3xl font-bold text-navy sm:text-4xl">Conditions We Treat &amp; Procedures We Offer</h2>
+<div class="mt-10 grid gap-8 lg:grid-cols-2">
+<div class="rounded-3xl bg-background p-7 shadow-soft">
+<h3 class="text-xl font-bold text-navy">Conditions Treated</h3>
+<p class="mt-4 text-muted-foreground">Knee arthritis caused by any of the following: osteoarthritis, rheumatoid arthritis, avascular necrosis, or post-traumatic arthritis.</p>
+</div>
+<div class="rounded-3xl bg-background p-7 shadow-soft">
+<h3 class="text-xl font-bold text-navy">Procedures Offered</h3>
+<ul class="mt-4 space-y-3">
+<li class="flex items-center gap-3 font-semibold text-navy"><span class="grid size-6 shrink-0 place-items-center rounded-full bg-mint text-navy"><i class="size-4" data-lucide="check"></i></span>Robotic-Assisted Total Knee Replacement</li>
+<li class="flex items-center gap-3 font-semibold text-navy"><span class="grid size-6 shrink-0 place-items-center rounded-full bg-mint text-navy"><i class="size-4" data-lucide="check"></i></span>Bilateral &amp; Partial Knee Replacement</li>
+<li class="flex items-center gap-3 font-semibold text-navy"><span class="grid size-6 shrink-0 place-items-center rounded-full bg-mint text-navy"><i class="size-4" data-lucide="check"></i></span>Hip Replacement</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- JOURNEY -->
+<section class="robotic-section section-journey" id="journey">
+<div class="mx-auto max-w-7xl px-5">
+<span class="inline-flex items-center gap-2 rounded-full bg-mint-soft px-4 py-2 text-xs font-extrabold uppercase text-navy"><i class="size-3.5 text-mint" data-lucide="sparkles"></i>How It Works</span>
+<h2 class="mt-5 text-3xl font-bold text-navy sm:text-4xl">Your Treatment Journey</h2>
+<div class="mt-12 grid gap-8 md:grid-cols-5">
+<div class="relative"><div class="mb-5 flex items-center"><span class="grid size-12 shrink-0 place-items-center rounded-full font-display text-lg font-bold text-primary-foreground">1</span><span class="hidden h-px flex-1 bg-border md:block"></span></div><h3 class="text-base font-bold text-navy">Consultation &amp; Evaluation</h3><p class="mt-3 text-sm text-muted-foreground">A CT scan of the affected joint is taken, along with routine investigations for a pre-anaesthesia check-up.</p></div>
+<div class="relative"><div class="mb-5 flex items-center"><span class="grid size-12 shrink-0 place-items-center rounded-full font-display text-lg font-bold text-primary-foreground">2</span><span class="hidden h-px flex-1 bg-border md:block"></span></div><h3 class="text-base font-bold text-navy">Day of Surgery</h3><p class="mt-3 text-sm text-muted-foreground">Surgery typically takes about 1.5 hours. Most patients begin walking and start physiotherapy the same evening.</p></div>
+<div class="relative"><div class="mb-5 flex items-center"><span class="grid size-12 shrink-0 place-items-center rounded-full font-display text-lg font-bold text-primary-foreground">3</span><span class="hidden h-px flex-1 bg-border md:block"></span></div><h3 class="text-base font-bold text-navy">Hospital Stay</h3><p class="mt-3 text-sm text-muted-foreground">Patients typically stay in hospital for 3 to 4 days.</p></div>
+<div class="relative"><div class="mb-5 flex items-center"><span class="grid size-12 shrink-0 place-items-center rounded-full font-display text-lg font-bold text-primary-foreground">4</span><span class="hidden h-px flex-1 bg-border md:block"></span></div><h3 class="text-base font-bold text-navy">Recovery</h3><p class="mt-3 text-sm text-muted-foreground">Walking and physiotherapy usually begin the same evening as surgery. Stitches are removed after 14–16 days, and most patients return to normal daily activity around day 15.</p></div>
+<div class="relative"><div class="mb-5 flex items-center"><span class="grid size-12 shrink-0 place-items-center rounded-full font-display text-lg font-bold text-primary-foreground">5</span></div><h3 class="text-base font-bold text-navy">Follow-Up</h3><p class="mt-3 text-sm text-muted-foreground">A follow-up visit is scheduled around day 14–16 for stitch removal.</p></div>
+</div>
+</div>
+</section>
+<!-- PATIENT STORY -->
+<section class="robotic-section">
+<div class="mx-auto grid max-w-6xl gap-12 px-5 lg:grid-cols-[1fr_.9fr] lg:items-center">
+<div>
+<span class="inline-flex items-center gap-2 rounded-full bg-mint-soft px-4 py-2 text-xs font-extrabold uppercase text-navy"><i class="size-3.5 text-mint" data-lucide="sparkles"></i>Patient Story</span>
+<h2 class="mt-5 text-3xl font-bold text-navy sm:text-4xl">A Patient's Story</h2>
+<p class="mt-5 text-muted-foreground">One of Dr. Shrey's early patients was a 52-year-old farmer from a village near Balaghat, who had been living with rheumatoid arthritis-related knee pain for nearly two years. After struggling with the cost and difficulty of repeated travel to a larger city for treatment, he underwent a successful knee replacement at a government facility in Balaghat — the first surgery of its kind performed there. He was walking with support the very next day.</p>
+</div>
+<div class="grid aspect-video place-items-center rounded-3xl border border-dashed border-primary/30 bg-background shadow-soft">
+<div class="text-center"><span class="mx-auto grid size-16 place-items-center rounded-full bg-primary text-primary-foreground"><i class="ml-1 size-7" data-lucide="play"></i></span><p class="mt-4 text-sm font-bold text-navy">Patient testimonial video coming soon</p></div>
+</div>
+</div>
+</section>
+<!-- NEWS -->
+<section class="robotic-section">
+<div class="mx-auto max-w-4xl px-5 text-center">
+<i class="mx-auto size-10 text-primary" data-lucide="newspaper"></i>
+<h2 class="mt-5 text-3xl font-bold text-navy">In the News</h2>
+<p class="mt-5 text-muted-foreground">Dr. Shrey's work has been featured in local publications, including Divya Express, Patrika, and Balaghat Jabalpur Express, recognising Balaghat's first successful joint replacement surgeries at a government facility.</p>
+<div class="mt-8 grid gap-3 sm:grid-cols-3">
+<div class="rounded-xl border border-dashed border-border bg-section px-4 py-5 text-sm font-bold text-muted-foreground">Publication logo coming soon<br/><span class="text-xs font-normal">Divya Express</span></div>
+<div class="rounded-xl border border-dashed border-border bg-section px-4 py-5 text-sm font-bold text-muted-foreground">Publication logo coming soon<br/><span class="text-xs font-normal">Patrika</span></div>
+<div class="rounded-xl border border-dashed border-border bg-section px-4 py-5 text-sm font-bold text-muted-foreground">Publication logo coming soon<br/><span class="text-xs font-normal">Balaghat Jabalpur Express</span></div>
+</div>
+</div>
+</section>
+<!-- FAQ -->
+<section class="robotic-section section-faq" id="faq">
+<div class="mx-auto grid max-w-6xl gap-12 px-5 lg:grid-cols-[.7fr_1.3fr]">
+<div>
+<span class="inline-flex items-center gap-2 rounded-full bg-mint-soft px-4 py-2 text-xs font-extrabold uppercase text-navy"><i class="size-3.5 text-mint" data-lucide="sparkles"></i>Common Questions</span>
+<h2 class="mt-5 text-3xl font-bold text-navy sm:text-4xl">Frequently Asked Questions</h2>
+<p class="mt-4 text-muted-foreground">Answers to common questions about robotic-assisted knee replacement.</p>
+</div>
+<div class="space-y-3" id="faqList">
+<div class="faq-item rounded-xl bg-background px-5 shadow-soft">
+<button aria-expanded="false" class="faq-toggle grid w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-5 text-left font-bold text-navy"><span>How much bed rest is required?</span><i class="faq-chevron size-5 shrink-0 text-primary" data-lucide="chevron-down"></i></button>
+<p class="faq-answer border-t border-border pb-5 pt-4 text-sm text-muted-foreground">None — patients are encouraged to walk on the day of surgery itself.</p>
+</div>
+<div class="faq-item rounded-xl bg-background px-5 shadow-soft">
+<button aria-expanded="false" class="faq-toggle grid w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-5 text-left font-bold text-navy"><span>When can I bend my knee?</span><i class="faq-chevron size-5 shrink-0 text-primary" data-lucide="chevron-down"></i></button>
+<p class="faq-answer border-t border-border pb-5 pt-4 text-sm text-muted-foreground">Usually on the day of surgery itself, or the next day.</p>
+</div>
+<div class="faq-item rounded-xl bg-background px-5 shadow-soft">
+<button aria-expanded="false" class="faq-toggle grid w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-5 text-left font-bold text-navy"><span>When can I climb stairs?</span><i class="faq-chevron size-5 shrink-0 text-primary" data-lucide="chevron-down"></i></button>
+<p class="faq-answer border-t border-border pb-5 pt-4 text-sm text-muted-foreground">Most patients can start climbing stairs from day 3 onward.</p>
+</div>
+<div class="faq-item rounded-xl bg-background px-5 shadow-soft">
+<button aria-expanded="false" class="faq-toggle grid w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-5 text-left font-bold text-navy"><span>Is this surgery painful?</span><i class="faq-chevron size-5 shrink-0 text-primary" data-lucide="chevron-down"></i></button>
+<p class="faq-answer border-t border-border pb-5 pt-4 text-sm text-muted-foreground">With modern pain management techniques, most patients remain comfortable during the post-operative period.</p>
+</div>
+<div class="faq-item rounded-xl bg-background px-5 shadow-soft">
+<button aria-expanded="false" class="faq-toggle grid w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-5 text-left font-bold text-navy"><span>Will the robot perform my surgery?</span><i class="faq-chevron size-5 shrink-0 text-primary" data-lucide="chevron-down"></i></button>
+<p class="faq-answer border-t border-border pb-5 pt-4 text-sm text-muted-foreground">No. The surgeon performs the surgery — the robot only assists with planning and precise execution, under the surgeon's full control.</p>
+</div>
+<div class="faq-item rounded-xl bg-background px-5 shadow-soft">
+<button aria-expanded="false" class="faq-toggle grid w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-4 py-5 text-left font-bold text-navy"><span>Can the robot malfunction and act on its own?</span><i class="faq-chevron size-5 shrink-0 text-primary" data-lucide="chevron-down"></i></button>
+<p class="faq-answer border-t border-border pb-5 pt-4 text-sm text-muted-foreground">No. The robotic system only executes what the surgeon plans and directs — it does not act independently.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA -->
+<section class="robotic-section">
+<div class="mx-auto grid max-w-7xl items-center gap-8 rounded-3xl bg-cta px-7 py-10 text-primary-foreground shadow-soft md:grid-cols-[1fr_auto]">
+<div>
+<h2 class="text-2xl font-bold sm:text-3xl">For consultation and cost details, please contact Nishok Hospital directly.</h2>
+<div class="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-sm">
+<span class="flex items-center gap-2"><i class="size-4" data-lucide="phone"></i> +91 83195 69357 / +91 76489 22304</span>
+<span class="flex items-center gap-2"><i class="size-4" data-lucide="clock-3"></i> Open 24 hours</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-2 rounded-full bg-background px-6 py-3.5 font-bold text-navy hover:bg-background/90" href="tel:+918319569357">Book an Appointment<i class="size-4" data-lucide="move-right"></i></a>
+</div>
+</section>
+</main>
+
+  
+<footer class="footer-section section-bg-2 fix">
+    <div class="left-shape float-bob-y">
+      <img src="assets/img/home-1/footer/left-shape.png" alt="img" />
+    </div>
+    <div class="right-shape float-bob-x">
+      <img src="assets/img/home-1/footer/right-shape.png" alt="img" />
+    </div>
+    <div class="top-shape float-bob-y">
+
+    </div>
+    <div class="container">
+      <div class="footer-widget-wrapper">
+        <div class="row g-4 footer-widget-row justify-content-center align-items-start">
+          <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".2s">
+            <div class="single-footer-widget style-bg-white">
+              <div class="widget-head">
+                <a href="/" class="footer-logo">
+                  <img src="assets/img/header/logo.png" alt="img" style="width: 228px; height: 58px;" />
+                </a>
+              </div>
+              <div class="footer-content">
+                <p>
+                  We dedicated to providing flexible & accessible healthcare
+                  services.
+                </p>
+                <ul>
+                  <li>Monday - Sunday <span>9:30AM - 7:30PM</span></li>
+                  <!-- <li>Saturday <span>9:30AM - 7:30PM</span></li>
+                      <li>Sunday <span>9:30AM - 7:30PM</span></li> -->
+                </ul>
+                <div class="icon">
+                  <img src="assets/img/home-1/hero/feature-3.png" alt="img" />
+                  <div class="content">
+                    <p>For Booking</p>
+                    <h4><a href="tel:63552584250">+918319569357</a></h4>
+                    <h4><a href="tel:63552584250">+91 7648922304</a></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 wow fadeInUp" data-wow-delay=".4s">
+            <div class="single-footer-widget-area">
+              <div class="single-footer-widget">
+                <div class="widget-head">
+                  <h3>Quick Links</h3>
+                </div>
+                <ul class="list-area">
+                  <li>
+                    <a href="about.html">About Us</a>
+                  </li>
+
+
+                  <li>
+                    <a href="contact.html">24/7 Support</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="single-footer-widget">
+                <div class="widget-head">
+                  <h3>Our Services</h3>
+                </div>
+                <ul class="list-area">
+
+                  <li>
+                    <a href="service.html">Orthopedics</a>
+                  </li>
+                  <li>
+                    <a href="service.html">Dermatology </a>
+                  </li>
+
+
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 wow fadeInUp" data-wow-delay=".6s">
+            <div class="single-footer-widget">
+              <div class="widget-head">
+                <h3>Contact Us</h3>
+              </div>
+              <div class="footer-content">
+                <p class="text-white">
+                  At Nishok Hospital, we are dedicated to providing comprehensive healthcare services to our patients.
+                </p>
+                <ul class="footer-contect">
+                  <li>
+                    <div class="icon">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="content">
+                      <p>
+                        <a href="mailto:nishokhospital@gmail.com">nishokhospital@gmail.com</a>
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon">
+                      <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="content">
+                      <p>Ward no. 28, IF/8, opposite Kids Cloud School, Mayur nagar, Chitragupt Nagar, Balaghat, Madhya
+                        Pradesh 481001</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom wow fadeInUp">
+      <div class="container">
+        <div class="footer-bottom-wrapper">
+          <p>Copyright © 2026 All Rights Reserved.</p>
+          <div class="social-icon d-flex align-items-center">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="assets/js/jquery-3.7.1.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+  <script src="assets/js/odometer.min.js"></script>
+  <script src="assets/js/jquery.appear.min.js"></script>
+  <script src="assets/js/swiper-bundle.min.js"></script>
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/SplitText.min.js"></script>
+  <script src="assets/js/splitType.js"></script>
+  <script src="assets/js/main.js"></script>
+  
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.faq-toggle').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      const item = btn.closest('.faq-item');
+      const open = item.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+});
+</script>
+
+</body>
+</html>

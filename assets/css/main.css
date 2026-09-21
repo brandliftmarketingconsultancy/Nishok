@@ -17480,3 +17480,82 @@ p.sticky-label {
     justify-content: center !important;
   }
 }
+
+@media (min-width: 1200px) {
+
+    .header-main {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .header-left {
+        flex: 0 0 auto;
+        min-width: 220px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-logo1 {
+        display: block;
+        flex: 0 0 auto;
+    }
+
+    .header-logo1 img {
+        width: 200px !important;
+        height: auto !important;
+        display: block;
+    }
+
+    .header-right {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        min-width: 0;
+    }
+
+    .mean__menu-wrapper {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+
+    .main-menu nav > ul {
+        display: flex !important;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap !important;
+        gap: 22px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-menu nav > ul > li {
+        flex: 0 0 auto;
+        white-space: nowrap;
+        margin: 0 !important;
+    }
+
+    .main-menu nav > ul > li > a {
+        white-space: nowrap;
+        font-size: 15px;
+    }
+
+    .header-contact-info {
+        flex: 0 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .header-contact-info .info-items {
+        white-space: nowrap;
+    }
+
+    .theme-btn {
+        white-space: nowrap;
+    }
+}
